@@ -1,0 +1,5 @@
+#How many times the physics simulation is stepped in every second. Higher values will be significantly more performance intensive, but will have higher accuracy.
+#Range: 1 ~ 10
+sub_level_substeps_per_tick = 2
+#Prunes and deletes empty sub-level storage files. Experimental.
+sub_level_storage_pruning = false

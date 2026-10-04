@@ -1,0 +1,93 @@
+{
+  "enableMod": true,
+  "debug": {
+    "enabled": false,
+    "logEncounters": false
+  },
+  "spawnSettings": {
+    "enabled": true
+  },
+  "ruleBreaks": {
+    "enabled": true
+  },
+  "tension": {
+    "enabled": true
+  },
+  "peripheralUnease": {
+    "enabled": true,
+    "baselineIntensity": 0.13,
+    "maxIntensity": 0.35
+  },
+  "hush": {
+    "enabled": true
+  },
+  "huskMessages": {
+    "enabled": true
+  },
+  "realityBreaks": {
+    "enabled": true,
+    "allowWindowManipulation": false
+  },
+  "mischief": {
+    "enabled": true,
+    "passiveKillThreshold": 8,
+    "messageCooldownMinutes": 45,
+    "enableDropAsh": true,
+    "enableBlocking": true,
+    "enableFireSuppression": true
+  },
+  "metaAwareness": {
+    "enablePauseAwareness": true,
+    "pauseAwarenessChance": 0.16,
+    "pauseAwarenessCooldownSeconds": 480,
+    "enableDebugAwareness": true,
+    "debugAwarenessChance": 0.18,
+    "debugAwarenessCooldownSeconds": 420,
+    "enableFalseAdvancementToasts": true,
+    "falseToastChance": 0.1,
+    "falseToastCooldownSeconds": 1500,
+    "enableWorldListAwareness": true,
+    "worldListAwarenessChance": 0.22,
+    "showWorldListSubtitleInsteadOfRename": true
+  },
+  "kinRecognition": {
+    "enableKinRecognition": true,
+    "minMeatEatenForRecognition": 8,
+    "dominantMeatRequiredLead": 2,
+    "baseRecognitionChance": 0.04,
+    "recognitionChanceAt16": 0.07,
+    "recognitionChanceAt32": 0.1,
+    "recognitionCooldownSecondsPerMobType": 180,
+    "recognitionDurationMinSeconds": 5,
+    "recognitionDurationMaxSeconds": 20,
+    "maxRecognitionMobsNearPlayer": 2,
+    "enableSilentWitness": true,
+    "silentWitnessChance": 0.12,
+    "enableGrayManWitnessAfterRecognitionKill": true,
+    "grayManWitnessChance": 0.025,
+    "grayManWitnessCooldownSeconds": 900,
+    "enableFamiliarMeatTooltip": true
+  },
+  "horrorActs": {
+    "enabled": true,
+    "act1StartDay": 0,
+    "act1EndDay": 5,
+    "act2StartDay": 6,
+    "act2EndDay": 10,
+    "act3StartDay": 11,
+    "act3EndDay": 15,
+    "act4StartDay": 16,
+    "act4EndDay": 20,
+    "act5StartDay": 21,
+    "allowTensionToBoostWithinAct": true,
+    "allowTensionToSkipActs": false,
+    "maxMinorEventsAct2PerDay": 1,
+    "maxMajorEventsAct2PerDay": 0,
+    "maxMinorEventsAct3PerDay": 2,
+    "maxMajorEventsAct3PerTwoDays": 1,
+    "maxMinorEventsAct4PerDay": 3,
+    "maxMajorEventsAct4PerDay": 1,
+    "maxMinorEventsAct5PerDay": 4,
+    "maxMajorEventsAct5PerDay": 1
+  }
+}

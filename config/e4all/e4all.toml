@@ -1,0 +1,78 @@
+# Whether to use the broker to get the best relay based on location or use a hard-coded relay.
+# default: true
+useBroker = true
+# default: https://broker.e4mc.link/getBestRelay
+brokerUrl = "https://broker.e4mc.link/getBestRelay"
+# default: test.e4mc.link
+relayHost = "test.e4mc.link"
+# default: 25575
+relayPort = 25575
+# Allows use of certain dedicated server commands such as /ban and /whitelist
+# default: true
+restoreDedicatedCommands = true
+# Whether to use whitelists on LAN worlds
+# default: false
+useWhiteList = false
+# Whether to enable sharing LAN worlds with e4all
+# default: true
+hostEnabled = true
+# Keep the world ticking while e4all is hosting it. Vanilla pauses a singleplayer world on ESC and on window focus loss, and a paused world freezes every connected guest until they are dropped. Dedicated servers never pause.
+# default: true
+preventPauseWhileHosting = true
+# Whether to enable Dialtone peer-to-peer connections as the host
+# default: true
+dialtoneHostEnabled = true
+# Whether to enable Dialtone peer-to-peer connections as the player
+# default: true
+dialtonePlayerEnabled = true
+# The URL to get the list of Iroh relays to use
+# default: https://natives.e4mc.link/relaymap.json
+dialtoneRelayMap = "https://natives.e4mc.link/relaymap.json"
+# Whether to hide direct IP addresses from the relay
+# default: true
+dialtoneSanitizeTicket = true
+# How many times to try to reconnect to the relay before giving up when the connection drops
+# default: 5
+reconnectMaxAttempts = 5
+# Initial reconnect delay in seconds; doubles with each subsequent attempt
+# default: 2
+reconnectBaseDelaySeconds = 2
+# Keepalive probe interval in seconds to keep the relay session alive
+# default: 15
+keepaliveIntervalSeconds = 15
+# How long (in ms) a guest login may wait for a starting world to finish its first tick before being rejected. Heavy modpacks can stall a full server tick for several seconds; waiting avoids kicking everyone who joins in that window. Set to 0 to reject immediately instead of waiting.
+# default: 15000
+loginReadyTimeoutMs = 15000
+# Whether to enable offline mode (disables Microsoft authentication for ALL LAN connections, including both tunneled and direct). Toggle via the 'Online Mode' button on the Open to LAN screen.
+# default: false
+offlineMode = false
+# Whether the offline mode warning has already been shown to the user
+# default: false
+offlineWarningShown = false
+# Whether the welcome message has already been shown to the user
+# default: false
+welcomeShown = false
+# Whether to hide the domain in the chat message (click to copy still works)
+# default: false
+hideDomainInChat = false
+# Master switch for SVC P2P voice support. When disabled, voice will not be negotiated.
+# default: true
+voiceP2PEnabled = true
+# Allow pure-Java UDP path when Dialtone is unavailable (e.g. Android, or iroh connection would be relayed)
+# default: true
+voiceP2PUdpFallback = true
+# Try direct IPv6 before UDP hole punching
+# default: true
+voiceP2PEnableIpv6 = true
+# Request router port mapping (UPnP/NAT-PMP/PCP) on desktop host for UDP voice
+# default: true
+voiceP2PEnableUpnp = true
+# Overall voice negotiation timeout in milliseconds
+# default: 10000
+voiceP2PConnectTimeoutMs = 10000
+# UDP hole punch attempt duration in milliseconds
+# default: 5000
+voiceP2PPunchDurationMs = 5000
+# Display voice negotiation progress as a HUD status line
+# default: true
+voiceP2PHudStatus = true

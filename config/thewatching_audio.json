@@ -1,0 +1,7 @@
+{
+  "modVolume": 1.0,
+  "waitingCreepyMusicVolume": 0.85,
+  "familiarAirMusicVolume": 0.82,
+  "happyMusicVolume": 0.78,
+  "muteVanillaMusicDuringModLoops": true
+}
