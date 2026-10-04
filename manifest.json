@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261004.1848",
+    "packVersion":  "20261004.2022",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -689,9 +689,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/ImmediatelyFast-1.2.4+1.20.1.jar",
-                      "sha256":  "9d23100b2e91118082819b12f79327b0bd393869d4d2abfbcd4f14e9fd61fe6e",
-                      "size":  625873,
+                      "path":  "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+                      "sha256":  "5eea426af467564618e017e8f3a62f1c5c4224ab32a0a1726313de130a2d783d",
+                      "size":  348818,
                       "mode":  "sync"
                   },
                   {
