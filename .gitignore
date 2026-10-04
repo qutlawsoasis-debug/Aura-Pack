@@ -7,3 +7,7 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+# Personal / player state
+config/jade/usernamecache.json
+config/skinshuffle/presets.json
