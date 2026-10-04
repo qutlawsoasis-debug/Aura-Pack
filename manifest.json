@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261004.2032",
+    "packVersion":  "20261004.2202",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -866,6 +866,12 @@
                       "path":  "mods/krypton-0.2.3.jar",
                       "sha256":  "69ad1810206ce12181b1b083640f044e7e250781c36c96c655eac36209057698",
                       "size":  185895,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/lanserverproperties-1.11.1-fabric.jar",
+                      "sha256":  "09c6869c645a8ddbb323bd6314d37453f56788a733010f9d67ee8feb9046aead",
+                      "size":  43918,
                       "mode":  "sync"
                   },
                   {
