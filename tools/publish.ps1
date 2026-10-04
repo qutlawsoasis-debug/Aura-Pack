@@ -19,11 +19,6 @@ Write-Host "=== Generating Manifest ==="
 $manifestOutput = & powershell.exe -ExecutionPolicy Bypass -File $makeManifestScript
 $manifestOutput | ForEach-Object { Write-Host $_ }
 
-if ($manifestOutput -contains "No changes" -or $manifestOutput -contains "Нет изменений") {
-    Write-Host "make-manifest reported: No changes. Publication not needed."
-    return
-}
-
 $manifestPath = Join-Path $packDir "manifest.json"
 if (-not (Test-Path $manifestPath)) {
     throw "Manifest was not created: $manifestPath"
@@ -32,65 +27,64 @@ if (-not (Test-Path $manifestPath)) {
 $manifest = (Get-Content $manifestPath -Raw) | ConvertFrom-Json
 $packVersion = $manifest.packVersion
 
-# 2. Git status summary
+# 2. Git status summary & commit/push if changes exist
 Push-Location $packDir
 try {
     Write-Host "`n=== Git Status Summary ==="
     $statusLines = git status --short
     if (-not $statusLines) {
-        Write-Host "No changes to commit."
-        return
-    }
-    
-    $added = 0
-    $modified = 0
-    $deleted = 0
-    $untracked = 0
-    
-    foreach ($line in $statusLines) {
-        $st = $line.Substring(0, 2)
-        if ($st.Contains("A")) { $added++ }
-        elseif ($st.Contains("M")) { $modified++ }
-        elseif ($st.Contains("D")) { $deleted++ }
-        elseif ($st.Contains("?")) { $untracked++ }
-    }
-    
-    Write-Host "Added: $added, Modified: $modified, Deleted: $deleted, Untracked: $untracked"
-    
-    $totalSizeBytes = 0
-    foreach ($f in $manifest.files) {
-        $totalSizeBytes += $f.size
-    }
-    $totalMb = [math]::Round($totalSizeBytes / 1MB, 2)
-    Write-Host "Total pack size: $totalMb MB ($($manifest.files.Count) files)`n"
-
-    Write-Host "=== Files to be committed ==="
-    foreach ($line in $statusLines) {
-        Write-Host "  $line"
-    }
-
-    # User confirmation
-    if (-not $Yes) {
-        Write-Host ""
-        $confirm = Read-Host "Confirm publication of pack $packVersion? (y/n)"
-        if ($confirm -ne "y" -and $confirm -ne "Y") {
-            Write-Host "Publication cancelled by user."
-            return
-        }
+        Write-Host "No uncommitted changes in git working tree. Skipping commit/push, proceeding to verification."
     } else {
-        Write-Host "`nFlag -Yes is active: confirmation skipped."
-    }
+        $added = 0
+        $modified = 0
+        $deleted = 0
+        $untracked = 0
+        
+        foreach ($line in $statusLines) {
+            $st = $line.Substring(0, 2)
+            if ($st.Contains("A")) { $added++ }
+            elseif ($st.Contains("M")) { $modified++ }
+            elseif ($st.Contains("D")) { $deleted++ }
+            elseif ($st.Contains("?")) { $untracked++ }
+        }
+        
+        Write-Host "Added: $added, Modified: $modified, Deleted: $deleted, Untracked: $untracked"
+        
+        $totalSizeBytes = 0
+        foreach ($f in $manifest.files) {
+            $totalSizeBytes += $f.size
+        }
+        $totalMb = [math]::Round($totalSizeBytes / 1MB, 2)
+        Write-Host "Total pack size: $totalMb MB ($($manifest.files.Count) files)`n"
 
-    # 3. git add, commit, push
-    Write-Host "`n=== Executing git add, commit, push ==="
-    git add -A
-    git commit -m "pack $packVersion"
-    git push origin main
-    if ($LASTEXITCODE -ne 0) {
-        throw "git push failed."
-    }
+        Write-Host "=== Files to be committed ==="
+        foreach ($line in $statusLines) {
+            Write-Host "  $line"
+        }
 
-    Write-Host "Successfully pushed to GitHub."
+        # User confirmation
+        if (-not $Yes) {
+            Write-Host ""
+            $confirm = Read-Host "Confirm publication of pack $packVersion? (y/n)"
+            if ($confirm -ne "y" -and $confirm -ne "Y") {
+                Write-Host "Publication cancelled by user."
+                return
+            }
+        } else {
+            Write-Host "`nFlag -Yes is active: confirmation skipped."
+        }
+
+        # 3. git add, commit, push
+        Write-Host "`n=== Executing git add, commit, push ==="
+        git add -A
+        git commit -m "pack $packVersion"
+        git push origin main
+        if ($LASTEXITCODE -ne 0) {
+            throw "git push failed."
+        }
+
+        Write-Host "Successfully pushed to GitHub."
+    }
 }
 finally {
     Pop-Location
@@ -111,7 +105,7 @@ function Download-And-Hash {
     $req = [System.Net.HttpWebRequest]::Create($url)
     $req.Method = "GET"
     $req.UserAgent = "AuraPackPublisher"
-    $req.Timeout = 20000
+    $req.Timeout = 25000
 
     try {
         $resp = $req.GetResponse()
@@ -144,7 +138,7 @@ function Download-And-Hash {
 }
 
 # 4.1. Check manifest.json
-$manifestUrl = "$rawBase/manifest.json?t=" + [DateTime]::UtcNow.Ticks
+$manifestUrl = "$($rawBase)/manifest.json?t=" + [DateTime]::UtcNow.Ticks
 $mStatus = 0
 $mHash = Download-And-Hash -url $manifestUrl -statusCode ([ref]$mStatus)
 if ($mStatus -ne 200) {
@@ -170,7 +164,7 @@ if ($plusFiles.Count -ge 2) {
         # Variant 1: %2B
         $segEnc = $pf.path.Split('/') | ForEach-Object { [Uri]::EscapeDataString($_) }
         $pathEnc = $segEnc -join '/'
-        $urlEnc = "$rawBase/$pathEnc?t=" + [DateTime]::UtcNow.Ticks
+        $urlEnc = "$($rawBase)/$($pathEnc)?t=" + [DateTime]::UtcNow.Ticks
         $stEnc = 0
         $hashEnc = Download-And-Hash -url $urlEnc -statusCode ([ref]$stEnc)
         $matchEnc = ($hashEnc -eq $pf.sha256)
@@ -179,7 +173,7 @@ if ($plusFiles.Count -ge 2) {
         # Variant 2: literal '+'
         $segLit = $pf.path.Split('/') | ForEach-Object { [Uri]::EscapeDataString($_).Replace("%2B", "+") }
         $pathLit = $segLit -join '/'
-        $urlLit = "$rawBase/$pathLit?t=" + [DateTime]::UtcNow.Ticks
+        $urlLit = "$($rawBase)/$($pathLit)?t=" + [DateTime]::UtcNow.Ticks
         $stLit = 0
         $hashLit = Download-And-Hash -url $urlLit -statusCode ([ref]$stLit)
         $matchLit = ($hashLit -eq $pf.sha256)
@@ -213,13 +207,13 @@ foreach ($f in $filesToCheck) {
         $escapedSegments.Add([Uri]::EscapeDataString($seg))
     }
     $escapedPath = [string]::Join('/', $escapedSegments)
-    $fileUrl = "$rawBase/$escapedPath?t=" + [DateTime]::UtcNow.Ticks
+    $fileUrl = "$($rawBase)/$($escapedPath)?t=" + [DateTime]::UtcNow.Ticks
 
     $fStatus = 0
     $actualHash = Download-And-Hash -url $fileUrl -statusCode ([ref]$fStatus)
 
     if ($fStatus -ne 200) {
-        throw "Failed to download $($f.path) from GitHub (HTTP $fStatus)"
+        throw "Failed to download $($f.path) from GitHub (HTTP $fStatus) via $fileUrl"
     }
     if ($actualHash -ne $f.sha256) {
         throw "SHA-256 mismatch for $($f.path)! Expected: $($f.sha256), Got: $actualHash"
