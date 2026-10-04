@@ -2,4 +2,4 @@ version:3465
 lang:ru_ru
 guiScale:2
 fullscreen:true
-resourcePacks:["fabric","file/AnimatedDoors-RP-2.0.0.zip","file/Sodium_Russian_Translation.zip","file/unobtrusive-grass-1.0.1.zip"]
+resourcePacks:["fabric","file/Sodium_Russian_Translation.zip"]
