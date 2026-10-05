@@ -1,0 +1,7 @@
+[
+  {
+    "id": "aura-main",
+    "name": "Aura",
+    "address": "host:port"
+  }
+]

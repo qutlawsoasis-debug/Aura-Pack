@@ -117,7 +117,7 @@ foreach ($relPathRaw in $gitFiles) {
     }
 
     # Исключения
-    if ($relPath -eq "manifest.json" -or $relPath -eq "pack.settings.json" -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/")) {
+    if ($relPath -eq "manifest.json" -or $relPath -eq "pack.settings.json" -or $relPath -eq "servers.json" -or $relPath.EndsWith(".example") -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/")) {
         continue
     }
 
@@ -174,7 +174,22 @@ $sha256.Dispose()
 $fileEntries.Sort([System.Comparison[PSObject]]{ param($x, $y) [System.StringComparer]::Ordinal.Compare($x.path, $y.path) })
 $finalFilesList = @($fileEntries)
 
-# 6. Проверка идентичности с существующим manifest.json
+# 6. Чтение servers.json (необязательное поле)
+$serversPath = Join-Path $packDir "servers.json"
+$serversList = $null
+if (Test-Path $serversPath) {
+    try {
+        $serversRaw = Get-Content $serversPath -Raw
+        $serversData = $serversRaw | ConvertFrom-Json
+        if ($serversData) {
+            $serversList = @($serversData)
+        }
+    } catch {
+        Write-Warning "Ошибка чтения servers.json: $_"
+    }
+}
+
+# 7. Проверка идентичности с существующим manifest.json
 $manifestPath = Join-Path $packDir "manifest.json"
 $isIdentical = $false
 $existingPackVersion = $null
@@ -193,6 +208,14 @@ if (Test-Path $manifestPath) {
                 }
             }
             if ($isIdentical) {
+                # Сравнение servers
+                $oldServersJson = if ($oldManifest.PSObject.Properties['servers'] -and $oldManifest.servers) { ($oldManifest.servers | ConvertTo-Json -Compress) } else { "" }
+                $newServersJson = if ($serversList) { ($serversList | ConvertTo-Json -Compress) } else { "" }
+                if ($oldServersJson -ne $newServersJson) {
+                    $isIdentical = $false
+                }
+            }
+            if ($isIdentical) {
                 $existingPackVersion = $oldManifest.packVersion
             }
         }
@@ -206,16 +229,19 @@ if ($isIdentical) {
     return
 }
 
-# 7. Формирование packVersion (UTC yyyyMMdd.HHmm)
+# 8. Формирование packVersion (UTC yyyyMMdd.HHmm)
 $packVersion = (Get-Date).ToUniversalTime().ToString("yyyyMMdd.HHmm")
 
-$manifest = [PSCustomObject]@{
+$manifest = [ordered]@{
     name         = $name
     packVersion  = $packVersion
     minecraft    = $minecraft
     fabricLoader = $fabricLoader
-    files        = $finalFilesList
 }
+if ($serversList -ne $null) {
+    $manifest["servers"] = $serversList
+}
+$manifest["files"] = $finalFilesList
 
 # Сериализация JSON
 $json = $manifest | ConvertTo-Json -Depth 10
