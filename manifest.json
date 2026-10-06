@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261006.1820",
+    "packVersion":  "20261006.2036",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -797,12 +797,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/animated-doors-1.0.jar",
-                      "sha256":  "459dfc3dda4d1b5887aad54f78934034010cf6c0d9bbb9615e9edacf17c30c69",
-                      "size":  592225,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
                       "sha256":  "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
                       "size":  1097240,
@@ -908,6 +902,24 @@
                       "path":  "mods/emi-1.1.24+1.20.1+fabric.jar",
                       "sha256":  "537b062e0dc6f028cf84cf66a473ed1b8842219a708d17cdb292401441b0f367",
                       "size":  1124008,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/enhanced-doors-1.1.1.jar",
+                      "sha256":  "7308e3f1bb4efff050aa354c279e2111edf2946dd1550b5981c38bc06d966f15",
+                      "size":  146827,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/entity_model_features-3.3.11-1.20.1-fabric.jar",
+                      "sha256":  "74019cee3143716221a4c674ed32d2f5c9a5b0eb5acbf7eb2a3a32357fe37b73",
+                      "size":  651739,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/entity_texture_features-7.2.5-1.20.1-fabric.jar",
+                      "sha256":  "a6a0da61e32e6b1506162a3fa5adb8c30e5da129f09275f49cb018bea212ebba",
+                      "size":  807756,
                       "mode":  "sync"
                   },
                   {
@@ -1079,9 +1091,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/player-locator-plus-2.2.0.jar",
+                      "sha256":  "109c72eb7f63b154e767b65fb2adde03d14fc6ef08fb7044462e2e23e47fa76c",
+                      "size":  4428772,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
                       "sha256":  "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec",
                       "size":  77304,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+                      "sha256":  "f8fbad0b2ab07ccaffce53a9d835601b41ab013af8a501af4de56b3958d1182a",
+                      "size":  135078,
                       "mode":  "sync"
                   },
                   {
@@ -1205,9 +1229,21 @@
                       "mode":  "default"
                   },
                   {
-                      "path":  "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
-                      "sha256":  "d01c449f5b2f8453f0087f73e1b94bcec47292b1b37d04a2800b6749554252da",
-                      "size":  72823,
+                      "path":  "resourcepacks/Ancient City Panorama V2.zip",
+                      "sha256":  "73516be480a163397a3f7d58237e115930a05aa3fa36835a746e9149be2bee85",
+                      "size":  16303991,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Dungeons Content UI.zip",
+                      "sha256":  "13dd74b1f5180fb587e498e404afd0dfa4a1c077b80a175afd8edecf7dea45ad",
+                      "size":  10291899,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/FreshAnimations_v1.10.4.zip",
+                      "sha256":  "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2",
+                      "size":  850941,
                       "mode":  "sync"
                   },
                   {
