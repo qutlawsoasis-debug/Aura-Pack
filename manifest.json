@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261004.2202",
+    "packVersion":  "20261006.1820",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -647,6 +647,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/AmbientSounds_FABRIC_v6.3.9_mc1.20.1.jar",
+                      "sha256":  "9472355d44c08e3c24ec39dd8a82a76024fb23dc0421e726dd35e0e029840063",
+                      "size":  53435062,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/BetterF3-7.0.2-Fabric-1.20.1.jar",
                       "sha256":  "c9282b371c61fa04f329cc57719b1e221d65c057a70dcb93d1d2b430168fda46",
                       "size":  1782676,
@@ -662,6 +668,12 @@
                       "path":  "mods/Controlling-fabric-1.20.1-12.0.2.jar",
                       "sha256":  "f7bbb7e37f2118af29450ec468d3ce4ec2606fead2861f4092a43509c6803ed6",
                       "size":  122778,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
+                      "sha256":  "b33f58a8f3176eb55150b7957ccb624fa7e56eee618ed2dd88e34d26fa1a2104",
+                      "size":  1207852,
                       "mode":  "sync"
                   },
                   {
@@ -695,9 +707,27 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/InventoryParticles-3.2.0+1.20.1+fabric.jar",
+                      "sha256":  "fada1b88725f7444b485c109dbb090145ff6824d9732d227e9b2f95ff15d7aa5",
+                      "size":  1735148,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/InventoryProfilesNext-fabric-1.20-1.10.20.jar",
+                      "sha256":  "4e9c432d5b8efd2988c8a00e5e25c7bae985320037ecd95c74fa0102e3590fbf",
+                      "size":  1455143,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Jade-1.20-Fabric-11.13.3.jar",
                       "sha256":  "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375",
                       "size":  553868,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/MossyLib-1.6.0+1.20.1+fabric.jar",
+                      "sha256":  "23834bd6cfbd9e0869861ed1d8e5036c29cff7f5565d79e22d27eebe9546f573",
+                      "size":  189952,
                       "mode":  "sync"
                   },
                   {
@@ -707,9 +737,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/PresenceFootsteps-1.10.1+1.20.1.jar",
+                      "sha256":  "70f354e5ecd8993908601fcdfcb4e98f7b81f42192287282a5b86712e9a6be95",
+                      "size":  5664952,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Searchables-fabric-1.20.1-1.0.3.jar",
                       "sha256":  "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a",
                       "size":  80283,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/SubtleEffects-fabric-1.20.1-1.14.3.jar",
+                      "sha256":  "53aa7bcf73dc766bf7b543d3555d04e107f05d93802a19138607b69fbaf60c58",
+                      "size":  3340781,
                       "mode":  "sync"
                   },
                   {
@@ -725,6 +767,36 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/YungsApi-1.20-Fabric-4.0.6.jar",
+                      "sha256":  "26b6dc81f876aabf3d53ead59e5908a8b0f5434d46c150cfd376c027ac54053e",
+                      "size":  1396331,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
+                      "sha256":  "790e31c2a19194b81ca0dc134694a5b9f935c5c19c50aadcfb4f90a613c19bff",
+                      "size":  1063786,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                      "sha256":  "6c69fd0316c448cf9c70b72dbea424a85be881f9adc3e7a56e8f0b08e3611fff",
+                      "size":  944170,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                      "sha256":  "0a4657689217339a1f6079a2d9dda03f6d01beacac59c14e093ded3357db2b86",
+                      "size":  621495,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/alexsmobs-2.2.2-fabric+1.20.1.jar",
+                      "sha256":  "6d86f7beae6cbd0727f90971067255e9bf3f6a92125e285f8e8b32fda7166dcb",
+                      "size":  27533805,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/animated-doors-1.0.jar",
                       "sha256":  "459dfc3dda4d1b5887aad54f78934034010cf6c0d9bbb9615e9edacf17c30c69",
                       "size":  592225,
@@ -734,6 +806,12 @@
                       "path":  "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
                       "sha256":  "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
                       "size":  1097240,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/aquamirae-fabric-1.20.1-7.1.14.jar",
+                      "sha256":  "8fd6a8b51e7d71cebf28ea0d6d0e5f5c471602f957aaeccbbdb316e94bc52128",
+                      "size":  25905687,
                       "mode":  "sync"
                   },
                   {
@@ -773,6 +851,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/codxlib-1.6.1-fabric+1.20.1.jar",
+                      "sha256":  "e57e3f7ddccaf43f866a018fe5b8e937ce6002ad7be708426049e4eede3679bc",
+                      "size":  185824,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/collective-1.20.1-8.41.jar",
                       "sha256":  "78fe02a77be1d0d615392f70d40559849dab7884603db5dd5ea5fc08fa8cae31",
                       "size":  745905,
@@ -794,6 +878,18 @@
                       "path":  "mods/ctov-3.4.14-fabric.jar",
                       "sha256":  "0d40c400db89eb5bdd8e4173707525e2e0301fd15d59073bd9b9712ffa7c37e4",
                       "size":  6734661,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/cultural-delights-fabric-1.0.5+1.20.1.jar",
+                      "sha256":  "1ac651b63dec9218af57bbe05ef6e6ebafeeb897bfe98d0caeb5e7868e37e5a0",
+                      "size":  466911,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/decorative_blocks-fabric-1.20.1-4.1.3.jar",
+                      "sha256":  "9273e91494670ddab6feaa6151df5a65c05966fe14306476e67ab77af37f4f72",
+                      "size":  546719,
                       "mode":  "sync"
                   },
                   {
@@ -845,6 +941,30 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/fragmentum-5.2.0+1.20.1-fabric.jar",
+                      "sha256":  "6b8b1ab79e7ed5daabdd5dde61d72c22bba5fbb961db4fa26e6b46a3ccdc025b",
+                      "size":  9684169,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/fzzy_config-0.7.7+1.20.1.jar",
+                      "sha256":  "719e2b5faa36104551f8f49e1c5f9189f8dcac65fcb648d61e1bae4d41aea1fa",
+                      "size":  2395040,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/geckolib-fabric-1.20.1-4.8.4.jar",
+                      "sha256":  "ee8495a8db7a83aa63e8ef248d4eadda665ff57c5911b8e59fd608806137baa6",
+                      "size":  969016,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/grand-teleport-1.20.1-build252.jar",
+                      "sha256":  "d02ae63ce942a235515b2f804d9f4183cfef25e784ed6e31fcda35fc16c0da30",
+                      "size":  1118555,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/guardvillagers-2.0.9-1.20.1.jar",
                       "sha256":  "a18f60127cfc8f0f75867738255a98026ae53a3f4a02b5ce4901baaecfcab502",
                       "size":  298755,
@@ -875,6 +995,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/libIPN-fabric-1.20-4.0.2.jar",
+                      "sha256":  "3e75c8d8c32b2dfbf7bb1cdd91f5b0d30bb39eb43ecfcf1c25ca093409c1a606",
+                      "size":  702814,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
                       "sha256":  "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782",
                       "size":  691483,
@@ -890,6 +1016,30 @@
                       "path":  "mods/map_atlases-1.20-6.0.20-fabric.jar",
                       "sha256":  "184c1eb8c53c8ece0527b065f6e674ab7f0869ef75f34f369d525d5d2f0a83d3",
                       "size":  734187,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/mcw-bridges-3.1.2-mc1.20.1fabric.jar",
+                      "sha256":  "7c6c48a1bb5c8dc9c00e5b4ca95a27c759e39d99ce4f3cb858c281645e40a1a5",
+                      "size":  672903,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/mcw-doors-1.1.5-mc1.20.1fabric.jar",
+                      "sha256":  "cb7d88f7fbf2172207aff0ec9af11684ea7b7062723af1b71b2c59ba09e7ca75",
+                      "size":  1226772,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/mcw-mcwfences-1.2.1-mc1.20.1fabric.jar",
+                      "sha256":  "0d9e4b03246de9364b85adfce6fee3354a31f822aec1bca2c8306ebbe09a89c8",
+                      "size":  659511,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/mcw-roofs-2.3.2-mc1.20.1fabric.jar",
+                      "sha256":  "efdd2df129d71bb35aa123c46811bf568b833887af32d72d21540176c6255a41",
+                      "size":  1796110,
                       "mode":  "sync"
                   },
                   {
@@ -917,6 +1067,18 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/particlerain-4.0.0-beta.11+1.20.1-fabric.jar",
+                      "sha256":  "4bea732d053ac063f515b3f0f543977f0067779b1b6e7dc3c660fa194b2f9913",
+                      "size":  621180,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+                      "sha256":  "0b10021fa638997398110777747726b1cb7a27bc3f8ff1b12e2b93ac01784018",
+                      "size":  181008,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
                       "sha256":  "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec",
                       "size":  77304,
@@ -926,6 +1088,12 @@
                       "path":  "mods/short-grass-1.2.0.jar",
                       "sha256":  "04e310f2cc48358cad99c878d949b9bfcac41136bcbdda670383aa30e48e3792",
                       "size":  17907,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/skinlayers3d-fabric-1.11.3-mc1.20.1.jar",
+                      "sha256":  "97361a4ea97d016a6814c70ad49174498ba617899930c1e3e17a27f7ad56c963",
+                      "size":  1912385,
                       "mode":  "sync"
                   },
                   {
@@ -944,6 +1112,24 @@
                       "path":  "mods/sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
                       "sha256":  "275467bef6e56aab50b0c66ed42b2984160d36c65edb1b986e3c7c81d37e9253",
                       "size":  205569,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/spell_engine-fabric-1.10.10+1.20.1.jar",
+                      "sha256":  "bc69c9021f43a996acadac89e51e5e3874dafbfdbb3f1704e5b7cb90615926ac",
+                      "size":  4756966,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/spell_power-fabric-1.6.1+1.20.1.jar",
+                      "sha256":  "6e4b0c41d360a8dca19823a42abdf8bf7e4a2b824b65b0f80a2137d46c1ad6e7",
+                      "size":  234554,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/supplementaries-1.20-3.1.43-fabric.jar",
+                      "sha256":  "93b865c213f64ce7fdc74888b79048ff3002434db5adb0af3b6d5bcad58f7b5d",
+                      "size":  13493444,
                       "mode":  "sync"
                   },
                   {
@@ -968,6 +1154,12 @@
                       "path":  "mods/visuality-0.7.1+1.20.jar",
                       "sha256":  "f95afc78d944a06f807c683f5959878d8214d775cd81ecbbbc076fc43763202a",
                       "size":  67302,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/waveycapes-fabric-1.11.2-mc1.20.1.jar",
+                      "sha256":  "53e54d39d1dda6bd2e7e8b696c70da8d6b4e57a76043db7d0d63a62779a24bca",
+                      "size":  1787074,
                       "mode":  "sync"
                   },
                   {
