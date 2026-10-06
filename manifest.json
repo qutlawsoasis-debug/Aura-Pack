@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261006.2036",
+    "packVersion":  "20261006.2117",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -803,12 +803,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/aquamirae-fabric-1.20.1-7.1.14.jar",
-                      "sha256":  "8fd6a8b51e7d71cebf28ea0d6d0e5f5c471602f957aaeccbbdb316e94bc52128",
-                      "size":  25905687,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/architectury-9.2.14-fabric.jar",
                       "sha256":  "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321",
                       "size":  585207,
@@ -953,9 +947,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/fragmentum-5.2.0+1.20.1-fabric.jar",
-                      "sha256":  "6b8b1ab79e7ed5daabdd5dde61d72c22bba5fbb961db4fa26e6b46a3ccdc025b",
-                      "size":  9684169,
+                      "path":  "mods/frostiful-1.0.11.jar",
+                      "sha256":  "64b6329e642cf05d4f7bba6788e4a9e5dea0354e622a3d0c7c5f60d067706b64",
+                      "size":  1979147,
                       "mode":  "sync"
                   },
                   {
@@ -1121,6 +1115,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/snowyspirit-1.20-3.0.10-fabric.jar",
+                      "sha256":  "1cc2bc08f5247bfe3ec2612cefbbcb0d2e5fdf2fe302150f00d62b33df7e7704",
+                      "size":  5315563,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/sodium-extra-0.5.9+mc1.20.1.jar",
                       "sha256":  "5cae656838b595e27d5133264374e5d90f5f35a39e343bfc5a76b908fec97c9f",
                       "size":  370701,
@@ -1160,6 +1160,12 @@
                       "path":  "mods/tectonic-3.0.17-fabric-1.20.1.jar",
                       "sha256":  "ff333d025314842ef5b9a7528be9f21b418a8f11d90a3bc50000544432c2830c",
                       "size":  319868,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/thermoo-2.3.3.jar",
+                      "sha256":  "f08f4dfa30a97f8120b5865997c9036e71af2810c559cd7374401c8f572107ab",
+                      "size":  225886,
                       "mode":  "sync"
                   },
                   {
