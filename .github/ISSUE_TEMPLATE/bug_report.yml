@@ -1,0 +1,28 @@
+name: 🐛 Modpack Bug Report
+description: Report a crash, texture glitch, or incompatibility in Aura Modpack
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please report issues specific to mods, resourcepacks, shaders, or in-game crashes here.
+  - type: input
+    id: pack_version
+    attributes:
+      label: Pack Version / Date
+      placeholder: e.g. 20261007.0254
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Problem
+      description: What went wrong during gameplay?
+    validations:
+      required: true
+  - type: textarea
+    id: crash_report
+    attributes:
+      label: Crash Report / Logs
+      description: Paste crash-reports/<date>.txt or latest.log here.
+      render: shell
