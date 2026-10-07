@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261006.2117",
+    "packVersion":  "20261007.0254",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -659,6 +659,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+                      "sha256":  "e0511e543ebcd6e7241ef7bbc28e6f40ad886b4b1e06972c23c5cbde3b8101ac",
+                      "size":  55504,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
                       "sha256":  "2eb70931dee86cef68c8538b8284c684225964632cd10e636ea938af6f66e6f7",
                       "size":  21987,
@@ -737,6 +743,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/NE-1.20.1-1.9.0.jar",
+                      "sha256":  "4c134f6235930561bb7110a8042ed19e188b2e3d27c0ee69bb47524f518960db",
+                      "size":  57310,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/PresenceFootsteps-1.10.1+1.20.1.jar",
                       "sha256":  "70f354e5ecd8993908601fcdfcb4e98f7b81f42192287282a5b86712e9a6be95",
                       "size":  5664952,
@@ -746,6 +758,12 @@
                       "path":  "mods/Searchables-fabric-1.20.1-1.0.3.jar",
                       "sha256":  "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a",
                       "size":  80283,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/SleepingOverhaul-2.0.2-Fabric-1.20.1.jar",
+                      "sha256":  "1b1c0bc28218513a7dc23303461a9b142840407120f8b5f1757a1d06b53ccd89",
+                      "size":  212375,
                       "mode":  "sync"
                   },
                   {
@@ -1067,6 +1085,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/no_xp_anvils-1.2.0-fabric-1.20.1.jar",
+                      "sha256":  "ee20bf396bf76bfdf601fcb703972fc449642548e1675448bf80fcf6d48a8256",
+                      "size":  143759,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/notenoughanimations-fabric-1.12.6-mc1.20.1.jar",
                       "sha256":  "cecd3f42d99420574224132a7956f1468611e3364965bbbe0cfe3dacf562ac86",
                       "size":  1870496,
@@ -1139,6 +1163,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/spark-1.10.53-fabric.jar",
+                      "sha256":  "00c034e684fa4471b41539dc29a8d39cc6f22eb29b2fa423895efc978a391d2d",
+                      "size":  3082974,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/spell_engine-fabric-1.10.10+1.20.1.jar",
                       "sha256":  "bc69c9021f43a996acadac89e51e5e3874dafbfdbb3f1704e5b7cb90615926ac",
                       "size":  4756966,
@@ -1148,6 +1178,12 @@
                       "path":  "mods/spell_power-fabric-1.6.1+1.20.1.jar",
                       "sha256":  "6e4b0c41d360a8dca19823a42abdf8bf7e4a2b824b65b0f80a2137d46c1ad6e7",
                       "size":  234554,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/sttn-1.1.0-1.20.1.jar",
+                      "sha256":  "4f694f8645985fd68b1e531052a080819469a6e1c8eef6ab02dd02d0a8397a15",
+                      "size":  1275988,
                       "mode":  "sync"
                   },
                   {
