@@ -1,9 +1,15 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261008.2030",
+    "packVersion":  "20261008.2047",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
+                  {
+                      "path":  "CustomSkinLoader/CustomSkinLoader.json",
+                      "sha256":  "2678e0b596f37b890fe63c08f9bb07364abb49d1c8fc0a63c8f9e9216aafa302",
+                      "size":  2307,
+                      "mode":  "default"
+                  },
                   {
                       "path":  "config/DistantHorizons.toml",
                       "sha256":  "bd203bbda72a5a02bdeba5aa8ddb698205cee0212ed1b717edb3680fdc902c31",
