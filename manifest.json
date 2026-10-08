@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261008.1904",
+    "packVersion":  "20261008.1917",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -347,6 +347,18 @@
                       "mode":  "default"
                   },
                   {
+                      "path":  "config/servercore/config.yml",
+                      "sha256":  "45fc690d9a5964d39e22194d4b4e54c412aefe8227002f0c14ad61d313d64cdc",
+                      "size":  385,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/servercore/optimizations.yml",
+                      "sha256":  "a699f828fd142094500fb0b4ba7dd97a88032280a58569149c6015955efc92ae",
+                      "size":  111,
+                      "mode":  "default"
+                  },
+                  {
                       "path":  "config/skinlayers.json",
                       "sha256":  "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166",
                       "size":  497,
@@ -653,6 +665,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/BadOptimizations-2.4.1-1.20.1.jar",
+                      "sha256":  "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8",
+                      "size":  460234,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/BetterF3-7.0.2-Fabric-1.20.1.jar",
                       "sha256":  "c9282b371c61fa04f329cc57719b1e221d65c057a70dcb93d1d2b430168fda46",
                       "size":  1782676,
@@ -755,12 +773,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/SleepingOverhaul-2.0.2-Fabric-1.20.1.jar",
-                      "sha256":  "1b1c0bc28218513a7dc23303461a9b142840407120f8b5f1757a1d06b53ccd89",
-                      "size":  212375,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/SubtleEffects-fabric-1.20.1-1.14.3.jar",
                       "sha256":  "53aa7bcf73dc766bf7b543d3555d04e107f05d93802a19138607b69fbaf60c58",
                       "size":  3340781,
@@ -809,6 +821,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/alternate-current-mc1.20-1.9.0.jar",
+                      "sha256":  "cbecb4abf4aa734a7617fa7ad771af118cd06cfac7ea7f26f43e9ff6ef6eb515",
+                      "size":  51875,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
                       "sha256":  "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
                       "size":  1097240,
@@ -827,6 +845,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/async-locator-fabric-1.20-1.3.0.jar",
+                      "sha256":  "2a602aff039cd60ef43b6b367e8dbc49cc4581ee81ffdf86b3d55298eb64b829",
+                      "size":  279100,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/aura-defaults-1.0.0.jar",
                       "sha256":  "a8148bb618fb12d1a612e03d733a4ab0506f729bdbccac6f627fe0fad10b6931",
                       "size":  18180,
@@ -836,6 +860,12 @@
                       "path":  "mods/balm-fabric-1.20.1-7.3.44.jar",
                       "sha256":  "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
                       "size":  576169,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/c2me-fabric-mc1.20.1-0.2.0+alpha.11.18.jar",
+                      "sha256":  "f97579cde7dc6837b30e7287b1da0e04eb31f77edc714d6adabbfdc5649833b9",
+                      "size":  1426510,
                       "mode":  "sync"
                   },
                   {
@@ -1085,9 +1115,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/moreculling-1.20.1-0.24.6.jar",
+                      "sha256":  "6ba025225149a19ff152a83198c1c10cc321e9e8a7706f7c77f25523ece89854",
+                      "size":  274523,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/no_xp_anvils-1.2.0-fabric-1.20.1.jar",
                       "sha256":  "ee20bf396bf76bfdf601fcb703972fc449642548e1675448bf80fcf6d48a8256",
                       "size":  143759,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/noisium-fabric-2.3.0+mc1.20-1.20.1.jar",
+                      "sha256":  "266ef6f28ee69f91acce6ca991121c21f2944e76f366475778347d90d33b491d",
+                      "size":  214902,
                       "mode":  "sync"
                   },
                   {
@@ -1124,6 +1166,12 @@
                       "path":  "mods/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
                       "sha256":  "f8fbad0b2ab07ccaffce53a9d835601b41ab013af8a501af4de56b3958d1182a",
                       "size":  135078,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/servercore-fabric-1.5.2+1.20.1.jar",
+                      "sha256":  "d02253ab7566f2a6632cc78c9708dd768cf77ac8123351ed63be25e4f8cb317f",
+                      "size":  815594,
                       "mode":  "sync"
                   },
                   {
@@ -1178,12 +1226,6 @@
                       "path":  "mods/spell_power-fabric-1.6.1+1.20.1.jar",
                       "sha256":  "6e4b0c41d360a8dca19823a42abdf8bf7e4a2b824b65b0f80a2137d46c1ad6e7",
                       "size":  234554,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/sttn-1.1.0-1.20.1.jar",
-                      "sha256":  "4f694f8645985fd68b1e531052a080819469a6e1c8eef6ab02dd02d0a8397a15",
-                      "size":  1275988,
                       "mode":  "sync"
                   },
                   {
@@ -1266,8 +1308,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "da43a2e46bf8e2283638718e8da404a26f935f3cbac9a948cf116dbd68f37b9b",
-                      "size":  114,
+                      "sha256":  "6b801bf737b5fc32359e4cb5c3b4fbfeb88eec8862c60a8c02f6ef7209aa4725",
+                      "size":  153,
                       "mode":  "default"
                   },
                   {

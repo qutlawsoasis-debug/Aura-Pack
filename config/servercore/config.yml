@@ -1,0 +1,17 @@
+features:
+  disable-spawn-chunks: true
+  prevent-moving-into-unloaded-chunks: true
+  autosave-interval: 6000
+  xp-merge-fraction: 40
+  xp-merge-radius: 0.5
+  item-merge-radius: 0.5
+  lobotomize-villagers:
+    enabled: true
+    tick-interval: 20
+
+activation-range:
+  enabled: true
+  tick-new-entities: true
+  use-vertical-range: true
+  skip-non-immune: true
+  villager-tick-panic: true

@@ -2,4 +2,6 @@ version:3465
 lang:ru_ru
 guiScale:2
 fullscreen:true
+renderDistance:12
+simulationDistance:8
 resourcePacks:["fabric","file/Sodium_Russian_Translation.zip"]
