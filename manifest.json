@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261008.0017",
+    "packVersion":  "20261008.0316",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -804,8 +804,8 @@
                   },
                   {
                       "path":  "mods/alexsmobs-2.2.2-fabric+1.20.1.jar",
-                      "sha256":  "6d86f7beae6cbd0727f90971067255e9bf3f6a92125e285f8e8b32fda7166dcb",
-                      "size":  27533805,
+                      "sha256":  "a7a7ef9df469abc36405d5fe020830672229b64c27f09d9cf1f336805cfff6ee",
+                      "size":  27442841,
                       "mode":  "sync"
                   },
                   {
