@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261009.2209",
+    "packVersion":  "20261009.2249",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1226,6 +1226,12 @@
                       "path":  "mods/rightclickharvest-fabric-4.6.1+1.20.1.jar",
                       "sha256":  "d4496d4df98083e64af435d8d0f8d5bf03bf94d5c2a2112029282a6c795f6d6e",
                       "size":  287561,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/scannable-MC1.20.1-fabric-1.7.12.jar",
+                      "sha256":  "89124df2612e4434e11d342af37a9cce1220868fa2ba780dbdb6df6c00aeb73a",
+                      "size":  418358,
                       "mode":  "sync"
                   },
                   {
