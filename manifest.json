@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261008.2111",
+    "packVersion":  "20261009.2209",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -779,6 +779,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/Patchouli-1.20.1-85-FABRIC.jar",
+                      "sha256":  "485e23ab9727c7e9f585f435020d733706a80c7f0a1dc20e85c7398e1d76b919",
+                      "size":  857123,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Ping-Wheel-1.12.1-fabric-1.20.1.jar",
                       "sha256":  "b1d83ddd9a89c5580a9d07b35b0b5d32594ef2cd8223984005081a0abc844b1b",
                       "size":  154131,
@@ -1301,6 +1307,18 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/touhou_tasks-1.0.0.jar",
+                      "sha256":  "bcadf6b3a8dd6943a31d60ad2eba2e9a81045577e1ffd1c9fa8ca49413382361",
+                      "size":  3703521,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/touhoulittlemaid-fabric-0.8.2-forge1.5.3+mc1.20.1.jar",
+                      "sha256":  "cba723c93d67f0aa1c7ff1bcb29017d9298a120f54c754792e352cfc526e5000",
+                      "size":  29245103,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/trade-cycling-fabric-1.20.1-1.0.18.jar",
                       "sha256":  "d249a9217f7d478f60dfcf3340e4dd83c090992cf4984b744513057f3616570a",
                       "size":  430650,
@@ -1379,6 +1397,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "resourcepacks/Aura_Maid.zip",
+                      "sha256":  "92ca8a98d07c871fed660241fa6d920de6b15d6882dad716fb70bd003645100e",
+                      "size":  3937,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Dungeons Content UI.zip",
                       "sha256":  "13dd74b1f5180fb587e498e404afd0dfa4a1c077b80a175afd8edecf7dea45ad",
                       "size":  10291899,
@@ -1424,6 +1448,12 @@
                       "path":  "shaderpacks/MakeUp-UltraFast-9.5f.zip",
                       "sha256":  "afbf622b983d29ffa5fe5f15197f321d3921915bd44584d85f14bc11b5e0e5e8",
                       "size":  403666,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "tlm_custom_pack/Aura_Maid.zip",
+                      "sha256":  "92ca8a98d07c871fed660241fa6d920de6b15d6882dad716fb70bd003645100e",
+                      "size":  3937,
                       "mode":  "sync"
                   }
               ]
