@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261009.2249",
+    "packVersion":  "20261009.2324",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -489,6 +489,12 @@
                       "sha256":  "308729211de44b4e3c2c196f4fbc9d1c1e9201025b0a95e49edf39567a7bc935",
                       "size":  283,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/touhou_little_maid-common.toml",
+                      "sha256":  "ece9d1394599bba675343f7b6d74fd3329d88464eed5c3605b43e4748edb5dc1",
+                      "size":  7557,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/transition.json",
@@ -1403,12 +1409,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "resourcepacks/Aura_Maid.zip",
-                      "sha256":  "92ca8a98d07c871fed660241fa6d920de6b15d6882dad716fb70bd003645100e",
-                      "size":  3937,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "resourcepacks/Dungeons Content UI.zip",
                       "sha256":  "13dd74b1f5180fb587e498e404afd0dfa4a1c077b80a175afd8edecf7dea45ad",
                       "size":  10291899,
@@ -1458,8 +1458,14 @@
                   },
                   {
                       "path":  "tlm_custom_pack/Aura_Maid.zip",
-                      "sha256":  "92ca8a98d07c871fed660241fa6d920de6b15d6882dad716fb70bd003645100e",
-                      "size":  3937,
+                      "sha256":  "f272cc05c9234232aef4bc26b04eea4fa0916662add2924dbf24b297c56e9d4f",
+                      "size":  4517,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "tlm_custom_pack/z_Aura_Default_Maid.zip",
+                      "sha256":  "0670757d12587985a610b5a66065d5e371be4a1dcf3b24304532cc6d2af4765d",
+                      "size":  4373,
                       "mode":  "sync"
                   }
               ]

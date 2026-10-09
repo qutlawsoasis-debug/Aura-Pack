@@ -3,6 +3,8 @@
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "forceConfigs": [
-    "tlm_custom_pack/Aura_Maid.zip"
+    "tlm_custom_pack/Aura_Maid.zip",
+    "tlm_custom_pack/z_Aura_Default_Maid.zip",
+    "config/touhou_little_maid-common.toml"
   ]
 }
