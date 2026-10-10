@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261009.2324",
+    "packVersion":  "20261010.0408",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -356,6 +356,12 @@
                       "path":  "config/sable-server.toml",
                       "sha256":  "75d3a7740415e28fb5733f7d8a72fa835cb4325d90af2d99374da23aa575df5c",
                       "size":  313,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/scannable-common.toml",
+                      "sha256":  "be508b8c01407765e6cd7bb2dd03f925bd2c6e57fd99907e7f854f5367ca1493",
+                      "size":  3797,
                       "mode":  "default"
                   },
                   {
