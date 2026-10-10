@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261010.0408",
+    "packVersion":  "20261010.2115",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -737,6 +737,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
+                      "sha256":  "f6be638d63462d765004d08f912a105db981dc6a24ba2dd6b5e22b5fab416589",
+                      "size":  4602936,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/FarmersDelight-1.20.1-2.5.7+refabricated.jar",
                       "sha256":  "7f5c6cf0e05f66c11925c6e1e66c513fa4f9660a742e38762c929b3ca37de2d9",
                       "size":  6117761,
@@ -1460,6 +1466,12 @@
                       "path":  "shaderpacks/MakeUp-UltraFast-9.5f.zip",
                       "sha256":  "afbf622b983d29ffa5fe5f15197f321d3921915bd44584d85f14bc11b5e0e5e8",
                       "size":  403666,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/photon_v1.3b.zip",
+                      "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
+                      "size":  3800987,
                       "mode":  "sync"
                   },
                   {
