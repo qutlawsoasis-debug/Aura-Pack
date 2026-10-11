@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261011.1823",
+    "packVersion":  "20261011.2131",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -266,6 +266,12 @@
                       "path":  "config/map_atlases-common.json",
                       "sha256":  "e437feb0c4a80f89b44890f45f4feeaf729c8927c853c330dbf9ebeea25a89ad",
                       "size":  758,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/mca.json",
+                      "sha256":  "229392484404240ba83de44090acd0cd7917fff04c56ef8d6ccb714574c78e7b",
+                      "size":  10069,
                       "mode":  "default"
                   },
                   {
@@ -894,8 +900,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "740c93446d4b5156a8a5b1e5fe61adbd7d0527385b19fc29dd2ed7954854b212",
-                      "size":  35048,
+                      "sha256":  "b4ab78168513b93c8909251c4c20db84c2b5eb404e5701b67c9a7c2ab39e11c9",
+                      "size":  35716,
                       "mode":  "sync"
                   },
                   {
