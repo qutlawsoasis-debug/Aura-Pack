@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261011.2131",
+    "packVersion":  "20261011.2154",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -270,7 +270,7 @@
                   },
                   {
                       "path":  "config/mca.json",
-                      "sha256":  "229392484404240ba83de44090acd0cd7917fff04c56ef8d6ccb714574c78e7b",
+                      "sha256":  "1c2d1d9f274499bcc0c29c7162733be0a9728ca9f8b446f9d6bb86486d96a772",
                       "size":  10069,
                       "mode":  "default"
                   },
@@ -900,8 +900,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "b4ab78168513b93c8909251c4c20db84c2b5eb404e5701b67c9a7c2ab39e11c9",
-                      "size":  35716,
+                      "sha256":  "69b326dec774b9be83b257a62ce8f01a938f5a63a638ed80f37e66e9d276e9a3",
+                      "size":  36256,
                       "mode":  "sync"
                   },
                   {
@@ -1158,8 +1158,8 @@
                   },
                   {
                       "path":  "mods/minecraft-comes-alive-7.7.1-beta.4+1.20.1-universal.jar",
-                      "sha256":  "314fee14ae9b3b74ae11203e2ef807c34d4e60d359f9c9a476035b3d7098840d",
-                      "size":  14338245,
+                      "sha256":  "8a7e158660fb5ac7f5bf95ecad29f4cabc0c3a57d2cb260fa0b79d0046afcb7d",
+                      "size":  21110093,
                       "mode":  "sync"
                   },
                   {
@@ -1440,8 +1440,8 @@
                   },
                   {
                       "path":  "resourcepacks/Witcher_Villagers_Voice.zip",
-                      "sha256":  "046e96db673439a2af488de2c89f15d8a1d9ea1009f4fa3ae3e6035aba211cf9",
-                      "size":  1662303,
+                      "sha256":  "e9e19b8f31c80df9fee27f06aa44890995ed612b3dc262ad139612d0a4120b6d",
+                      "size":  8770491,
                       "mode":  "sync"
                   },
                   {
