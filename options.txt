@@ -4,4 +4,4 @@ guiScale:2
 fullscreen:true
 renderDistance:12
 simulationDistance:8
-resourcePacks:["fabric","file/Sodium_Russian_Translation.zip","file/Witcher_Villagers_Voice.zip"]
+resourcePacks:["fabric","file/Sodium_Russian_Translation.zip"]

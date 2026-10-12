@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1629",
+    "packVersion":  "20261012.1643",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -894,8 +894,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "da8a5043c356fef18f34a5cc5297f35fe2ef980f5c36238f41fbbf06d91fdebc",
-                      "size":  3612732,
+                      "sha256":  "740c93446d4b5156a8a5b1e5fe61adbd7d0527385b19fc29dd2ed7954854b212",
+                      "size":  35048,
                       "mode":  "sync"
                   },
                   {
@@ -1398,8 +1398,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "5b66063a29169edd16eeb22a381ba6dd809e52fe76650bd21bb41a32927f67f1",
-                      "size":  188,
+                      "sha256":  "6b801bf737b5fc32359e4cb5c3b4fbfeb88eec8862c60a8c02f6ef7209aa4725",
+                      "size":  153,
                       "mode":  "default"
                   },
                   {
@@ -1424,12 +1424,6 @@
                       "path":  "resourcepacks/Sodium_Russian_Translation.zip",
                       "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
                       "size":  1269344,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Witcher_Villagers_Voice.zip",
-                      "sha256":  "9ada751de2f9902e9df0f5af4e10867ad9443983a3f700b41c882465af6a157e",
-                      "size":  3576053,
                       "mode":  "sync"
                   },
                   {
