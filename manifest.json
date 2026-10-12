@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1725",
+    "packVersion":  "20261012.1743",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1617,12 +1617,6 @@
                       "sha256":  "4e66af8be122e0bb0aac62475cef035174a4da57d57b8a611c744988ac4a847b",
                       "size":  346,
                       "mode":  "default"
-                  },
-                  {
-                      "path":  "presets.json",
-                      "sha256":  "12f132059037d18a010b065578512a5ad4857461d6332f2f439270d29d2502c9",
-                      "size":  4050,
-                      "mode":  "sync"
                   },
                   {
                       "path":  "resourcepacks/Ancient City Panorama V2.zip",
