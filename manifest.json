@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1648",
+    "packVersion":  "20261012.1654",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -713,6 +713,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/Bountiful-6.0.4+1.20.1-fabric.jar",
+                      "sha256":  "e1fc030ed37cd23ff4d83da90061217a44e4d1011cd523204592c2332d55d74c",
+                      "size":  503384,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
                       "sha256":  "2eb70931dee86cef68c8538b8284c684225964632cd10e636ea938af6f66e6f7",
                       "size":  21987,
@@ -761,6 +767,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/IllagerInvasion-v8.0.7-1.20.1-Fabric.jar",
+                      "sha256":  "ab2e659d47d2a77882fdafb56f9cc9fa8b7670da5305c796084e1702f3b34b90",
+                      "size":  2312857,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
                       "sha256":  "5eea426af467564618e017e8f3a62f1c5c4224ab32a0a1726313de130a2d783d",
                       "size":  348818,
@@ -782,6 +794,12 @@
                       "path":  "mods/Jade-1.20-Fabric-11.13.3.jar",
                       "sha256":  "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375",
                       "size":  553868,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/Kambrik-6.1.1+1.20.1-fabric.jar",
+                      "sha256":  "c4f27750dab2a58124a94b58d4271819db05d6b2f5863391e4f0b6897fd047e1",
+                      "size":  327998,
                       "mode":  "sync"
                   },
                   {
@@ -812,6 +830,12 @@
                       "path":  "mods/PresenceFootsteps-1.10.1+1.20.1.jar",
                       "sha256":  "70f354e5ecd8993908601fcdfcb4e98f7b81f42192287282a5b86712e9a6be95",
                       "size":  5664952,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/PuzzlesLib-v8.1.36-1.20.1-Fabric.jar",
+                      "sha256":  "ed24c24a1453edd183806e074527e8c85cc8397e6ccfcbec8e227fa32b24f92c",
+                      "size":  1084883,
                       "mode":  "sync"
                   },
                   {
@@ -857,9 +881,33 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
+                      "sha256":  "44bee20e7f512d84686ec536ac8dd6bd07811b8e64d00ea48c470c93dd5e29e8",
+                      "size":  947293,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
                       "sha256":  "0a4657689217339a1f6079a2d9dda03f6d01beacac59c14e093ded3357db2b86",
                       "size":  621495,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                      "sha256":  "93e0e537fcf20b18c0ea340e6d4f2c20225a29c45252b9cf78e205107ab4f03a",
+                      "size":  760974,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+                      "sha256":  "3013484bceee72540a1eb76d403a0c36db0fd6d99a1e1b5a398b37ca50f27fb2",
+                      "size":  1165832,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                      "sha256":  "122b74d59629bf755663263a4ce43e58a5d13b74e67bea332d44a9bedb51b74a",
+                      "size":  611598,
                       "mode":  "sync"
                   },
                   {
@@ -1124,6 +1172,24 @@
                       "path":  "mods/lanserverproperties-1.11.1-fabric.jar",
                       "sha256":  "09c6869c645a8ddbb323bd6314d37453f56788a733010f9d67ee8feb9046aead",
                       "size":  43918,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/letsdo-API-fabric-1.2.14-fabric.jar",
+                      "sha256":  "21e6d984fd0bb7187613f91c8094b1015e075565176d8f242e56aea4f4fc66be",
+                      "size":  1702807,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/letsdo-brewery-fabric-1.1.9.jar",
+                      "sha256":  "744e0bf4eab5021cef354fcb7677131e63bf220dba101c023344a25c0ebfd841",
+                      "size":  2211492,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/letsdo-vinery-fabric-1.4.41.jar",
+                      "sha256":  "d9a64ee64b2c618e6b4ca15963c1998d2ee20769b74784ea1081741be58275af",
+                      "size":  3043160,
                       "mode":  "sync"
                   },
                   {
@@ -1400,6 +1466,12 @@
                       "path":  "mods/visuality-0.7.1+1.20.jar",
                       "sha256":  "f95afc78d944a06f807c683f5959878d8214d775cd81ecbbbc076fc43763202a",
                       "size":  67302,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/voicechat-fabric-1.20.1-2.6.24.jar",
+                      "sha256":  "d7cb238ab224d898210cecdf8ea8c0b4cbdf7839ee3cea36f44e63e1f1bd23dc",
+                      "size":  5296614,
                       "mode":  "sync"
                   },
                   {
