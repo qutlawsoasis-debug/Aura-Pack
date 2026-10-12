@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1606",
+    "packVersion":  "20261012.1629",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -872,6 +872,12 @@
                       "path":  "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
                       "sha256":  "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
                       "size":  1097240,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/architectury-9.2.14-fabric.jar",
+                      "sha256":  "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321",
+                      "size":  585207,
                       "mode":  "sync"
                   },
                   {
