@@ -143,7 +143,7 @@ foreach ($relPathRaw in $gitFiles) {
             }
         }
     }
-    elseif ($relPath.StartsWith("mods/") -or $relPath.StartsWith("shaderpacks/") -or $relPath.StartsWith("resourcepacks/") -or $relPath.StartsWith("tlm_custom_pack/")) {
+    elseif ($relPath.StartsWith("mods/") -or $relPath.StartsWith("shaderpacks/") -or $relPath.StartsWith("resourcepacks/") -or $relPath.StartsWith("tlm_custom_pack/") -or $relPath -eq "presets.json") {
         $mode = "sync"
     }
     else {

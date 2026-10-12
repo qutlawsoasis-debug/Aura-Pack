@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1704",
+    "packVersion":  "20261012.1718",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -863,6 +863,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/SubtleEffects-fabric-1.20.1-1.15.0.jar",
+                      "sha256":  "4d8c49624a7457591a5a5a60922a85c6c831201c4270c60731e47bc358399175",
+                      "size":  3477761,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Terralith_1.20.x_v2.5.4.jar",
                       "sha256":  "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
                       "size":  3156901,
@@ -1559,6 +1565,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/wakes-0.4.0+1.20.1.jar",
+                      "sha256":  "af3a93bf5993c2a8e4e608e559af3160eb4c0fd669585f79e22853aa811d4411",
+                      "size":  355290,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/waveycapes-fabric-1.11.2-mc1.20.1.jar",
                       "sha256":  "53e54d39d1dda6bd2e7e8b696c70da8d6b4e57a76043db7d0d63a62779a24bca",
                       "size":  1787074,
@@ -1613,6 +1625,12 @@
                       "mode":  "default"
                   },
                   {
+                      "path":  "presets.json",
+                      "sha256":  "eb9d320b7392b66c333fb55a05ca3b5844ed9bf4828efac0657dc17876713758",
+                      "size":  4160,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Ancient City Panorama V2.zip",
                       "sha256":  "73516be480a163397a3f7d58237e115930a05aa3fa36835a746e9149be2bee85",
                       "size":  16303991,
@@ -1649,15 +1667,33 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "shaderpacks/Bliss_v2.1.2_Chocapic13_Shaders_edit.zip",
+                      "sha256":  "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
+                      "size":  1791406,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
                       "sha256":  "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38",
                       "size":  553397,
                       "mode":  "sync"
                   },
                   {
-                      "path":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
-                      "sha256":  "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
-                      "size":  546928,
+                      "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
+                      "sha256":  "58c493896f8d315c8314b71cc4e8de5e7767777c049b4eee8f71ea11f45a50d1",
+                      "size":  291,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+                      "sha256":  "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a",
+                      "size":  553400,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/Kappa_v5.3.zip",
+                      "sha256":  "7748c7884d593fcebc23863bd4bad1fbae9fadb9cebc73165290d4705b89fe9d",
+                      "size":  3872527,
                       "mode":  "sync"
                   },
                   {
@@ -1667,9 +1703,27 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "shaderpacks/Solas_Shader_V3.7b.zip",
+                      "sha256":  "b7dfe4c7353d677a92cc4c86b87bc0633f1014305d927ca6a482c303427bf825",
+                      "size":  1252311,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "shaderpacks/photon_v1.3b.zip",
                       "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
                       "size":  3800987,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/rethinking-voxels_r0.1-beta9.zip",
+                      "sha256":  "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1",
+                      "size":  8301317,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/rethinking-voxels_r0.1-beta9.zip.txt",
+                      "sha256":  "4f4564031add4dedbbbf2fe39ec4d240e320c2447a04a53911f59dfa10fae395",
+                      "size":  487,
                       "mode":  "sync"
                   },
                   {
