@@ -4,4 +4,4 @@ guiScale:2
 fullscreen:true
 renderDistance:12
 simulationDistance:8
-resourcePacks:["fabric","file/Sodium_Russian_Translation.zip"]
+resourcePacks:["fabric","file/Sodium_Russian_Translation.zip","file/Patrix_1.20_models.zip","file/Patrix_1.20_32x_basic.zip","file/Patrix_1.20_32x_addon.zip","file/Patrix_1.20_32x_bonus.zip","file/Better-Leaves-9.6.zip","file/FreshAnimations_v1.10.4.zip"]

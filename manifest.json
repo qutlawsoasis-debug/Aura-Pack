@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1719",
+    "packVersion":  "20261012.1725",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1614,20 +1614,26 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "6b801bf737b5fc32359e4cb5c3b4fbfeb88eec8862c60a8c02f6ef7209aa4725",
-                      "size":  153,
+                      "sha256":  "4e66af8be122e0bb0aac62475cef035174a4da57d57b8a611c744988ac4a847b",
+                      "size":  346,
                       "mode":  "default"
                   },
                   {
                       "path":  "presets.json",
-                      "sha256":  "eb9d320b7392b66c333fb55a05ca3b5844ed9bf4828efac0657dc17876713758",
-                      "size":  4160,
+                      "sha256":  "12f132059037d18a010b065578512a5ad4857461d6332f2f439270d29d2502c9",
+                      "size":  4050,
                       "mode":  "sync"
                   },
                   {
                       "path":  "resourcepacks/Ancient City Panorama V2.zip",
                       "sha256":  "73516be480a163397a3f7d58237e115930a05aa3fa36835a746e9149be2bee85",
                       "size":  16303991,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Better-Leaves-9.6.zip",
+                      "sha256":  "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90",
+                      "size":  1977146,
                       "mode":  "sync"
                   },
                   {
@@ -1640,6 +1646,30 @@
                       "path":  "resourcepacks/FreshAnimations_v1.10.4.zip",
                       "sha256":  "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2",
                       "size":  850941,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Patrix_1.20_32x_addon.zip",
+                      "sha256":  "d82c20cb58527412e24d9c12492a64f4bad1583bd9aa1535a75361801b78fded",
+                      "size":  14733548,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Patrix_1.20_32x_basic.zip",
+                      "sha256":  "677042c0585cd55536ece4144eed30d6499480def82911efa2c5a80816d804f0",
+                      "size":  52420230,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Patrix_1.20_32x_bonus.zip",
+                      "sha256":  "7beade9d501343b9efaa7a0f7e5bdae273294d6157ee9fd8dee7cbf5bbf3b7ac",
+                      "size":  3578260,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Patrix_1.20_models.zip",
+                      "sha256":  "2d5cc4f6cf091d8caab630dbbe41b6b5f69ad804e9b0cdf9a128ceda05922e13",
+                      "size":  66799,
                       "mode":  "sync"
                   },
                   {
@@ -1685,9 +1715,27 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "shaderpacks/DERCODE_2.2.zip",
+                      "sha256":  "6a3aa0682c83f142dac698ace1b16ef8b0a0e2932d732aa5ac259d13c1c0a09e",
+                      "size":  23141260,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/DERCODE_2.2.zip.txt",
+                      "sha256":  "dd2b51628c0ebd25ee89815ea068fb5289ff8f724ec07e8a7b06a330977b66af",
+                      "size":  436,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "shaderpacks/Kappa_v5.3.zip",
                       "sha256":  "7748c7884d593fcebc23863bd4bad1fbae9fadb9cebc73165290d4705b89fe9d",
                       "size":  3872527,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/Kappa_v5.3.zip.txt",
+                      "sha256":  "423c38c9a9fd823b1e7150a30c887e0c0ba55293d1a92b0759ee17779127b1fd",
+                      "size":  320,
                       "mode":  "sync"
                   },
                   {
@@ -1706,18 +1754,6 @@
                       "path":  "shaderpacks/photon_v1.3b.zip",
                       "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
                       "size":  3800987,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/rethinking-voxels_r0.1-beta9.zip",
-                      "sha256":  "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1",
-                      "size":  8301317,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/rethinking-voxels_r0.1-beta9.zip.txt",
-                      "sha256":  "4f4564031add4dedbbbf2fe39ec4d240e320c2447a04a53911f59dfa10fae395",
-                      "size":  487,
                       "mode":  "sync"
                   },
                   {

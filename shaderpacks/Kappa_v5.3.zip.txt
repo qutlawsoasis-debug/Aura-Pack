@@ -1,0 +1,15 @@
+profile=Ultra
+pomEnabled=true
+pomShadowSamples=16
+pomSamples=32
+pomDepth=0.2
+resourcepackReflectionsEnabled=true
+specularHighlightsEnabled=true
+roughReflectionsEnabled=true
+normalmapEnabled=true
+ssptEnabled=true
+wetnessMode=1
+cloudVolumeEnabled=true
+fogVolumeEnabled=true
+waterVolumeEnabled=true
+shadowMapResolution=2048
