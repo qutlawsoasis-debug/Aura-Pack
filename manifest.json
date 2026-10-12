@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1643",
+    "packVersion":  "20261012.1648",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -545,6 +545,12 @@
                       "mode":  "default"
                   },
                   {
+                      "path":  "config/villagernames/customnames.txt",
+                      "sha256":  "76da7321f9561fbd4e2e93c67cc877989fc65c46a4fed1b8083485969f1258a9",
+                      "size":  3570,
+                      "mode":  "default"
+                  },
+                  {
                       "path":  "config/visuality.json",
                       "sha256":  "88d657f8162309d18cd50a9d38b6e166b00e36c8ed9f69f5637067e0b1523427",
                       "size":  1142,
@@ -923,6 +929,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/chefs-delight-1.0.4-fabric-1.20.1.jar",
+                      "sha256":  "ce806d8939d121a650975aa6b9dad9591ea927371e494fab9b54a1bd9f32f54f",
+                      "size":  118215,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/cloth-config-11.1.136-fabric.jar",
                       "sha256":  "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa",
                       "size":  1172214,
@@ -956,6 +968,12 @@
                       "path":  "mods/ctov-3.4.14-fabric.jar",
                       "sha256":  "0d40c400db89eb5bdd8e4173707525e2e0301fd15d59073bd9b9712ffa7c37e4",
                       "size":  6734661,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/ctov-villagers-plus-compat-2.0.jar",
+                      "sha256":  "ef3d8c911e02da7ff09295c14e9944ef1baa57003e70cc40454edb4bf1abd24f",
+                      "size":  381094,
                       "mode":  "sync"
                   },
                   {
@@ -1070,6 +1088,12 @@
                       "path":  "mods/grand-teleport-1.20.1-build252.jar",
                       "sha256":  "d02ae63ce942a235515b2f804d9f4183cfef25e784ed6e31fcda35fc16c0da30",
                       "size":  1118555,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/guardvillagers-2.0.9-1.20.1.jar",
+                      "sha256":  "a18f60127cfc8f0f75867738255a98026ae53a3f4a02b5ce4901baaecfcab502",
+                      "size":  298755,
                       "mode":  "sync"
                   },
                   {
@@ -1253,6 +1277,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/simple_villager_follow-fabric-1.20.1-1.0.0.jar",
+                      "sha256":  "8b4dcf141f98de394c723791003287fdf2005574a986240aaae455ba1e2bfe28",
+                      "size":  10936,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/skinlayers3d-fabric-1.11.3-mc1.20.1.jar",
                       "sha256":  "97361a4ea97d016a6814c70ad49174498ba617899930c1e3e17a27f7ad56c963",
                       "size":  1912385,
@@ -1346,6 +1376,24 @@
                       "path":  "mods/trinkets-3.7.2.jar",
                       "sha256":  "a6f11a4206c1285cd260a60d9bfe9cefa9914d2190d08b3c52050f42044b53b3",
                       "size":  238532,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/villagernames-1.20.1-8.7.jar",
+                      "sha256":  "13623d291855ac01d9ec64b6a8977596fafe66b8e2ad5de60249c192664de2b2",
+                      "size":  56124,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/villagersplus-fabric-mc1.20.1-4.0.0.jar",
+                      "sha256":  "b414678aec4e89365480bedb15dda46249723c7d34568fb26f0f868e09ba93e9",
+                      "size":  449242,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/villagertradingplus-fabric-mc1.20.1-1.0.0.jar",
+                      "sha256":  "a0ce1eabcdedade64f361edb173b1ef285cda6541b34062e9ace37a2bc585079",
+                      "size":  175574,
                       "mode":  "sync"
                   },
                   {
