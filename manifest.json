@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1743",
+    "packVersion":  "20261012.1800",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -369,6 +369,12 @@
                       "sha256":  "a699f828fd142094500fb0b4ba7dd97a88032280a58569149c6015955efc92ae",
                       "size":  111,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/simplyswords/compatibility.toml",
+                      "sha256":  "909a2c74eb3583c9f116b2a63e868713da9fdccc43478550f4617485c42031d0",
+                      "size":  11976,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/skinlayers.json",
