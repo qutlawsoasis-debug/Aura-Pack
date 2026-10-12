@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1800",
+    "packVersion":  "20261012.1801",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -992,12 +992,6 @@
                       "path":  "mods/balm-fabric-1.20.1-7.3.44.jar",
                       "sha256":  "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
                       "size":  576169,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/bettercombat-fabric-1.9.0+1.20.1.jar",
-                      "sha256":  "c1b680dd03d3af3bf670cf0d024d58bd06360f5b0818eabfec6d7c8e6a11ec07",
-                      "size":  907055,
                       "mode":  "sync"
                   },
                   {
