@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1718",
+    "packVersion":  "20261012.1719",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -854,12 +854,6 @@
                       "path":  "mods/SimplyTooltips-fabric-0.1.5-1.20.1.jar",
                       "sha256":  "c7573a331ef9cfdb5da3ab3f63431ea8e3c870d2efa84ed4012127173d416d96",
                       "size":  5518319,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/SubtleEffects-fabric-1.20.1-1.14.3.jar",
-                      "sha256":  "53aa7bcf73dc766bf7b543d3555d04e107f05d93802a19138607b69fbaf60c58",
-                      "size":  3340781,
                       "mode":  "sync"
                   },
                   {
