@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261011.2154",
+    "packVersion":  "20261012.1606",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -266,12 +266,6 @@
                       "path":  "config/map_atlases-common.json",
                       "sha256":  "e437feb0c4a80f89b44890f45f4feeaf729c8927c853c330dbf9ebeea25a89ad",
                       "size":  758,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/mca.json",
-                      "sha256":  "1c2d1d9f274499bcc0c29c7162733be0a9728ca9f8b446f9d6bb86486d96a772",
-                      "size":  10069,
                       "mode":  "default"
                   },
                   {
@@ -881,12 +875,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/architectury-9.2.14-fabric.jar",
-                      "sha256":  "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321",
-                      "size":  585207,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/artifacts-fabric-9.5.17.jar",
                       "sha256":  "7a2ce37ac5a0a762546df8c0f974d3466056457d85c7af22cbef669640a71d66",
                       "size":  960096,
@@ -900,8 +888,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "69b326dec774b9be83b257a62ce8f01a938f5a63a638ed80f37e66e9d276e9a3",
-                      "size":  36256,
+                      "sha256":  "da8a5043c356fef18f34a5cc5297f35fe2ef980f5c36238f41fbbf06d91fdebc",
+                      "size":  3612732,
                       "mode":  "sync"
                   },
                   {
@@ -1154,12 +1142,6 @@
                       "path":  "mods/mcw-roofs-2.3.2-mc1.20.1fabric.jar",
                       "sha256":  "efdd2df129d71bb35aa123c46811bf568b833887af32d72d21540176c6255a41",
                       "size":  1796110,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/minecraft-comes-alive-7.7.1-beta.4+1.20.1-universal.jar",
-                      "sha256":  "8a7e158660fb5ac7f5bf95ecad29f4cabc0c3a57d2cb260fa0b79d0046afcb7d",
-                      "size":  21110093,
                       "mode":  "sync"
                   },
                   {
@@ -1440,8 +1422,8 @@
                   },
                   {
                       "path":  "resourcepacks/Witcher_Villagers_Voice.zip",
-                      "sha256":  "e9e19b8f31c80df9fee27f06aa44890995ed612b3dc262ad139612d0a4120b6d",
-                      "size":  8770491,
+                      "sha256":  "9ada751de2f9902e9df0f5af4e10867ad9443983a3f700b41c882465af6a157e",
+                      "size":  3576053,
                       "mode":  "sync"
                   },
                   {
