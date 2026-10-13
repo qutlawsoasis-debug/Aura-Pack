@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261012.1801",
+    "packVersion":  "20261013.0039",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -773,6 +773,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/HoldMyItems-4.2.5H1-1.20.1.jar",
+                      "sha256":  "1eb76485f6c1762387ef47b2996f310cb667157b2ce113eb88dea86c24823608",
+                      "size":  51003,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/Iceberg-1.20.1-fabric-1.1.25.jar",
                       "sha256":  "f142f15b72e36225b9828e5f44e8453e54a26a57048b12fe49ab8fb6476793f8",
                       "size":  119018,
@@ -944,6 +950,12 @@
                       "path":  "mods/alternate-current-mc1.20-1.9.0.jar",
                       "sha256":  "cbecb4abf4aa734a7617fa7ad771af118cd06cfac7ea7f26f43e9ff6ef6eb515",
                       "size":  51875,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/amendments-1.20-2.2.6-fabric.jar",
+                      "sha256":  "d935f9e0b8243571e38043d964ee88a44ff555ba6fb9fb8fc73d0df90b34727e",
+                      "size":  1281333,
                       "mode":  "sync"
                   },
                   {
@@ -1202,6 +1214,12 @@
                       "path":  "mods/krypton-0.2.3.jar",
                       "sha256":  "69ad1810206ce12181b1b083640f044e7e250781c36c96c655eac36209057698",
                       "size":  185895,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/lambdynamiclights-4.4.0+1.20.1.jar",
+                      "sha256":  "074d6c79e002790b696ebcfdd4ff2a2d57ec55228f93b47e952eeebd5baf5301",
+                      "size":  1114373,
                       "mode":  "sync"
                   },
                   {
