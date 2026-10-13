@@ -90,6 +90,21 @@ finally {
     Pop-Location
 }
 
+# 3.5. Update local %APPDATA%\.aura\pack-state.json if present so local launcher stays in sync immediately
+$localAuraDir = Join-Path $env:APPDATA ".aura"
+$localStatePath = Join-Path $localAuraDir "pack-state.json"
+if (Test-Path $localStatePath) {
+    try {
+        $localState = Get-Content $localStatePath -Raw | ConvertFrom-Json
+        $localState.PackVersion = $packVersion
+        $localState.InstalledAtUtc = [DateTime]::UtcNow.ToString("o")
+        $localState | ConvertTo-Json -Depth 5 | Set-Content -Path $localStatePath -Encoding UTF8
+        Write-Host "Updated local pack-state.json to PackVersion: $packVersion"
+    } catch {
+        Write-Host "Warning: could not update local pack-state.json: $_"
+    }
+}
+
 # 4. Verify from raw.githubusercontent.com
 Write-Host "`n=== Verification from raw.githubusercontent.com ==="
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
@@ -105,6 +120,7 @@ function Download-And-Hash {
     $req = [System.Net.HttpWebRequest]::Create($url)
     $req.Method = "GET"
     $req.UserAgent = "AuraPackPublisher"
+    $req.Headers.Add("Cache-Control", "no-cache")
     $req.Timeout = 25000
 
     try {
@@ -137,21 +153,24 @@ function Download-And-Hash {
     }
 }
 
-# 4.1. Check manifest.json
-$manifestUrl = "$($rawBase)/manifest.json?t=" + [DateTime]::UtcNow.Ticks
-$mStatus = 0
-$mHash = Download-And-Hash -url $manifestUrl -statusCode ([ref]$mStatus)
-if ($mStatus -ne 200) {
-    throw "Failed to download manifest.json from GitHub (HTTP $mStatus)"
+# 4.1. Check manifest.json (wait for GitHub Fastly CDN cache if needed)
+$remoteManifest = $null
+for ($attempt = 1; $attempt -le 12; $attempt++) {
+    $manifestUrl = "$($rawBase)/manifest.json?t=" + [DateTime]::UtcNow.Ticks
+    $mStatus = 0
+    $mHash = Download-And-Hash -url $manifestUrl -statusCode ([ref]$mStatus)
+    if ($mStatus -ne 200) {
+        throw "Failed to download manifest.json from GitHub (HTTP $mStatus)"
+    }
+    $remoteManifest = (Invoke-RestMethod -Uri $manifestUrl -Headers @{"User-Agent"="AuraPackPublisher"; "Cache-Control"="no-cache"})
+    if ($remoteManifest.packVersion -eq $packVersion) {
+        Write-Host "manifest.json verified: HTTP 200, SHA-256: $mHash"
+        Write-Host "packVersion on GitHub matches: $packVersion"
+        break
+    }
+    Write-Host "Waiting for GitHub CDN cache to refresh (current CDN: $($remoteManifest.packVersion), expected: $packVersion, attempt $attempt/12)..."
+    Start-Sleep -Seconds 5
 }
-Write-Host "manifest.json verified: HTTP 200, SHA-256: $mHash"
-
-# Check packVersion in remote manifest
-$remoteManifest = (Invoke-RestMethod -Uri $manifestUrl -Headers @{"User-Agent"="AuraPackPublisher"})
-if ($remoteManifest.packVersion -ne $packVersion) {
-    throw "Remote packVersion mismatch! Local: $packVersion, Remote: $($remoteManifest.packVersion)"
-}
-Write-Host "packVersion on GitHub matches: $packVersion"
 
 # 4.2. Check 2 files with '+' in path: %2B vs literal '+'
 $plusFiles = @($manifest.files | Where-Object { $_.path -match "\+" })

@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.0039",
+    "packVersion":  "20261013.0148",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -273,6 +273,12 @@
                       "sha256":  "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444",
                       "size":  37,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/minecraft/punchy/compat/punchy.json",
+                      "sha256":  "74e66ee9da36401fcc5d6d44eedbbf8a650e8918a093949e9b9e0daa61b9547c",
+                      "size":  3630,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/modernfix-mixins.properties",
@@ -770,12 +776,6 @@
                       "path":  "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
                       "sha256":  "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a",
                       "size":  396628,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/HoldMyItems-4.2.5H1-1.20.1.jar",
-                      "sha256":  "1eb76485f6c1762387ef47b2996f310cb667157b2ce113eb88dea86c24823608",
-                      "size":  51003,
                       "mode":  "sync"
                   },
                   {
@@ -1361,6 +1361,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/punchy-2.8e-fabric-1.20.1.jar",
+                      "sha256":  "81e3454ed95f64a8abb83501f137ebff938a0258a3cbd7e7cfbc00c74b3d8778",
+                      "size":  1902044,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/ranged_weapon_api-fabric-2.3.4+1.20.1.jar",
                       "sha256":  "7c2f023ad7a5ab1f1fcf333059d1745e23350374816bfd8d9bb4391c3679fb14",
                       "size":  161017,
@@ -1632,8 +1638,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "4e66af8be122e0bb0aac62475cef035174a4da57d57b8a611c744988ac4a847b",
-                      "size":  346,
+                      "sha256":  "ab7685a5f5b4b9930f72f1aa8ed0b4b6dd938182896597276f257f6c9b4efea9",
+                      "size":  455,
                       "mode":  "default"
                   },
                   {
@@ -1649,6 +1655,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
+                      "sha256":  "6adfb64bbe233f5a90ebc470c1b55f0abaf4aa232b12645d8497cca3d5496464",
+                      "size":  63756,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Dungeons Content UI.zip",
                       "sha256":  "13dd74b1f5180fb587e498e404afd0dfa4a1c077b80a175afd8edecf7dea45ad",
                       "size":  10291899,
@@ -1658,6 +1670,12 @@
                       "path":  "resourcepacks/FreshAnimations_v1.10.4.zip",
                       "sha256":  "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2",
                       "size":  850941,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip",
+                      "sha256":  "b4a9b4846d70a121c1fe794b996c07f1d80f7c5ba655f12b082dc163c105ae83",
+                      "size":  235388,
                       "mode":  "sync"
                   },
                   {
