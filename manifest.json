@@ -1,15 +1,9 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1636",
+    "packVersion":  "20261013.1640",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
-                  {
-                      "path":  "Config.class",
-                      "sha256":  "e5b2de29d61d130ad28f9bed89d3559c21d0356d116fd59f2ad9271e45b9995d",
-                      "size":  1053,
-                      "mode":  "default"
-                  },
                   {
                       "path":  "config/DistantHorizons.toml",
                       "sha256":  "bd203bbda72a5a02bdeba5aa8ddb698205cee0212ed1b717edb3680fdc902c31",
