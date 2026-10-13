@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1734",
+    "packVersion":  "20261013.1756",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -113,15 +113,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "config/e4all.toml",
-                      "sha256":  "fef49f48da6b811539bfdaab404a5bb723aea329b0ebc0bad540f432985d76cb",
-                      "size":  3485,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "config/e4all/e4all.toml",
-                      "sha256":  "53bc0486f0211b93c1394c7e0e213f2ec69b70190c839359f6516de5d4fd7224",
-                      "size":  3483,
+                      "sha256":  "3d9b1daa503197c90a65521920ba8a7d45dfc8c6e2789b8c37028c645cc4eee5",
+                      "size":  3486,
                       "mode":  "sync"
                   },
                   {
@@ -468,8 +462,8 @@
                   },
                   {
                       "path":  "config/sound_physics_remastered/soundphysics.properties",
-                      "sha256":  "068ccd6b0985f7ba643fb7ccd6e8149378b4679891a90aa2c787f8ba278330c6",
-                      "size":  5105,
+                      "sha256":  "71222cdd551505f8c30264a541e1d343f5f6d292efe7a70980dd52cb43476644",
+                      "size":  5106,
                       "mode":  "default"
                   },
                   {
@@ -1586,12 +1580,6 @@
                       "path":  "mods/visuality-0.7.1+1.20.jar",
                       "sha256":  "f95afc78d944a06f807c683f5959878d8214d775cd81ecbbbc076fc43763202a",
                       "size":  67302,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/voicechat-fabric-1.20.1-2.6.24.jar",
-                      "sha256":  "d7cb238ab224d898210cecdf8ea8c0b4cbdf7839ee3cea36f44e63e1f1bd23dc",
-                      "size":  5296614,
                       "mode":  "sync"
                   },
                   {

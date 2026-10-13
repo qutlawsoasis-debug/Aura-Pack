@@ -21,10 +21,10 @@ hostEnabled = true
 preventPauseWhileHosting = true
 # Whether to enable Dialtone peer-to-peer connections as the host
 # default: true
-dialtoneHostEnabled = true
+dialtoneHostEnabled = false
 # Whether to enable Dialtone peer-to-peer connections as the player
 # default: true
-dialtonePlayerEnabled = true
+dialtonePlayerEnabled = false
 # The URL to get the list of Iroh relays to use
 # default: https://natives.e4mc.link/relaymap.json
 dialtoneRelayMap = "https://natives.e4mc.link/relaymap.json"
@@ -42,7 +42,7 @@ reconnectBaseDelaySeconds = 2
 keepaliveIntervalSeconds = 15
 # How long (in ms) a guest login may wait for a starting world to finish its first tick before being rejected. Heavy modpacks can stall a full server tick for several seconds; waiting avoids kicking everyone who joins in that window. Set to 0 to reject immediately instead of waiting.
 # default: 15000
-loginReadyTimeoutMs = 15000
+loginReadyTimeoutMs = 45000
 # Whether to enable offline mode (disables Microsoft authentication for ALL LAN connections, including both tunneled and direct). Toggle via the 'Online Mode' button on the Open to LAN screen.
 # default: false
 offlineMode = true
@@ -57,7 +57,7 @@ welcomeShown = false
 hideDomainInChat = false
 # Master switch for SVC P2P voice support. When disabled, voice will not be negotiated.
 # default: true
-voiceP2PEnabled = true
+voiceP2PEnabled = false
 # Allow pure-Java UDP path when Dialtone is unavailable (e.g. Android, or iroh connection would be relayed)
 # default: true
 voiceP2PUdpFallback = true
