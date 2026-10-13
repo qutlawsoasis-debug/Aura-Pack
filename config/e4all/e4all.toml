@@ -45,7 +45,7 @@ keepaliveIntervalSeconds = 15
 loginReadyTimeoutMs = 15000
 # Whether to enable offline mode (disables Microsoft authentication for ALL LAN connections, including both tunneled and direct). Toggle via the 'Online Mode' button on the Open to LAN screen.
 # default: false
-offlineMode = false
+offlineMode = true
 # Whether the offline mode warning has already been shown to the user
 # default: false
 offlineWarningShown = false

@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1314",
+    "packVersion":  "20261013.1434",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -114,8 +114,8 @@
                   },
                   {
                       "path":  "config/e4all/e4all.toml",
-                      "sha256":  "2ac510da194b447b6756f88ff0d4099629befa6644ef875922803473d1550c28",
-                      "size":  3484,
+                      "sha256":  "53bc0486f0211b93c1394c7e0e213f2ec69b70190c839359f6516de5d4fd7224",
+                      "size":  3483,
                       "mode":  "default"
                   },
                   {
@@ -1082,6 +1082,12 @@
                       "path":  "mods/dungeons-and-taverns-3.0.3.f.jar",
                       "sha256":  "1da45baa734df73b1aa46f0b3f319b051c26507a911ec52bfcb1ccae6930e4f0",
                       "size":  13161726,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/e4all-fabric-2.2.0.jar",
+                      "sha256":  "d97d18f3787267ca2e4c57c520a73c62f715e982f59b90008549acb146a2cbdc",
+                      "size":  879947,
                       "mode":  "sync"
                   },
                   {
