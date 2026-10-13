@@ -8,7 +8,7 @@
   "enableMod": true,
   "enableTuning": false,
   "disableResourcePackModelParts": false,
-  "disableArmPhysics": true,
+  "disableArmPhysics": false,
   "disableNativeItemPhysics": false,
   "disableBoatMinecartRaftModels": false,
   "disablePistonModels": false,
