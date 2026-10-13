@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1756",
+    "packVersion":  "20261013.1915",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -339,6 +339,12 @@
                       "sha256":  "2d75ca7461d7bc35dd6b33a5ced91bf0a121ffb20518b01f9f97349d3c62a8eb",
                       "size":  467,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/punchy/punchy_config.json",
+                      "sha256":  "efa4d59d9cffff7d9114df0ee11ee428c2b54bc13dce582aa339cf1c8fe6ba28",
+                      "size":  1358,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/sable-client.toml",
@@ -1370,6 +1376,12 @@
                       "path":  "mods/player-locator-plus-2.2.0.jar",
                       "sha256":  "109c72eb7f63b154e767b65fb2adde03d14fc6ef08fb7044462e2e23e47fa76c",
                       "size":  4428772,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/punchy-2.8e-fabric-1.20.1.jar",
+                      "sha256":  "81e3454ed95f64a8abb83501f137ebff938a0258a3cbd7e7cfbc00c74b3d8778",
+                      "size":  1902044,
                       "mode":  "sync"
                   },
                   {
