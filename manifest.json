@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1518",
+    "packVersion":  "20261013.1522",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -110,6 +110,12 @@
                       "path":  "config/doubledoors.json5",
                       "sha256":  "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
                       "size":  979,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/e4all.toml",
+                      "sha256":  "53bc0486f0211b93c1394c7e0e213f2ec69b70190c839359f6516de5d4fd7224",
+                      "size":  3483,
                       "mode":  "default"
                   },
                   {
@@ -254,6 +260,12 @@
                       "path":  "config/lithostitched.json",
                       "sha256":  "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df",
                       "size":  284,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/lsp.json",
+                      "sha256":  "96553303007f98a2e5dd25ccb87b2c4652286a56f35d254cc852d7437aa4f2df",
+                      "size":  214,
                       "mode":  "default"
                   },
                   {
