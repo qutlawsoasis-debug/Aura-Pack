@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1522",
+    "packVersion":  "20261013.1530",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1760,6 +1760,12 @@
                       "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
                       "sha256":  "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a",
                       "size":  553400,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt",
+                      "sha256":  "b814ae28a52491a9e4f01abce0317f161e8dce0520f4386e5f19722012b15725",
+                      "size":  292,
                       "mode":  "sync"
                   },
                   {
