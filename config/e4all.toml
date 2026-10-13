@@ -21,10 +21,10 @@ hostEnabled = true
 preventPauseWhileHosting = true
 # Whether to enable Dialtone peer-to-peer connections as the host
 # default: true
-dialtoneHostEnabled = false
+dialtoneHostEnabled = true
 # Whether to enable Dialtone peer-to-peer connections as the player
 # default: true
-dialtonePlayerEnabled = false
+dialtonePlayerEnabled = true
 # The URL to get the list of Iroh relays to use
 # default: https://natives.e4mc.link/relaymap.json
 dialtoneRelayMap = "https://natives.e4mc.link/relaymap.json"

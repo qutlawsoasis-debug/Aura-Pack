@@ -1,9 +1,15 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1602",
+    "packVersion":  "20261013.1636",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
+                  {
+                      "path":  "Config.class",
+                      "sha256":  "e5b2de29d61d130ad28f9bed89d3559c21d0356d116fd59f2ad9271e45b9995d",
+                      "size":  1053,
+                      "mode":  "default"
+                  },
                   {
                       "path":  "config/DistantHorizons.toml",
                       "sha256":  "bd203bbda72a5a02bdeba5aa8ddb698205cee0212ed1b717edb3680fdc902c31",
@@ -110,19 +116,19 @@
                       "path":  "config/doubledoors.json5",
                       "sha256":  "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
                       "size":  979,
-                      "mode":  "default"
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/e4all.toml",
-                      "sha256":  "fef49f48da6b811539bfdaab404a5bb723aea329b0ebc0bad540f432985d76cb",
-                      "size":  3485,
-                      "mode":  "default"
+                      "sha256":  "94203f2b7bfc0d9ff447848c0075736d3c6f5f32285da8d73b7fa77450a6200d",
+                      "size":  3483,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/e4all/e4all.toml",
                       "sha256":  "53bc0486f0211b93c1394c7e0e213f2ec69b70190c839359f6516de5d4fd7224",
                       "size":  3483,
-                      "mode":  "default"
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/emi.css",
@@ -348,8 +354,8 @@
                   },
                   {
                       "path":  "config/punchy/punchy_config.json",
-                      "sha256":  "e228d866350c8a2253de76ffbacb3fd77dd9e810de7b14c36e833bda351f52b1",
-                      "size":  1356,
+                      "sha256":  "ca9dd5c2ee3380652fafef60423eb0a3ea93c4e722f9ccc9550711ba69cfd776",
+                      "size":  1357,
                       "mode":  "sync"
                   },
                   {
@@ -1766,18 +1772,6 @@
                       "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt",
                       "sha256":  "b814ae28a52491a9e4f01abce0317f161e8dce0520f4386e5f19722012b15725",
                       "size":  292,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/DERCODE_2.2.zip",
-                      "sha256":  "6a3aa0682c83f142dac698ace1b16ef8b0a0e2932d732aa5ac259d13c1c0a09e",
-                      "size":  23141260,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/DERCODE_2.2.zip.txt",
-                      "sha256":  "dd2b51628c0ebd25ee89815ea068fb5289ff8f724ec07e8a7b06a330977b66af",
-                      "size":  436,
                       "mode":  "sync"
                   },
                   {

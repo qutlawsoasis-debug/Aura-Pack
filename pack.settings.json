@@ -7,6 +7,9 @@
     "tlm_custom_pack/z_Aura_Default_Maid.zip",
     "config/touhou_little_maid-common.toml",
     "config/simplyswords/compatibility.toml",
-    "config/punchy/punchy_config.json"
+    "config/punchy/punchy_config.json",
+    "config/e4all.toml",
+    "config/e4all/e4all.toml",
+    "config/doubledoors.json5"
   ]
 }
