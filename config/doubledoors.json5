@@ -3,13 +3,13 @@
 	"enableRecursiveOpening": true,
 	// How many blocks the recursive function should search when 'enableRecursiveOpening' is enabled.
 	// min: 1, max: 64
-	"recursiveOpeningMaxBlocksDistance": 10,
+	"recursiveOpeningMaxBlocksDistance": 16,
 	// When enables, the mod works with double doors.
 	"enableDoors": true,
 	// When enables, the mod works with double fence gates.
-	"enableFenceGates": false,
+	"enableFenceGates": true,
 	// When enables, the mod works with double trapdoors.
-	"enableTrapdoors": false,
+	"enableTrapdoors": true,
 	// Checks if there are other mods loaded with double door functionality, such as Quark. If found, it edits a line in their config to disable double doors. Fixes doors not opening due to code being ran twice.
 	"enableModIncompatibilityCheck": true
 }

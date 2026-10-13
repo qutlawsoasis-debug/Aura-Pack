@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1434",
+    "packVersion":  "20261013.1518",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -108,8 +108,8 @@
                   },
                   {
                       "path":  "config/doubledoors.json5",
-                      "sha256":  "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e",
-                      "size":  981,
+                      "sha256":  "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
+                      "size":  979,
                       "mode":  "default"
                   },
                   {
@@ -1076,6 +1076,12 @@
                       "path":  "mods/decorative_blocks-fabric-1.20.1-4.1.3.jar",
                       "sha256":  "9273e91494670ddab6feaa6151df5a65c05966fe14306476e67ab77af37f4f72",
                       "size":  546719,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/doubledoors-1.20.1-7.3.jar",
+                      "sha256":  "2ee73612dae3afea33083d09173ea8c6136822f989a7f86905c3b859c9997207",
+                      "size":  54162,
                       "mode":  "sync"
                   },
                   {
