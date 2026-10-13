@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.0148",
+    "packVersion":  "20261013.1314",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -275,12 +275,6 @@
                       "mode":  "default"
                   },
                   {
-                      "path":  "config/minecraft/punchy/compat/punchy.json",
-                      "sha256":  "74e66ee9da36401fcc5d6d44eedbbf8a650e8918a093949e9b9e0daa61b9547c",
-                      "size":  3630,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "config/modernfix-mixins.properties",
                       "sha256":  "94eaec2a459f27b9e5726bd83c70584476b26705a1c0479dcd6eddaa46f1962e",
                       "size":  4418,
@@ -339,6 +333,12 @@
                       "sha256":  "2d75ca7461d7bc35dd6b33a5ced91bf0a121ffb20518b01f9f97349d3c62a8eb",
                       "size":  467,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/punchy/punchy_config.json",
+                      "sha256":  "e228d866350c8a2253de76ffbacb3fd77dd9e810de7b14c36e833bda351f52b1",
+                      "size":  1356,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/sable-client.toml",
@@ -1638,8 +1638,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "ab7685a5f5b4b9930f72f1aa8ed0b4b6dd938182896597276f257f6c9b4efea9",
-                      "size":  455,
+                      "sha256":  "660003ce76df4b0f85db75cbb836b84254402a4d21bc189ece0d57f5a720ca58",
+                      "size":  417,
                       "mode":  "default"
                   },
                   {
@@ -1652,12 +1652,6 @@
                       "path":  "resourcepacks/Better-Leaves-9.6.zip",
                       "sha256":  "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90",
                       "size":  1977146,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
-                      "sha256":  "6adfb64bbe233f5a90ebc470c1b55f0abaf4aa232b12645d8497cca3d5496464",
-                      "size":  63756,
                       "mode":  "sync"
                   },
                   {
