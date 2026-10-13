@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.1915",
+    "packVersion":  "20261013.2005",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -110,12 +110,6 @@
                       "path":  "config/doubledoors.json5",
                       "sha256":  "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
                       "size":  979,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/e4all/e4all.toml",
-                      "sha256":  "3d9b1daa503197c90a65521920ba8a7d45dfc8c6e2789b8c37028c645cc4eee5",
-                      "size":  3486,
                       "mode":  "sync"
                   },
                   {
@@ -1094,12 +1088,6 @@
                       "path":  "mods/dungeons-and-taverns-3.0.3.f.jar",
                       "sha256":  "1da45baa734df73b1aa46f0b3f319b051c26507a911ec52bfcb1ccae6930e4f0",
                       "size":  13161726,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/e4all-fabric-2.2.0.jar",
-                      "sha256":  "d97d18f3787267ca2e4c57c520a73c62f715e982f59b90008549acb146a2cbdc",
-                      "size":  879947,
                       "mode":  "sync"
                   },
                   {
