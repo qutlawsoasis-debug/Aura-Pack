@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261013.2005",
+    "packVersion":  "20261014.1614",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1097,6 +1097,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/effortless-1.20.1-3.4.0.jar",
+                      "sha256":  "24cbbffe480eb65126af382e1e09d79fdf51862f7f71e27dcdc5e1ac68fd194c",
+                      "size":  1906064,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/emi-1.1.24+1.20.1+fabric.jar",
                       "sha256":  "537b062e0dc6f028cf84cf66a473ed1b8842219a708d17cdb292401441b0f367",
                       "size":  1124008,
@@ -1259,6 +1265,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/litematica-fabric-1.20.1-0.15.4.jar",
+                      "sha256":  "ddfcce1c069980e3f88900e69a8762548e5422511c09b323df7005ff00e80c85",
+                      "size":  923876,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
                       "sha256":  "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782",
                       "size":  691483,
@@ -1268,6 +1280,12 @@
                       "path":  "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
                       "sha256":  "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
                       "size":  487655,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/malilib-fabric-1.20.1-0.16.3.jar",
+                      "sha256":  "5ae189f27fbd49aa48e83e00251fe1d75c3e42c74f55575ae4e0a232ad0c3589",
+                      "size":  545403,
                       "mode":  "sync"
                   },
                   {
