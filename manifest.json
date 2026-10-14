@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261014.1653",
+    "packVersion":  "20261014.1714",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1725,6 +1725,606 @@
                       "sha256":  "31830ec001b74d5c57934d8b276c6d317515a38f8406b28c91cce7c2f93fb550",
                       "size":  9491,
                       "mode":  "sync"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Cliffside_Cave_House.litematic",
+                      "sha256":  "91259457f96a101ec99dbeabe51a19e672960665b0bb8390fb0f9dc1b1934663",
+                      "size":  12560,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Cozy_Survival_Base.litematic",
+                      "sha256":  "bfbffcfbaa2c7de8e96f3bd50d6492a1cf570886209d5af0e2a7910e7a73b894",
+                      "size":  8062,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Crimson_Nether_House.litematic",
+                      "sha256":  "b9f87c43f8f08678c1ba2cb3587e6d4729bd29123e50c47753cfdf2d5d17532a",
+                      "size":  2296,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Modern_MineFrank_House.schem",
+                      "sha256":  "01cee2fe78c14165220a1c7aa17e3e545bdc81268100877233a19aacf44a521b",
+                      "size":  1559,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Pardals_Cottage_Estate.litematic",
+                      "sha256":  "f5d6ee299786f1dc59ea5a547c57e0ee46d31530e31f14eef1b90c6ff71f1302",
+                      "size":  2799,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Rustic_Coop_House.litematic",
+                      "sha256":  "98d22963ce1f7832af36f3d9821800a4ff692c96ea1cb354f5651b3e3afc16fd",
+                      "size":  7962,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Snow_Golem_Chalet.litematic",
+                      "sha256":  "302786fe6c30c56e2d5934cd1447721b44df3a1d2bfe09c77c007e5b798eb6a2",
+                      "size":  2779,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Survival_Starter_House.litematic",
+                      "sha256":  "d88623d605d26d0e4056df97ddcdc066e978539f2f8b2c24bbe2da3657c6f32f",
+                      "size":  3409,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Underground_Bunker_House.litematic",
+                      "sha256":  "971ecac4c5941553b322c27e480ea9a622f3ed79c0442f0de941dd18a7a7c836",
+                      "size":  19921,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Armorer_House.litematic",
+                      "sha256":  "5a450b6b948c9cdd04d25d12e50372ec947424b69c162b780eec268fb4941ebf",
+                      "size":  2895,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Butcher_House.litematic",
+                      "sha256":  "8b38719472412949aea4cccc35f5af6fb0371e3e06537f9070f4fff3aa363667",
+                      "size":  3672,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Cartographer_House.litematic",
+                      "sha256":  "c3ec193da808d4b4d76ae2a5634635e0c0299b283baafdee58a4d6f24bdb14e9",
+                      "size":  3373,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Cleric_House.litematic",
+                      "sha256":  "7b9135187e1bba1a055adb8ec583d277ea983ca024488061a5715c1c96aa6b18",
+                      "size":  3432,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Farmer_House.litematic",
+                      "sha256":  "af4064ab58de71abb3553631021a4f625cece8792d3f81ab0f64dfd32deb6cb3",
+                      "size":  3723,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Fisherman_Cottage.litematic",
+                      "sha256":  "975037d2b16ed515770db8c85ec3cf79fab24f6e1a589dfc89e1c44c2defa287",
+                      "size":  3771,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Fletcher_House.litematic",
+                      "sha256":  "113424b49fcade5ea71907bfad44caaaef71ef11d470e9794874e7486084d7bd",
+                      "size":  3570,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Leatherworker_House.litematic",
+                      "sha256":  "74fa010cfba2dacc2a50542f0e63d54bd4f3c1efd6345106b4947bf4c2244655",
+                      "size":  3158,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Librarian_House.litematic",
+                      "sha256":  "bca75b19971f047a6d58146ab0fa07cdd1697adc647adac59eb2edf42d7f4f37",
+                      "size":  4126,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Shepherd_House.litematic",
+                      "sha256":  "8947ecb124a53e92f3ba48f3f5cbc062c4051ae019701d9a41ff77d3e17cac21",
+                      "size":  3262,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Small_Hut.litematic",
+                      "sha256":  "8303ff0fbceaff4c1fd5d52c73d12048acca1c3a1135faa2c4cf756f881e03d3",
+                      "size":  2461,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Stonemason_House.litematic",
+                      "sha256":  "3dd7d054d564de6bf9b2177a78674f9c56e9a75ac2415131af5d1353e758010a",
+                      "size":  3566,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Toolsmith_House.litematic",
+                      "sha256":  "929717c9b29d26a2950a2cb0bf2d84fcf8b8c27955200486601a588d5d2dd556",
+                      "size":  3055,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Village_Weaponsmith_House.litematic",
+                      "sha256":  "6cca2fb0052e19cd725c6d139640cd064c648b050456eae84fb978f5bf51a624",
+                      "size":  3267,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Warped_Forest_House.litematic",
+                      "sha256":  "e0dd2ba44dfc2cf794b988fe29a1e14360b4dee5066ac06c00e38f51ff255672",
+                      "size":  2413,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/01_Houses/Woodland_Mansion_Villa.litematic",
+                      "sha256":  "1c61672d3f79c2d948ff7c1c9b92196f1349d7819dd4619c03c28df97cf8fbeb",
+                      "size":  8975,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Ancient_Stone_Temple.litematic",
+                      "sha256":  "a60780493964d951826935eb7ba644d85dcdae526c0ca5422c7cfda7cd0e2923",
+                      "size":  4757,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Cardinal_Castle_Tower.schem",
+                      "sha256":  "dbbde4b3f7c9259cb756b103392ea12cdc784141a34ac9cacfab526b6993b45f",
+                      "size":  2781,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Elven_Tall_Watchtower.litematic",
+                      "sha256":  "8ce8736eb9dc4a66ced151837d152d62de74094dbe0b76a998a528d94a08b269",
+                      "size":  1987,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Elvish_Fortress_Tower.litematic",
+                      "sha256":  "e101f0ec8f466d9b2cb310c78058225fbc10ac07023d2c5b29fa783a1337f098",
+                      "size":  2700,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Fortified_Archer_Turret.litematic",
+                      "sha256":  "e330ff063f8f57ea65e05a1ef9e6f06c64c13fba3f7bcae0c75e1163f7d4a326",
+                      "size":  25324,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Ghost_Ship_Dutchman.litematic",
+                      "sha256":  "f55ed801cf800e8ff996f90936873ee5569f2fea0df76fb6c5a8495602db739f",
+                      "size":  85577,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Gothic_Nether_Tower.litematic",
+                      "sha256":  "e6fac4a40c5d128b34e14ed84996aab4bf2068cdfb781b24c68f141d89df9e87",
+                      "size":  3163,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Gothic_Spire_Tower.litematic",
+                      "sha256":  "7ce0b979bc37013cd9648f924269fbe5fa05802b07b509c33d38105fd291a1bd",
+                      "size":  5827,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Mage_Arcane_Tower.schem",
+                      "sha256":  "42be345af7a3936fb9d5d81c32252b27abb57a68e3d7dce9f58b8f4ddab2fd76",
+                      "size":  4442,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Archery_Range.litematic",
+                      "sha256":  "d1c2c3efd5e92cb5c5f006972531964aa0e22c3b016b0fc563ffda2680ac2ea3",
+                      "size":  1246,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Bastion_Tower.schem",
+                      "sha256":  "351f4afe0489c81d3a0910ed6d323f85cdb86a469077021497661113c31545bc",
+                      "size":  7477,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Citadel_Tower.schem",
+                      "sha256":  "290ddd56aaca48a5cd83dba8587c82f96ffb1617056fd18e91af6c722eff1153",
+                      "size":  9492,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Elven_Flagship.litematic",
+                      "sha256":  "c3119c2be7f200b98c0f54b8feccb66c00b6db2a51a8eec03472713ab84e7886",
+                      "size":  2450,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Flaming_Watchtower.litematic",
+                      "sha256":  "5f56ff196655b30d82b5656adfda575e39ca83a23b333097d7a0273a56a64ecf",
+                      "size":  3037,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Grand_Clocktower.litematic",
+                      "sha256":  "dea4b957ad88de003d78e3b6ea365599e343326af3b08449a2e9ea637a6fac90",
+                      "size":  2452,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Master_Forge.litematic",
+                      "sha256":  "e91971c3875d0f677a68bdfd76ff4df3d36c55a4036fa6ffdd241659e146ac3c",
+                      "size":  13427,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Mine_Crane.litematic",
+                      "sha256":  "af01caf6590a074d411ddb7e242f7fee3a03c68e9414546d4b0bfdcb1eddf6f3",
+                      "size":  2851,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Pirate_Ship.litematic",
+                      "sha256":  "37226bb2b5a40ba41267c74ef782991de1c48a769c6b371d19cd9da3467881bc",
+                      "size":  19216,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Skeleton_Tower.litematic",
+                      "sha256":  "ededd3f33a5baa5cb391ccd4285cca439474bef1ee531541c65e0301989c5a66",
+                      "size":  24765,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Stone_Tower.litematic",
+                      "sha256":  "e921860193d87a0c31c4c5c1c3e3478c155677b46ec5a33deb3cb80bff71d4a4",
+                      "size":  2744,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Town_Market.litematic",
+                      "sha256":  "8cd73c09a0a470e0e4a5543f1e419a595896d3bf6da19389c8d47cdfbc06571e",
+                      "size":  888,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_Village_Blacksmith.litematic",
+                      "sha256":  "4d3d436168fdbbb6074c659d1dff1e3b02a840dc746446286e095c7c4b722bfa",
+                      "size":  6769,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Medieval_War_Galleon.litematic",
+                      "sha256":  "66f9b33937fe38344384069d63a3759e656a742e3d646cc69ecefee28ffea323",
+                      "size":  27962,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Village_Clock_Tower.litematic",
+                      "sha256":  "55a3b4119e6731cda8d2ade18210ef79f14df70beb63e76f9d40e6f1232c1e8a",
+                      "size":  2352,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/02_Medieval/Windmill_Blades_Structure.schem",
+                      "sha256":  "c73d3fd1c3db8c921bae903b8a6f7108c01fd48c478192b01b329345081c4f5c",
+                      "size":  726,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automated_Cactus_Farm.litematic",
+                      "sha256":  "bfac0a45268c4645dfce8877f15ffbcbae446135c36dabc25d5904e9e871a157",
+                      "size":  3459,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automated_Crop_Farm.litematic",
+                      "sha256":  "31e0482f7c7b367b72b5662edab356770fbda0594b6407b8400ef065aa8b7252",
+                      "size":  3460,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automated_Sorting_Storage_System.litematic",
+                      "sha256":  "5ee69a4d89676ba918e772862de14aa805039feea00d9185a1765597d26aac9b",
+                      "size":  20807,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automated_Sugarcane_Farm.litematic",
+                      "sha256":  "efeeeed0478e7c9fac5eaafa54b08aba1e714b7656cade6459fc16e7421ecaab",
+                      "size":  5956,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automatic_Cow_Breeder_Farm.litematic",
+                      "sha256":  "e05d55c3cced3913d867003f749ddfc3608dc460864fe7e15161fd001310ca45",
+                      "size":  449,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automatic_Egg_and_Chicken_Farm.schem",
+                      "sha256":  "703114fe541187779319d007cb8102bbbf5c2f27ce1ca6bbf06398d9ed8974ae",
+                      "size":  915,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Automatic_Wool_Shearing_Farm.litematic",
+                      "sha256":  "2e27a8c2c3a4ac21764261d72220d33ecf7d86485e0d2bb6b20bf05937dcef00",
+                      "size":  1568,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Bonemeal_Flower_Duper.litematic",
+                      "sha256":  "32e0928456706cc7564698947d3f62d0a2d0a1cdf54cdce471c24a2fdf21e3d3",
+                      "size":  2820,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Carrot_and_Potato_Field_Farm.litematic",
+                      "sha256":  "105e7f9df426611eae6d18821301ff6d75db74aaf439c6be91e6afcd250da8a6",
+                      "size":  4801,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Compact_Cobblestone_Generator.litematic",
+                      "sha256":  "e115e5d929c83ecd73e933339cc839016b71b6b1daaeea20835becc948e6cd75",
+                      "size":  4180,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Compact_Iron_Golem_Farm.litematic",
+                      "sha256":  "d681e2fb94fe849e0f5d82786a3d89145874dde56ef25b92de788a9bce6f2870",
+                      "size":  3077,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Compact_Warehouse_Storage.litematic",
+                      "sha256":  "d0da33bc4cebcd88edb1a53d9d5907da7742801aef6bfcf9c8063ac3be9dc6ed",
+                      "size":  1738,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Flower_and_Dye_Farm.litematic",
+                      "sha256":  "035d8c7fcfdb725a6ec51bb977c0ecb230a3deb57a6aae82f3d9cbed7bdb79ee",
+                      "size":  3246,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Grand_Vault_Storage_Hall.litematic",
+                      "sha256":  "8d0afc626e4c6c2b0983c3e6039bc45413b16d12a4a9cb5f6c8ea2dbadc53268",
+                      "size":  60218,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Greenhouse_Seed_Storage.litematic",
+                      "sha256":  "7c8fbc5036378f4696348a5088b647574fb2b99c8075f8cbb26526507fce90da",
+                      "size":  1322,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Industrial_Iron_Foundry.litematic",
+                      "sha256":  "dd560197edc554acb64d04c26c684ef73b97e6659261928748037c4fd2c4de40",
+                      "size":  8028,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Infinite_Villager_Breeder.litematic",
+                      "sha256":  "4b0f68c8e27c16db15a3c2ecd9ee9da848a933f6614a57352b1ae90d3a4b4fa0",
+                      "size":  2255,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Multi_Chest_Barn_Storage.schem",
+                      "sha256":  "ae2dceba0c07797b0390bc4de1f534ccf868a08ba0764974df05ed02c76ad31d",
+                      "size":  4143,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Pumpkin_and_Melon_Harvester.litematic",
+                      "sha256":  "fc932b8d0e20e7e1efbae8d171baadac90266f23dda6824f3fdd5f78e5ae889e",
+                      "size":  4692,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Swamp_Slimeball_Farm.litematic",
+                      "sha256":  "02796e6c1e62037e6d6243ef2c2afcc1af9bba9c8c5e9fe954a6d7e86ac5b80c",
+                      "size":  2474,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Tiered_Crops_Greenhouse_Tower.schem",
+                      "sha256":  "f794aa3ed60ef5576aef03c6e153f9217f51b4591fe66fcd710d17fdc717ff8d",
+                      "size":  2871,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Underground_Vault_Room.litematic",
+                      "sha256":  "c970498918a8c0771c3ea42ae42c7da290dae798f3c4bdd70dd6acb805c6d771",
+                      "size":  3084,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Underwater_Kelp_Fuel_Farm.litematic",
+                      "sha256":  "daceb26fd1d5a7f0f0798540bba414acd8b585d8c0042666893a6d14d927b764",
+                      "size":  2694,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Universal_Tree_Farm.litematic",
+                      "sha256":  "8d11f3c99398b2064585382e01cf24ad001b1495581d2b0c8a886eab08ac690d",
+                      "size":  4340,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/03_Storage_and_Farms/Villager_Market_Trading_Hall.litematic",
+                      "sha256":  "6a228ad64699d0b0a70abf327090d4a31c0d6431aa0040d2201c3fa933b3f540",
+                      "size":  13569,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Ancient_Great_Oak_Tree.litematic",
+                      "sha256":  "22a528eef2010cc16c29dded32042062d45f8713c57015578610e4280e133d62",
+                      "size":  5697,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Celestial_Observatory_Bridge.litematic",
+                      "sha256":  "6e3f922691d3712c173f00ee7e1e1d245227802b89760ac9249e4552068bec72",
+                      "size":  1008,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Cherry_Blossom_Portal_Shrine.litematic",
+                      "sha256":  "efb04c9d91fc4c1c47f41c6f2135841df5f4a7d1445872e8e222c13e214d7b2d",
+                      "size":  1212,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Crimson_Tree_Nether_Portal.litematic",
+                      "sha256":  "55fb8e6b3bbc6d5b1d54e196fb9d285a19de58ba5f23a07b4cc06b04d094c531",
+                      "size":  1033,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Custom_Savanna_Acacia_Tree.litematic",
+                      "sha256":  "0b078b6137c8a956d46f89b7d7d2f28aad631226b90fc8763e0cfade87afc4c6",
+                      "size":  1090,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Dark_Oak_Nether_Portal.litematic",
+                      "sha256":  "5f9f0d6583c0b01f02f15db5ab656c1af7c9a9b9e81a5021316e16c2e1600bbe",
+                      "size":  1561,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Dragon_Head_Mount_Monument.litematic",
+                      "sha256":  "8d7f19f2b6a622bf5480a8ffbe3d5ef475cf8dd8badaee09a426e10b8b2450a7",
+                      "size":  4306,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Enchanted_Cherry_Library_Tree.litematic",
+                      "sha256":  "7154122e6a5c54bb0100446fda06a0756c25cd4e0a5d7ecb3b11c6b59a8b8fef",
+                      "size":  1621,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Epic_Ravager_Beast_Statue.litematic",
+                      "sha256":  "c5e98a1e604a0af59b5d7d06036376fab45c247efcc4a26419e5def698322f87",
+                      "size":  23578,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Festive_Spruce_Holiday_Tree.litematic",
+                      "sha256":  "d51c9b0e352da8f1aac9f3dad9a84fddcfe87ec91a5cca3cccfabcf048a43ab8",
+                      "size":  4295,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Floating_Nether_Portal_Island.litematic",
+                      "sha256":  "91beaedaa2d3f36d0d87668242299edb523ac7b52823e3b9a109cb585cda3b42",
+                      "size":  535,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Garden_Rose_Pergola_Gazebo.schem",
+                      "sha256":  "5f5a9a84ca5373491eb800b1a557db34ddf50894bbf23b3934acf2a13c4117cc",
+                      "size":  463,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Giant_Honey_Bee_Statue.litematic",
+                      "sha256":  "97e82d2476ac2a978bd48530807f0cb5faa26a11fa46b0c3b8a8a9fc12453b84",
+                      "size":  645,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Hanging_Chains_Portal_Tower.litematic",
+                      "sha256":  "4c22a86e22f2e466eed6cc329c54d8df2f6c1bf231dda9564e632027c36cd7de",
+                      "size":  6190,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Mystic_Ritual_Altar_Monument.litematic",
+                      "sha256":  "f94cb4a451dbb14de4b6c23425732fbf5069c7d03c36a628615326c93520dd84",
+                      "size":  1055,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Oak_Lattice_Garden_Arbor.schem",
+                      "sha256":  "183726be62b3781814e18a685dcd5ede250be61e7e1bac9677ad1bce28b067e2",
+                      "size":  463,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Obsidian_Portal_Gateway_Arch.schem",
+                      "sha256":  "1f6fa4a6d92e5149b2d36b9164b2891db41dd24c5f7def66ce64556f125bc5dd",
+                      "size":  432,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Realistic_Wild_Beehive_Nest.litematic",
+                      "sha256":  "dcbe57e8a5f5e00dc04943969d09d251a0443b071ce71cdbfc86149cf8b8d866",
+                      "size":  12265,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Ruined_Nether_Gate_Shrine.litematic",
+                      "sha256":  "854f5309c06c68840436d0766d5a513331084825437d56934e5ff4f08b11c7fc",
+                      "size":  1622,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Skyward_Hot_Air_Balloon.litematic",
+                      "sha256":  "07d5b95d546ab8ce203369ea760fc854d5e8a45b5276b82724abd4ca1f1140a6",
+                      "size":  8942,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Stone_Bridge_Support_Pillars.schem",
+                      "sha256":  "a07d0b0d8fc122bc69cf7eda1827b34e409aa2bff9f02ff4a30cfbf33dfddc26",
+                      "size":  1050,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Suspension_Bridge_Pillars.schem",
+                      "sha256":  "4908085fe0dcbec434a5058d794ebe0b3d87b55651312f2e900c508cbb2a3683",
+                      "size":  576,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Village_Wishing_Well_Fountain.litematic",
+                      "sha256":  "ef5aee631ab79a7b64dfe6ac5754f719ba54ca624dbdabc66d52a85f4bb5cf57",
+                      "size":  824,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Vine_Covered_Patio_Pavilion.schem",
+                      "sha256":  "ebec386b2ca4f43f2e0b9a3eb8136b4602341795daf49797df0d65a6289b669a",
+                      "size":  464,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "schematics/04_Decor_and_Bridges/Wooden_Footbridge_River_Crossing.schem",
+                      "sha256":  "9b37481f08bd5a584398be4a680eea7984c30439ba3633414ccc76f8cb26bc6f",
+                      "size":  1174,
+                      "mode":  "default"
                   },
                   {
                       "path":  "shaderpacks/BSL_v10.1.8.zip",
