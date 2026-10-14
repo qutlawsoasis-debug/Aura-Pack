@@ -8,6 +8,7 @@
     "config/touhou_little_maid-common.toml",
     "config/simplyswords/compatibility.toml",
     "config/punchy/punchy_config.json",
-    "config/doubledoors.json5"
+    "config/doubledoors.json5",
+    "config/bridgingmod.json"
   ]
 }
