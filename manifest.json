@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261015.2235",
+    "packVersion":  "20261015.2243",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1290,8 +1290,8 @@
                   },
                   {
                       "path":  "mods/litematica-fabric-1.20.1-0.15.4.jar",
-                      "sha256":  "ddfcce1c069980e3f88900e69a8762548e5422511c09b323df7005ff00e80c85",
-                      "size":  923876,
+                      "sha256":  "2016a9a672b6c7ba607af6f5f1d46a94e5a24316036b700cd9fcb6488969be7f",
+                      "size":  908159,
                       "mode":  "sync"
                   },
                   {
