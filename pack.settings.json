@@ -9,6 +9,8 @@
     "config/simplyswords/compatibility.toml",
     "config/punchy/punchy_config.json",
     "config/doubledoors.json5",
-    "config/bridgingmod.json"
+    "config/bridgingmod.json",
+    "config/litematica/litematica.json",
+    "config/litematica.json"
   ]
 }

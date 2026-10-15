@@ -1,0 +1,18 @@
+{
+  "Generic": {
+    "easyPlaceHoldEnabled": true,
+    "easyPlaceMode": true,
+    "executeRequireHoldingTool": false,
+    "executeRequireTool": false,
+    "toolItem": "minecraft:wooden_hoe",
+    "toolItemEnabled": true,
+    "toolMode": 2,
+    "operation_mode": "SCHEMATIC_PLACEMENT",
+    "printingMode": true
+  },
+  "Hotkeys": {
+    "togglePrintingMode": "CAPS_LOCK"
+  },
+  "operation_mode": "SCHEMATIC_PLACEMENT",
+  "tool_mode": "SCHEMATIC_PLACEMENT"
+}
