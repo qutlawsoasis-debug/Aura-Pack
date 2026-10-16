@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261015.2243",
+    "packVersion":  "20261016.2024",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -785,6 +785,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/EndsPhantasm-1.20.1-1.4.jar",
+                      "sha256":  "6497b5c62b141de999c85c26ddf25ed1a4d096f6a818cf13786ef40426495291",
+                      "size":  6416645,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
                       "sha256":  "f6be638d63462d765004d08f912a105db981dc6a24ba2dd6b5e22b5fab416589",
                       "size":  4602936,
@@ -890,6 +896,12 @@
                       "path":  "mods/SimplyTooltips-fabric-0.1.5-1.20.1.jar",
                       "sha256":  "c7573a331ef9cfdb5da3ab3f63431ea8e3c870d2efa84ed4012127173d416d96",
                       "size":  5518319,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/Stellarity-v2-0e.jar",
+                      "sha256":  "7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2",
+                      "size":  12562436,
                       "mode":  "sync"
                   },
                   {
