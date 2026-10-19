@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.2033",
+    "packVersion":  "20261019.2039",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -660,8 +660,8 @@
                   },
                   {
                       "path":  "mods/AuraLyrics-1.21.1-1.0.0.jar",
-                      "sha256":  "cc97f4b9f104c27c40de75601e04218aa840ec447e9d02d2f9354e741291a81c",
-                      "size":  231182,
+                      "sha256":  "73da59b9bef6dc9b86235dff9777d631bc78b82720b5735607ff633eaab4b93e",
+                      "size":  246272,
                       "mode":  "sync"
                   },
                   {
