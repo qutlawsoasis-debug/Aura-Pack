@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.2010",
+    "packVersion":  "20261019.2032",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1193,6 +1193,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/mcef-fabric-2.1.6-1.20.1.jar",
+                      "sha256":  "7a99ca890dbc23ee4848c98a78524960069277ee4e181e63b7a95f6d6fbbbaf1",
+                      "size":  226323,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/mcw-doors-1.1.5-mc1.20.1fabric.jar",
                       "sha256":  "cb7d88f7fbf2172207aff0ec9af11684ea7b7062723af1b71b2c59ba09e7ca75",
                       "size":  1226772,
@@ -1464,8 +1470,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "9a62153a9ee75c437b72f0082983937e19050e291d9b600fbce9681b760908bb",
-                      "size":  1244,
+                      "sha256":  "1f893407502d97c53a4eb1b06eaf818e8cb2cd867e5d2ac3fac4687115fb9454",
+                      "size":  847,
                       "mode":  "default"
                   },
                   {
