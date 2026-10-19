@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1357",
+    "packVersion":  "20261019.1405",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1577,9 +1577,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
+                      "sha256":  "d01c449f5b2f8453f0087f73e1b94bcec47292b1b37d04a2800b6749554252da",
+                      "size":  72823,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Better-Leaves-9.6.zip",
                       "sha256":  "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90",
                       "size":  1977146,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
+                      "sha256":  "6adfb64bbe233f5a90ebc470c1b55f0abaf4aa232b12645d8497cca3d5496464",
+                      "size":  63756,
                       "mode":  "sync"
                   },
                   {
