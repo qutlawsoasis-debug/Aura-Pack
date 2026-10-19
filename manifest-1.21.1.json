@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1405",
+    "packVersion":  "20261019.1410",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1181,12 +1181,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/litematica-printer-1.21-3.5.0-sakura.4.jar",
-                      "sha256":  "6869673f0aaa6b9716c4ab8e92382ec95636323b6181ecbe77191a73d511fbe9",
-                      "size":  144006,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/lithium-fabric-0.15.4+mc1.21.1.jar",
                       "sha256":  "92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa",
                       "size":  797454,
@@ -1298,12 +1292,6 @@
                       "path":  "mods/playeranimatorapi-fabric-1.21-2.2.1.jar",
                       "sha256":  "e7202be9457fe86f340211c98733a572572008e8eee6d351d80a64157e9068c9",
                       "size":  323281,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/prefab-fabric-6.0.8.jar",
-                      "sha256":  "13579b56c557e2ab9ac7016829acde2393efec50ecc04d7b0f9305c867814390",
-                      "size":  9207502,
                       "mode":  "sync"
                   },
                   {
