@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1351",
+    "packVersion":  "20261019.1357",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -683,12 +683,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/BetterAnimationsCollection-v21.1.1-1.21.1-Fabric.jar",
-                      "sha256":  "91ae6d2445e8a83acf6c85e026b15debe7ffb8f73edf868fafdfffa9eec1af23",
-                      "size":  188331,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/BetterF3-11.0.3-Fabric-1.21.1.jar",
                       "sha256":  "e0e4bb25fbe23b16b7574474ee9fde5cdc9757d05885bc43978f4ea5e8e258ad",
                       "size":  1810710,
@@ -728,12 +722,6 @@
                       "path":  "mods/CustomSkinLoader_Universal-15.0.1.jar",
                       "sha256":  "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc",
                       "size":  218215,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
-                      "sha256":  "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
-                      "size":  30207268,
                       "mode":  "sync"
                   },
                   {
@@ -833,12 +821,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/SkinShuffle-2.9.1+1.21.jar",
-                      "sha256":  "f6f020ccc0bf8710c9a3fe8327cc7f15e8d8dc4db7afe4916c66a64bc589b395",
-                      "size":  5054375,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/Stellarity-3.1.0.jar",
                       "sha256":  "1cad2ff9d780e45be312dd3d7493cc861564e629f32177996928073928ccb0e7",
                       "size":  12889388,
@@ -902,12 +884,6 @@
                       "path":  "mods/YungsBetterStrongholds-1.21.1-Fabric-5.1.3.jar",
                       "sha256":  "1cb412c83aa0e8273d29a1122c5799eb15a48acc8f0b770efe451c516647f5f8",
                       "size":  587855,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/advanced-xray-fabric-21.0.0.jar",
-                      "sha256":  "a93b40a1b45d2fbee22b2d741ce8490f8fe5466cc0e418bf439d254884b4f524",
-                      "size":  150268,
                       "mode":  "sync"
                   },
                   {
@@ -1046,12 +1022,6 @@
                       "path":  "mods/dungeons-and-taverns-v4.4.4.jar",
                       "sha256":  "6ba41e48f6bfec81567e1805b43c4a8f51b4ab5f360a3c211805ebfb070642da",
                       "size":  24859360,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/e4all-fabric-2.1.2.jar",
-                      "sha256":  "2779bd80166531f3612c0bb839465f14eba858e7f8f48beb2ac91346b3fda4a6",
-                      "size":  913334,
                       "mode":  "sync"
                   },
                   {
@@ -1331,12 +1301,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/pointblank-fabric-1.21-1.11.1.jar",
-                      "sha256":  "6dd2502eb618fe8bd924ef2ac2a5965df74610ca6c3eb6a6b2f1107668a9de25",
-                      "size":  17630105,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/prefab-fabric-6.0.8.jar",
                       "sha256":  "13579b56c557e2ab9ac7016829acde2393efec50ecc04d7b0f9305c867814390",
                       "size":  9207502,
@@ -1520,12 +1484,6 @@
                       "path":  "mods/trinkets-3.10.0.jar",
                       "sha256":  "349fd2aa8930b232050ee5304db55e4ef738b017971afe7c84acd589a95fda2f",
                       "size":  272944,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/upgrader-1.0.0.jar",
-                      "sha256":  "5cbc34d39f03b5449a118fa9ed38459d6446804f07645388567be3279e280b52",
-                      "size":  37359,
                       "mode":  "sync"
                   },
                   {
