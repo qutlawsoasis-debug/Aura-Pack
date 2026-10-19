@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1258",
+    "packVersion":  "20261019.1316",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1481,12 +1481,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/split-self-0.5.02-alpha.jar",
-                      "sha256":  "b12b46ee2d84827d9c663b2c13908a74b8e5066cf6b860faa90c791ee94e59cd",
-                      "size":  25245082,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/structure_pool_api-fabric-1.2.1+1.21.1.jar",
                       "sha256":  "54c1aa9b903f5dfdccfb80e6f2c88cb98147f45650b66e3a8a9d04a5f23e46b3",
                       "size":  140933,
@@ -1508,12 +1502,6 @@
                       "path":  "mods/thermoo-4.8.0.jar",
                       "sha256":  "b63c52285fecd97754fbd9c9dee9f642794df364e5791f4b40533e44e5629955",
                       "size":  275602,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/thewatching-0.1.0-alpha.jar",
-                      "sha256":  "a2e99ccc02cac8a3addfa80ce232b71cba6e8a63dea6826eb026645a61d54a35",
-                      "size":  34941877,
                       "mode":  "sync"
                   },
                   {
