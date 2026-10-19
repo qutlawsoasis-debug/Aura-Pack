@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1623",
+    "packVersion":  "20261019.1702",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1451,30 +1451,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "resourcepacks/Patrix_1.20_32x_addon.zip",
-                      "sha256":  "acbcecdce38f1beafcea4c45a69709a1f0c7e0eab7e9373ccdd6c26ddce02909",
-                      "size":  15131885,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Patrix_1.20_32x_basic.zip",
-                      "sha256":  "a259b3ef59a6be89f96604bacc6748085d4cd8097095d11925d9cfdd4aed1f92",
-                      "size":  53585107,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Patrix_1.20_32x_bonus.zip",
-                      "sha256":  "089af0a5ca01f2ad58291ffd99794ac5d7b48391a0cf0eec08fce540e0cbaa2a",
-                      "size":  3670552,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Patrix_1.20_models.zip",
-                      "sha256":  "0dcce6fa26f38a85d97ed64015925f39490b5bbec837bb496c7fc2ac040922e6",
-                      "size":  70336,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "resourcepacks/Sodium_Russian_Translation.zip",
                       "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
                       "size":  1269344,
@@ -1487,33 +1463,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "shaderpacks/BSL_v10.1.8.zip",
-                      "sha256":  "36b0a50ff7918bf10e9422c401d93779f9d0088a26acea975b435243f96930b5",
-                      "size":  1134153,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/Bliss_v2.1.2_Chocapic13_Shaders_edit.zip",
-                      "sha256":  "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
-                      "size":  1791406,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
-                      "sha256":  "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38",
-                      "size":  553397,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
                       "sha256":  "58c493896f8d315c8314b71cc4e8de5e7767777c049b4eee8f71ea11f45a50d1",
                       "size":  291,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
-                      "sha256":  "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a",
-                      "size":  553400,
                       "mode":  "sync"
                   },
                   {
@@ -1523,33 +1475,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "shaderpacks/Kappa_v5.3.zip",
-                      "sha256":  "7748c7884d593fcebc23863bd4bad1fbae9fadb9cebc73165290d4705b89fe9d",
-                      "size":  3872527,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "shaderpacks/Kappa_v5.3.zip.txt",
                       "sha256":  "423c38c9a9fd823b1e7150a30c887e0c0ba55293d1a92b0759ee17779127b1fd",
                       "size":  320,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/MakeUp-UltraFast-9.5f.zip",
-                      "sha256":  "afbf622b983d29ffa5fe5f15197f321d3921915bd44584d85f14bc11b5e0e5e8",
-                      "size":  403666,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/Solas_Shader_V3.7b.zip",
-                      "sha256":  "b7dfe4c7353d677a92cc4c86b87bc0633f1014305d927ca6a482c303427bf825",
-                      "size":  1252311,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/photon_v1.3b.zip",
-                      "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
-                      "size":  3800987,
                       "mode":  "sync"
                   }
               ]
