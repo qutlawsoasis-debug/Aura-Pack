@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1919",
+    "packVersion":  "20261019.1942",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -698,12 +698,6 @@
                       "path":  "config/zoomify.json",
                       "sha256":  "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36",
                       "size":  708,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "fabric.mod.json",
-                      "sha256":  "f9393242490f31be60882acf37d92cfd1e1883a40cff50ba0125f624a3ab460d",
-                      "size":  710,
                       "mode":  "default"
                   },
                   {
