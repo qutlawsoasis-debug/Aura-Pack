@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1857",
+    "packVersion":  "20261019.1919",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1136,6 +1136,12 @@
                       "path":  "mods/lithostitched-1.8.1-fabric-21.1.jar",
                       "sha256":  "04980f7e667032fc89c61c4c264565c1564b2808c57da52dcfe427fea1fee1d1",
                       "size":  1015426,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/lyricsplus-3.0.0-1.21.1.jar",
+                      "sha256":  "5fb127319b5c30249cbbd07ce49fbc8f8f19ad242b2d3aeb308b0d1f73a53b8d",
+                      "size":  21715221,
                       "mode":  "sync"
                   },
                   {

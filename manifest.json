@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1857",
+    "packVersion":  "20261019.1919",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -701,6 +701,12 @@
                       "mode":  "default"
                   },
                   {
+                      "path":  "fabric.mod.json",
+                      "sha256":  "f9393242490f31be60882acf37d92cfd1e1883a40cff50ba0125f624a3ab460d",
+                      "size":  710,
+                      "mode":  "default"
+                  },
+                  {
                       "path":  "mods/AdvancementPlaques-1.20.1-fabric-1.6.7.jar",
                       "sha256":  "a162aa8d872f5327405ba1ce1d601a825eb36f530e61d5fcae6c8d83d7107d94",
                       "size":  194905,
@@ -1202,6 +1208,12 @@
                       "path":  "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
                       "sha256":  "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
                       "size":  487655,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/lyricsplus-3.0.0-1.20.1.jar",
+                      "sha256":  "a99b4b283c957fac25bf564bc1d6a8c51361230bc9a2911e75090ee3e59a87e8",
+                      "size":  21714887,
                       "mode":  "sync"
                   },
                   {
