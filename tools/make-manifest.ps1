@@ -122,16 +122,13 @@ foreach ($relPathRaw in $gitFiles) {
     }
 
     # Исключения
-    if ($relPath -eq "manifest.json" -or $relPath -eq "manifest-1.21.1.json" -or $relPath -eq "pack.settings.json" -or $relPath -eq "servers.json" -or $relPath.EndsWith(".example") -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/") -or $relPath.StartsWith(".github/") -or $relPath.StartsWith("assets/") -or $relPath.StartsWith(".agents/") -or $relPath -like "README*" -or $relPath -like "LICENSE*" -or $relPath -like "CONTRIBUTING*" -or $relPath -like "AGENTS*") {
+    if ($relPath -eq "manifest.json" -or $relPath -eq "manifest-1.21.1.json" -or $relPath -eq "pack.settings.json" -or $relPath -eq "servers.json" -or $relPath.EndsWith(".example") -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/") -or $relPath.StartsWith(".github/") -or $relPath.StartsWith("assets/") -or $relPath.StartsWith(".agents/") -or $relPath.StartsWith("shaderpacks_pool/") -or $relPath -like "README*" -or $relPath -like "LICENSE*" -or $relPath -like "CONTRIBUTING*" -or $relPath -like "AGENTS*") {
         continue
     }
 
     # Разделение по версиям
     if ($TargetVersion -eq "1.21.1") {
-        if ($relPath.StartsWith("shaderpacks_pool/")) {
-            $relPathInManifest = $relPath
-        }
-        elseif (-not $relPath.StartsWith("versions/1.21.1/")) {
+        if (-not $relPath.StartsWith("versions/1.21.1/")) {
             continue
         }
         else {

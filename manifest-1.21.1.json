@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1834",
+    "packVersion":  "20261019.1857",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1514,54 +1514,6 @@
                       "path":  "shaderpacks/Sildurs-Enhanced-Default-Fancy.zip",
                       "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
                       "size":  54991,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Bliss_v2.1.2.zip",
-                      "sha256":  "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
-                      "size":  1791406,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Builders-QOL.zip",
-                      "sha256":  "9b19802448fad01953ff517cc38f2d20d768c00be35d1547f43b3012705834ad",
-                      "size":  2359837,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Derivative.zip",
-                      "sha256":  "4d072b0a9bcd3135faf58341a4a767c5495f80720ba9f37f09369d542b9089f6",
-                      "size":  29169985,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Noble_v1.9.9.zip",
-                      "sha256":  "1bf8e45454dd72817507f37d6ea2a03b140e6e8a493d96db498797e431d0aae1",
-                      "size":  16823335,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Nostalgia_v5.1.zip",
-                      "sha256":  "7d7211af2fac6d9b3c7fcbaad7a47f1a612450376d14383088908831c18b6cc8",
-                      "size":  1842205,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/ProjectLUMA.zip",
-                      "sha256":  "aacbf251fc7afb5e01e4d751f7e83e2fc39cbef638bf0422e85a017035b8e0c1",
-                      "size":  19692966,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Sildurs-Enhanced-Default-Fancy.zip",
-                      "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
-                      "size":  54991,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks_pool/Sildurs-Vibrant-Shaders-Extreme-VL.zip",
-                      "sha256":  "4a76bc0c401b1d8b3983c5a38a3b54ca7206c284821bd703c5414ed51bd8b40b",
-                      "size":  251371,
                       "mode":  "sync"
                   }
               ]
