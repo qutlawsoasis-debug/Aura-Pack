@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1702",
+    "packVersion":  "20261019.1712",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1416,8 +1416,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "5da8c11d70630a6eff37851b27817f596209a1dbf5e6c5568e047b92e96cf64d",
-                      "size":  363,
+                      "sha256":  "66cdf6823b495f5f409ce9bf558a5f05bca50343f9f4813c2e93c337017a7a84",
+                      "size":  578,
                       "mode":  "default"
                   },
                   {
