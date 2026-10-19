@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1410",
+    "packVersion":  "20261019.1444",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -731,12 +731,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/FarmersDelight-1.21.1-3.3.6+refabricated.jar",
-                      "sha256":  "c719a1e92f1e16f953265069afa9b5d52f2119b434e1f6e0ad4d7a1e449941dc",
-                      "size":  3243316,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
                       "sha256":  "2e3a8f0e3bda85a7d722720e7ce879cbd9d028d9395c6fc224d329b3c982d9b1",
                       "size":  633065,
@@ -767,12 +761,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/InventoryProfilesNext-fabric-1.21.1-2.2.6.jar",
-                      "sha256":  "b69ac6f98e99042d6edd755242bf76d35eea4342559d2b1d88160e556c629177",
-                      "size":  1331935,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/Jade-1.21.1-Fabric-15.10.6.jar",
                       "sha256":  "fb834cc77804a6f509690c54b4af56305ce7a7f3171f8616310710f0af1f673a",
                       "size":  740746,
@@ -788,12 +776,6 @@
                       "path":  "mods/MouseTweaks-fabric-mc1.21-2.26.jar",
                       "sha256":  "3e9fa4800fafef616fbf1545d62f5898f55c83fbd4126ce2b48b5e0077243fc0",
                       "size":  75984,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Patchouli-1.21.1-93-FABRIC.jar",
-                      "sha256":  "e47e08397078ad152a61fb95a5dfd4f86f3a3b8b21b131025d3adbfe96538c3a",
-                      "size":  861256,
                       "mode":  "sync"
                   },
                   {
@@ -917,12 +899,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/archers-fabric-3.1.3+1.21.1.jar",
-                      "sha256":  "1f70482e428de5267f96d682d1d42fd92c20bdab3ea360dd5698e9a72e4abce2",
-                      "size":  922649,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/architectury-13.0.11-fabric.jar",
                       "sha256":  "ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd",
                       "size":  600921,
@@ -956,12 +932,6 @@
                       "path":  "mods/bountiful-fabric-8.0.0-beta.2.jar",
                       "sha256":  "1a57739485522babce2590149b78e7676e4efc0d44608b65c0f6672c9ec4f342",
                       "size":  739372,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/brewery-0.8.1+1.21.1.jar",
-                      "sha256":  "057bab3302c7b38538b7f9690502f070a08d0156364e8d1b5c38b634121a38c7",
-                      "size":  1681088,
                       "mode":  "sync"
                   },
                   {
@@ -1007,12 +977,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/culturaldelights-0.17.7.jar",
-                      "sha256":  "51611ed2a30686349bd96257a77bed56a49a9782ebe5180c667a87c7a62d1a3b",
-                      "size":  285144,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/doubledoors-1.21.1-7.4.jar",
                       "sha256":  "9c8c83fac2ed6f229404c59fa1b0a37907b6afbede8a81d634ddcb67b4a95c51",
                       "size":  74884,
@@ -1040,12 +1004,6 @@
                       "path":  "mods/emi-1.1.24+1.21.1+fabric.jar",
                       "sha256":  "56ecd418e988cba23dd653d498309fd7b886265708253d5ca7a8fb621dcc5db4",
                       "size":  1098223,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
-                      "sha256":  "633a77711f650dbf0bd071a43c086b7946d6e117b28ac1a414d038ea7b339f7c",
-                      "size":  863362,
                       "mode":  "sync"
                   },
                   {
@@ -1139,12 +1097,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/jewelry-fabric-2.5.1+1.21.1.jar",
-                      "sha256":  "2ab0eee20d4838d88037c6962a143d793538a6ec461cdfe25627981f4cc9005f",
-                      "size":  646046,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/kambrik-fabric-8.0.0-beta.2.jar",
                       "sha256":  "2a9acf610fed31b4a766ea746d7a5c0bf579632bedde3846108e00bc3bcc8c5b",
                       "size":  457787,
@@ -1163,24 +1115,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/letsdo-vinery-fabric-1.5.6.jar",
-                      "sha256":  "e944a4af4e9c8973c611c5fd517972f031971109ec3959441d775a80025b1d4b",
-                      "size":  2528680,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/libIPN-fabric-1.21.1-6.6.3.jar",
-                      "sha256":  "e26e788c5c3542353c0c45fba231e9208a01b182d890815c22df40a1946b903e",
-                      "size":  636114,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/litematica-fabric-1.21-0.19.61.jar",
-                      "sha256":  "81b66009d4e0868e9e3e2e1593e0942ba0c651ddd8300586ae1ffbd227b6ba24",
-                      "size":  1642590,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/lithium-fabric-0.15.4+mc1.21.1.jar",
                       "sha256":  "92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa",
                       "size":  797454,
@@ -1193,39 +1127,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/malilib-fabric-1.21-0.21.10.jar",
-                      "sha256":  "fed24701279ed7d55ea9e1bce9d4528e3f679ef9883c1ab7fb7a8c6a3fcd2915",
-                      "size":  1411200,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/map_atlases-1.21-7.0.1-fabric.jar",
-                      "sha256":  "792d82ac2a1bc05ab4f2d7fcda56366da181354dee6fcb1554e20fb4659e532a",
-                      "size":  678566,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/mcw-bridges-3.1.2-mc1.21.1fabric.jar",
-                      "sha256":  "0ee00ccd82865e987ca4c0f1a57614c288385b93aa7daac8c81c5eb359934279",
-                      "size":  666524,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/mcw-doors-1.1.5-mc1.21.1fabric.jar",
                       "sha256":  "36b12175ad87cefcbde35b187b9a1c5ce9e1af1471edf6c5064ebd1a8c868ef1",
                       "size":  1219302,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
-                      "sha256":  "32408564efb67ed8b02023365d19a31e80c859dbfc0e977790eb12e3a6095cba",
-                      "size":  651571,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
-                      "sha256":  "f0b181de6c35f36897ea18c92181409f0ccab604ceb4c34c9a2e126ec638bbc3",
-                      "size":  1790000,
                       "mode":  "sync"
                   },
                   {
@@ -1271,18 +1175,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/paladins-fabric-3.1.3+1.21.1.jar",
-                      "sha256":  "31a7c3b2ce9daa869d7e10845adc021ecff30f7d872d22f44544f15d1bbeee9a",
-                      "size":  3141537,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/particlerain-4.0.2+1.21.1-fabric.jar",
-                      "sha256":  "094d68197cfb6a04d8d63813fac35c26539e357ebcac8d965ab8241559131ac1",
-                      "size":  626772,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/player-locator-plus-2.4.0.jar",
                       "sha256":  "fa87dd68f82058d05287b4d2c677acbe15ea8bf37e74a89463b3f38c21dad199",
                       "size":  4591943,
@@ -1304,12 +1196,6 @@
                       "path":  "mods/puzzleslib-v21.1.64-mc1.21.1+fabric.jar",
                       "sha256":  "e4dd33e2aaff78cc3fd7b873ccce0fede9d853b7659f1c0ca016c6fe1fd0348d",
                       "size":  1507546,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/ranged_weapon_api-fabric-3.0.0+1.21.1.jar",
-                      "sha256":  "b3c3ff65dcaf0d36b02dc6c8935a58f437f47b2df3d3d888e9a453568c78b01a",
-                      "size":  159428,
                       "mode":  "sync"
                   },
                   {
@@ -1337,12 +1223,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/runes-fabric-1.3.2+1.21.1.jar",
-                      "sha256":  "083a82bd7de2c208a294decf49a93162a489e48ff2457563f18c86533b39b131",
-                      "size":  326613,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/rustbeds-1.0.0.jar",
                       "sha256":  "65bdcbd70ddad7e67eab2af5cd9f1e5ad97e6567c343b935d8567fb6ee4ceb9a",
                       "size":  4289,
@@ -1364,12 +1244,6 @@
                       "path":  "mods/shield_api-fabric-2.2.0.jar",
                       "sha256":  "679aac13306033fe0772a3b2e5fc7c1a898a34b3a9a46381e4233d9129157ed4",
                       "size":  45105,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/short-grass-1.3.0.jar",
-                      "sha256":  "7a6cf88141bf03df1164319a7f9a1632161761879214d36e33159d0318f185f9",
-                      "size":  18594,
                       "mode":  "sync"
                   },
                   {
@@ -1418,18 +1292,6 @@
                       "path":  "mods/spark-1.10.109-fabric.jar",
                       "sha256":  "fafc121ac53dab1c32e74b7a1cae47d54435ba4cbeeda1180dc96675a7757047",
                       "size":  3609981,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/spell_engine-fabric-1.10.9+1.21.1.jar",
-                      "sha256":  "83a87bacc2763047466ec01c0231a423db302b5acbb870d384aa26936cbbe050",
-                      "size":  4707862,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/spell_power-fabric-1.6.0+1.21.1.jar",
-                      "sha256":  "a309a4fb25b0ebdca071f1691b038165fb7d22adf6914b6456990dc47b11eb47",
-                      "size":  226992,
                       "mode":  "sync"
                   },
                   {
@@ -1508,18 +1370,6 @@
                       "path":  "mods/waystones-fabric-1.21.1-21.1.46.jar",
                       "sha256":  "06f4c8364e38ddff5d1afd100ca2f2d38b10a95f89a4b1d95b2a117accae24c1",
                       "size":  1248666,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/wizards-fabric-3.1.3+1.21.1.jar",
-                      "sha256":  "9925065e2d6900456483599ee2748a19f546cfc82d979335e540a122f3a3d86d",
-                      "size":  4542815,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/worldedit-mod-7.3.8.jar",
-                      "sha256":  "5e7752c97876d87411e3760bcc573cc431f43c453722e6959fa7fe54db1b01ca",
-                      "size":  6222854,
                       "mode":  "sync"
                   },
                   {
