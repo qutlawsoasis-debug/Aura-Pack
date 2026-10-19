@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1316",
+    "packVersion":  "20261019.1347",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -731,12 +731,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/DecorativeBlocks-Reborn-fabric-1.21.1-6.0.2.jar",
-                      "sha256":  "d32b372293f086307fdbfed793ee8dd59eee2b540836b37bc06a40a83b078b72",
-                      "size":  435607,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
                       "sha256":  "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
                       "size":  30207268,
@@ -1397,6 +1391,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/rustbeds-1.0.0.jar",
+                      "sha256":  "65bdcbd70ddad7e67eab2af5cd9f1e5ad97e6567c343b935d8567fb6ee4ceb9a",
+                      "size":  4289,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/scannable-MC1.21.1-fabric-1.8.1+a7f6831.jar",
                       "sha256":  "877e424e0e2fb2a24ab9984063751e567453ad15752894d899163ea6a9b4982b",
                       "size":  399528,
@@ -1748,6 +1748,18 @@
                       "path":  "shaderpacks/photon_v1.3b.zip",
                       "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
                       "size":  3800987,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "tlm_custom_pack/Aura_Maid.zip",
+                      "sha256":  "f272cc05c9234232aef4bc26b04eea4fa0916662add2924dbf24b297c56e9d4f",
+                      "size":  4517,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "tlm_custom_pack/z_Aura_Default_Maid.zip",
+                      "sha256":  "0670757d12587985a610b5a66065d5e371be4a1dcf3b24304532cc6d2af4765d",
+                      "size":  4373,
                       "mode":  "sync"
                   }
               ]
