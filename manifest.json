@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1732",
+    "packVersion":  "20261019.1821",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -773,6 +773,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/DistantHorizons-2.2.1-a-1.20.1.jar.disabled",
+                      "sha256":  "f282957cb0112f4cf2ce0feb0ecac73d388fab2896b8d11c53d724f4d728d863",
+                      "size":  16521385,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
                       "sha256":  "f6be638d63462d765004d08f912a105db981dc6a24ba2dd6b5e22b5fab416589",
                       "size":  4602936,
@@ -1475,9 +1481,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "resourcepacks/Classic-3D.zip",
+                      "sha256":  "814e399a910f26147e9ebb404ab2d33298e84289e9c15601766002d78abe501d",
+                      "size":  7528863,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
                       "sha256":  "4841d8466d874b2909fcb394252498e2da92976b61dd59e310a845ff4815ab0a",
                       "size":  63784,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Even-Better-Enchants.zip",
+                      "sha256":  "387eec14980c9c4ceab211e4876df3adae02beb554c08c739ada6865d83e786c",
+                      "size":  175363,
                       "mode":  "sync"
                   },
                   {
@@ -1487,9 +1505,21 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "resourcepacks/Mels-3D-Items.zip",
+                      "sha256":  "a7c597734da51e74e8b6bf6a2bdb9ef97dfac9885ebc880eecc627df15d2f12c",
+                      "size":  222394,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "resourcepacks/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip",
                       "sha256":  "b4a9b4846d70a121c1fe794b996c07f1d80f7c5ba655f12b082dc163c105ae83",
                       "size":  235388,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/SPBR.zip",
+                      "sha256":  "8e90adc01e7edd4db57e7c3ce00cc88e4d86e5b281d57f9110cb258af08ab566",
+                      "size":  25662227,
                       "mode":  "sync"
                   },
                   {
@@ -1517,27 +1547,57 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
-                      "sha256":  "58c493896f8d315c8314b71cc4e8de5e7767777c049b4eee8f71ea11f45a50d1",
-                      "size":  291,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt",
-                      "sha256":  "b814ae28a52491a9e4f01abce0317f161e8dce0520f4386e5f19722012b15725",
-                      "size":  292,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/Kappa_v5.3.zip.txt",
-                      "sha256":  "423c38c9a9fd823b1e7150a30c887e0c0ba55293d1a92b0759ee17779127b1fd",
-                      "size":  320,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "shaderpacks/Sildurs-Enhanced-Default-Fancy.zip",
                       "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
                       "size":  54991,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Bliss_v2.1.2.zip",
+                      "sha256":  "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
+                      "size":  1791406,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Builders-QOL.zip",
+                      "sha256":  "9b19802448fad01953ff517cc38f2d20d768c00be35d1547f43b3012705834ad",
+                      "size":  2359837,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Derivative.zip",
+                      "sha256":  "4d072b0a9bcd3135faf58341a4a767c5495f80720ba9f37f09369d542b9089f6",
+                      "size":  29169985,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Noble_v1.9.9.zip",
+                      "sha256":  "1bf8e45454dd72817507f37d6ea2a03b140e6e8a493d96db498797e431d0aae1",
+                      "size":  16823335,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Nostalgia_v5.1.zip",
+                      "sha256":  "7d7211af2fac6d9b3c7fcbaad7a47f1a612450376d14383088908831c18b6cc8",
+                      "size":  1842205,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/ProjectLUMA.zip",
+                      "sha256":  "aacbf251fc7afb5e01e4d751f7e83e2fc39cbef638bf0422e85a017035b8e0c1",
+                      "size":  19692966,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Sildurs-Enhanced-Default-Fancy.zip",
+                      "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
+                      "size":  54991,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks_pool/Sildurs-Vibrant-Shaders-Extreme-VL.zip",
+                      "sha256":  "4a76bc0c401b1d8b3983c5a38a3b54ca7206c284821bd703c5414ed51bd8b40b",
+                      "size":  251371,
                       "mode":  "sync"
                   }
               ]

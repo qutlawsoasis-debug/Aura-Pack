@@ -128,10 +128,15 @@ foreach ($relPathRaw in $gitFiles) {
 
     # Разделение по версиям
     if ($TargetVersion -eq "1.21.1") {
-        if (-not $relPath.StartsWith("versions/1.21.1/")) {
+        if ($relPath.StartsWith("shaderpacks_pool/")) {
+            $relPathInManifest = $relPath
+        }
+        elseif (-not $relPath.StartsWith("versions/1.21.1/")) {
             continue
         }
-        $relPathInManifest = $relPath.Substring("versions/1.21.1/".Length)
+        else {
+            $relPathInManifest = $relPath.Substring("versions/1.21.1/".Length)
+        }
     } else {
         if ($relPath.StartsWith("versions/")) {
             continue
@@ -166,7 +171,7 @@ foreach ($relPathRaw in $gitFiles) {
             }
         }
     }
-    elseif ($relPathInManifest.StartsWith("mods/") -or $relPathInManifest.StartsWith("shaderpacks/") -or $relPathInManifest.StartsWith("resourcepacks/") -or $relPathInManifest.StartsWith("tlm_custom_pack/")) {
+    elseif ($relPathInManifest.StartsWith("mods/") -or $relPathInManifest.StartsWith("shaderpacks/") -or $relPathInManifest.StartsWith("shaderpacks_pool/") -or $relPathInManifest.StartsWith("resourcepacks/") -or $relPathInManifest.StartsWith("tlm_custom_pack/")) {
         $mode = "sync"
     }
     else {
