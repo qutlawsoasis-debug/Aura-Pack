@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1444",
+    "packVersion":  "20261019.1457",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -920,6 +920,12 @@
                       "path":  "mods/async-locator-refined-fabric-1.21.1-1.6.0.jar",
                       "sha256":  "1065e5a231c4b5cb51277f01ad62fcd3c7d6cb0ad963de6c76af67d788e99eec",
                       "size":  312184,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/aura-defaults-1.0.0.jar",
+                      "sha256":  "9964ce58c9dff69a3ad2849dd260ae01c97d15b4812ebab9497d749e13833bbd",
+                      "size":  35046,
                       "mode":  "sync"
                   },
                   {
