@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1347",
+    "packVersion":  "20261019.1351",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -519,12 +519,6 @@
                       "sha256":  "308729211de44b4e3c2c196f4fbc9d1c1e9201025b0a95e49edf39567a7bc935",
                       "size":  283,
                       "mode":  "default"
-                  },
-                  {
-                      "path":  "config/touhou_little_maid-common.toml",
-                      "sha256":  "ece9d1394599bba675343f7b6d74fd3329d88464eed5c3605b43e4748edb5dc1",
-                      "size":  7557,
-                      "mode":  "sync"
                   },
                   {
                       "path":  "config/transition.json",
@@ -1553,12 +1547,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/touhoulittlemaid-fabric-0.8.2-forge1.5.3+mc1.20.1.jar",
-                      "sha256":  "cba723c93d67f0aa1c7ff1bcb29017d9298a120f54c754792e352cfc526e5000",
-                      "size":  29245103,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/trade-cycling-fabric-1.20.1-1.0.18.jar",
                       "sha256":  "d249a9217f7d478f60dfcf3340e4dd83c090992cf4984b744513057f3616570a",
                       "size":  430650,
@@ -1784,18 +1772,6 @@
                       "path":  "shaderpacks/photon_v1.3b.zip",
                       "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
                       "size":  3800987,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "tlm_custom_pack/Aura_Maid.zip",
-                      "sha256":  "f272cc05c9234232aef4bc26b04eea4fa0916662add2924dbf24b297c56e9d4f",
-                      "size":  4517,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "tlm_custom_pack/z_Aura_Default_Maid.zip",
-                      "sha256":  "0670757d12587985a610b5a66065d5e371be4a1dcf3b24304532cc6d2af4765d",
-                      "size":  4373,
                       "mode":  "sync"
                   }
               ]

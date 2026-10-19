@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1347",
+    "packVersion":  "20261019.1351",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1505,12 +1505,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/touhoulittlemaid-fabric-0.8.2-neo1.5.3+mc1.21.1.jar",
-                      "sha256":  "0309a3f40052c82ba5e16a81ddd9a3e4e8597c1be21c8c363754c4c3e370e1ba",
-                      "size":  26744080,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/trade-cycling-fabric-1.21.1-1.0.23.jar",
                       "sha256":  "a940e4cf69b1a0a4ddca3ee980da59c0e2100617317c18e232fcb27bf048da34",
                       "size":  521029,
@@ -1748,18 +1742,6 @@
                       "path":  "shaderpacks/photon_v1.3b.zip",
                       "sha256":  "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
                       "size":  3800987,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "tlm_custom_pack/Aura_Maid.zip",
-                      "sha256":  "f272cc05c9234232aef4bc26b04eea4fa0916662add2924dbf24b297c56e9d4f",
-                      "size":  4517,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "tlm_custom_pack/z_Aura_Default_Maid.zip",
-                      "sha256":  "0670757d12587985a610b5a66065d5e371be4a1dcf3b24304532cc6d2af4765d",
-                      "size":  4373,
                       "mode":  "sync"
                   }
               ]
