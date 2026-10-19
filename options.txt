@@ -4,5 +4,5 @@ guiScale:2
 fullscreen:true
 renderDistance:12
 simulationDistance:8
-resourcePacks:["vanilla","fabric","file/unobtrusive-grass-1.0.1.zip","file/Sodium_Russian_Translation.zip","file/Patrix_1.20_models.zip","file/Patrix_1.20_32x_basic.zip","file/Patrix_1.20_32x_addon.zip","file/Patrix_1.20_32x_bonus.zip","file/Better-Leaves-9.6.zip","file/FreshAnimations_v1.10.4.zip","file/Dungeons Content UI.zip","file/Ancient City Panorama V2.zip","punchy:punchy","file/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip"]
-incompatibleResourcePacks:["file/Ancient City Panorama V2.zip","file/Better-Leaves-9.6.zip","file/Dungeons Content UI.zip","file/FreshAnimations_v1.10.4.zip","file/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip","file/Patrix_1.20_32x_addon.zip","file/Patrix_1.20_32x_basic.zip","file/Patrix_1.20_32x_bonus.zip","file/Patrix_1.20_models.zip","file/Sodium_Russian_Translation.zip","file/unobtrusive-grass-1.0.1.zip"]
+resourcePacks:["vanilla","fabric","file/Sodium_Russian_Translation.zip","file/AnimatedDoors-RP-2.0.0.zip","file/unobtrusive-grass-1.0.1.zip","file/Drigo-3D-Lanterns-x-Punchy.zip","file/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip","punchy:punchy"]
+incompatibleResourcePacks:[]

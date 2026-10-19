@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1521",
+    "packVersion":  "20261019.1623",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1464,20 +1464,14 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "c41ba11cff4fe9be9cdb6104d694c13f3e764250420704467d8f4e8099ad5177",
-                      "size":  931,
+                      "sha256":  "5da8c11d70630a6eff37851b27817f596209a1dbf5e6c5568e047b92e96cf64d",
+                      "size":  363,
                       "mode":  "default"
                   },
                   {
-                      "path":  "resourcepacks/Ancient City Panorama V2.zip",
-                      "sha256":  "73516be480a163397a3f7d58237e115930a05aa3fa36835a746e9149be2bee85",
-                      "size":  16303991,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
-                      "sha256":  "d01c449f5b2f8453f0087f73e1b94bcec47292b1b37d04a2800b6749554252da",
-                      "size":  72823,
+                      "sha256":  "f53ed67beb6d7b878eb95099b24e1dd38c4f438ba8af73e60a8ecea971a31397",
+                      "size":  72756,
                       "mode":  "sync"
                   },
                   {
@@ -1488,14 +1482,8 @@
                   },
                   {
                       "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
-                      "sha256":  "6adfb64bbe233f5a90ebc470c1b55f0abaf4aa232b12645d8497cca3d5496464",
-                      "size":  63756,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Dungeons Content UI.zip",
-                      "sha256":  "13dd74b1f5180fb587e498e404afd0dfa4a1c077b80a175afd8edecf7dea45ad",
-                      "size":  10291899,
+                      "sha256":  "4841d8466d874b2909fcb394252498e2da92976b61dd59e310a845ff4815ab0a",
+                      "size":  63784,
                       "mode":  "sync"
                   },
                   {
@@ -1512,26 +1500,26 @@
                   },
                   {
                       "path":  "resourcepacks/Patrix_1.20_32x_addon.zip",
-                      "sha256":  "d82c20cb58527412e24d9c12492a64f4bad1583bd9aa1535a75361801b78fded",
-                      "size":  14733548,
+                      "sha256":  "acbcecdce38f1beafcea4c45a69709a1f0c7e0eab7e9373ccdd6c26ddce02909",
+                      "size":  15131885,
                       "mode":  "sync"
                   },
                   {
                       "path":  "resourcepacks/Patrix_1.20_32x_basic.zip",
-                      "sha256":  "677042c0585cd55536ece4144eed30d6499480def82911efa2c5a80816d804f0",
-                      "size":  52420230,
+                      "sha256":  "a259b3ef59a6be89f96604bacc6748085d4cd8097095d11925d9cfdd4aed1f92",
+                      "size":  53585107,
                       "mode":  "sync"
                   },
                   {
                       "path":  "resourcepacks/Patrix_1.20_32x_bonus.zip",
-                      "sha256":  "7beade9d501343b9efaa7a0f7e5bdae273294d6157ee9fd8dee7cbf5bbf3b7ac",
-                      "size":  3578260,
+                      "sha256":  "089af0a5ca01f2ad58291ffd99794ac5d7b48391a0cf0eec08fce540e0cbaa2a",
+                      "size":  3670552,
                       "mode":  "sync"
                   },
                   {
                       "path":  "resourcepacks/Patrix_1.20_models.zip",
-                      "sha256":  "2d5cc4f6cf091d8caab630dbbe41b6b5f69ad804e9b0cdf9a128ceda05922e13",
-                      "size":  66799,
+                      "sha256":  "0dcce6fa26f38a85d97ed64015925f39490b5bbec837bb496c7fc2ac040922e6",
+                      "size":  70336,
                       "mode":  "sync"
                   },
                   {
@@ -1542,8 +1530,8 @@
                   },
                   {
                       "path":  "resourcepacks/unobtrusive-grass-1.0.1.zip",
-                      "sha256":  "31830ec001b74d5c57934d8b276c6d317515a38f8406b28c91cce7c2f93fb550",
-                      "size":  9491,
+                      "sha256":  "b58e0c99132ec3cd5a04cf3b77f1d14b5d64bfd8bb48ffc5b9acf1b8904716d5",
+                      "size":  10344,
                       "mode":  "sync"
                   },
                   {
