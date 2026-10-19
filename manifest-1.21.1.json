@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1712",
+    "packVersion":  "20261019.1717",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1416,20 +1416,14 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "66cdf6823b495f5f409ce9bf558a5f05bca50343f9f4813c2e93c337017a7a84",
-                      "size":  578,
+                      "sha256":  "e729ac28aa4a29659f868f192340d211d96bd30ce787359a745b303cb23d73a6",
+                      "size":  612,
                       "mode":  "default"
                   },
                   {
                       "path":  "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
                       "sha256":  "f53ed67beb6d7b878eb95099b24e1dd38c4f438ba8af73e60a8ecea971a31397",
                       "size":  72756,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Better-Leaves-9.6.zip",
-                      "sha256":  "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90",
-                      "size":  1977146,
                       "mode":  "sync"
                   },
                   {
@@ -1454,6 +1448,12 @@
                       "path":  "resourcepacks/Sodium_Russian_Translation.zip",
                       "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
                       "size":  1269344,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Universal Bushy Leaves.zip",
+                      "sha256":  "5e754c421a9bdc6bd57e2a70b726eaee8b73b0762027727b4df13c9b40fa32e8",
+                      "size":  63078,
                       "mode":  "sync"
                   },
                   {
