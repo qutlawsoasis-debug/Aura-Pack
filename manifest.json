@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.2003",
+    "packVersion":  "20261019.2009",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -140,18 +140,6 @@
                       "path":  "config/entityculling.json",
                       "sha256":  "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
                       "size":  2248,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/euphoria_patcher/.data.json",
-                      "sha256":  "a99ba750dd34bc018f6e12fb60ae05c1510b0daacd862aa06fe26ccbf1d37fa5",
-                      "size":  162,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/euphoria_patcher/settings.toml",
-                      "sha256":  "d4ff06f1b6d8b191853b72996f8ba1d20cc90fa4e98e3222ab7fe552cf52b31e",
-                      "size":  2641,
                       "mode":  "default"
                   },
                   {
@@ -713,12 +701,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/AuraLyrics-1.20.1-1.0.0.jar",
-                      "sha256":  "bb3a0b8d81805cf7877e369ef2493f13890897d21794cf9400dbd3f291b0b5dc",
-                      "size":  230925,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/BOMD-1.7.5-1.20.1.jar",
                       "sha256":  "85bec458ba79760be82085657865631afbbcd82e7b55b4948e63451c0dc685f2",
                       "size":  2746075,
@@ -782,12 +764,6 @@
                       "path":  "mods/DistantHorizons-2.2.1-a-1.20.1.jar.disabled",
                       "sha256":  "f282957cb0112f4cf2ce0feb0ecac73d388fab2896b8d11c53d724f4d728d863",
                       "size":  16521385,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
-                      "sha256":  "f6be638d63462d765004d08f912a105db981dc6a24ba2dd6b5e22b5fab416589",
-                      "size":  4602936,
                       "mode":  "sync"
                   },
                   {
@@ -1208,12 +1184,6 @@
                       "path":  "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
                       "sha256":  "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
                       "size":  487655,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/lyricsplus-3.0.0-1.20.1.jar",
-                      "sha256":  "a99b4b283c957fac25bf564bc1d6a8c51361230bc9a2911e75090ee3e59a87e8",
-                      "size":  21714887,
                       "mode":  "sync"
                   },
                   {
