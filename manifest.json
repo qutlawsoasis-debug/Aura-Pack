@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1444",
+    "packVersion":  "20261019.1521",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1290,8 +1290,8 @@
                   },
                   {
                       "path":  "mods/rustbeds-1.0.0.jar",
-                      "sha256":  "3c68397ce1320fcf3da08100121b2aaf66c4c23814a4e7e6bdc310925ca37a87",
-                      "size":  4292,
+                      "sha256":  "f2b31c1175ff77284ab31db9b4c1381f932e1be966123b78bc0911136d6429d7",
+                      "size":  8231,
                       "mode":  "sync"
                   },
                   {
