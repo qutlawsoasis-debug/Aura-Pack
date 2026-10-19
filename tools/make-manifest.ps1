@@ -20,7 +20,7 @@ if (-not $name) { $name = "Aura" }
 
 if ($TargetVersion -eq "1.21.1") {
     $minecraft = "1.21.1"
-    $fabricLoader = "0.16.10"
+    $fabricLoader = "0.19.5"
     $manifestFileName = "manifest-1.21.1.json"
     $optionsPath = Join-Path $packDir "versions\1.21.1\options.txt"
     $rpBasePath = Join-Path $packDir "versions\1.21.1\resourcepacks"

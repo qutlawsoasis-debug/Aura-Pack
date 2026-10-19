@@ -1,8 +1,8 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1246",
+    "packVersion":  "20261019.1258",
     "minecraft":  "1.21.1",
-    "fabricLoader":  "0.16.10",
+    "fabricLoader":  "0.19.5",
     "files":  [
                   {
                       "path":  "config/DistantHorizons.toml",
@@ -1454,12 +1454,6 @@
                       "path":  "mods/sodium-fabric-0.8.13+mc1.21.1.jar",
                       "sha256":  "3d43c14985a4deb19c654aad3393b454cf57e1ebcbba86c4ae6a98dfc60eca2d",
                       "size":  1574609,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/soulslike-weaponry-1.4.8-1.21.1-fabric.jar",
-                      "sha256":  "61eec7c218541b183bdcb95ee8fe76ea8404f6162e1aea4c59d4213bcf0d4cc2",
-                      "size":  54447392,
                       "mode":  "sync"
                   },
                   {
