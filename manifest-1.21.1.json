@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1951",
+    "packVersion":  "20261019.2003",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -668,6 +668,12 @@
                       "path":  "mods/AmbientSounds_FABRIC_v6.3.11_mc1.21.1.jar",
                       "sha256":  "8ddd5faafa0a66edb2f52205eaaa1a21332719c5b98ce6851a756f6b6856fba8",
                       "size":  84824008,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/AuraLyrics-1.21.1-1.0.0.jar",
+                      "sha256":  "97eefc10eb8239ed3cd589241ac9fe67491d617bfd7f2cf7ea42edf548db3c5a",
+                      "size":  230965,
                       "mode":  "sync"
                   },
                   {
