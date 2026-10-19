@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.2039",
+    "packVersion":  "20261019.2045",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -660,8 +660,8 @@
                   },
                   {
                       "path":  "mods/AuraLyrics-1.21.1-1.0.0.jar",
-                      "sha256":  "73da59b9bef6dc9b86235dff9777d631bc78b82720b5735607ff633eaab4b93e",
-                      "size":  246272,
+                      "sha256":  "92574cdd20a3a35aaa065b891d18dc238832c8c08d75bf3b5eeec4a345aaee4f",
+                      "size":  124717,
                       "mode":  "sync"
                   },
                   {
@@ -1124,6 +1124,12 @@
                       "path":  "mods/lithostitched-1.8.1-fabric-21.1.jar",
                       "sha256":  "04980f7e667032fc89c61c4c264565c1564b2808c57da52dcfe427fea1fee1d1",
                       "size":  1015426,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/mcef-fabric-2.1.6-1.21.1.jar",
+                      "sha256":  "b5270016b85a6c3c26cc88c11ca3c128b937e6b98d3c86605d48502693f81553",
+                      "size":  221767,
                       "mode":  "sync"
                   },
                   {
