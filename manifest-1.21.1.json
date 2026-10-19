@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1717",
+    "packVersion":  "20261019.1732",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1463,6 +1463,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "shaderpacks/Builders-QOL.zip",
+                      "sha256":  "9b19802448fad01953ff517cc38f2d20d768c00be35d1547f43b3012705834ad",
+                      "size":  2359837,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
                       "sha256":  "58c493896f8d315c8314b71cc4e8de5e7767777c049b4eee8f71ea11f45a50d1",
                       "size":  291,
@@ -1478,6 +1484,12 @@
                       "path":  "shaderpacks/Kappa_v5.3.zip.txt",
                       "sha256":  "423c38c9a9fd823b1e7150a30c887e0c0ba55293d1a92b0759ee17779127b1fd",
                       "size":  320,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "shaderpacks/Sildurs-Enhanced-Default-Fancy.zip",
+                      "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
+                      "size":  54991,
                       "mode":  "sync"
                   }
               ]
