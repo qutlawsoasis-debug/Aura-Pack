@@ -15,9 +15,9 @@ if (-not (Test-Path $makeManifestScript)) {
     throw "make-manifest.ps1 script not found: $makeManifestScript"
 }
 
-Write-Host "=== Generating Manifest ==="
-$manifestOutput = & powershell.exe -ExecutionPolicy Bypass -File $makeManifestScript
-$manifestOutput | ForEach-Object { Write-Host $_ }
+Write-Host "=== Generating Manifests ==="
+& powershell.exe -ExecutionPolicy Bypass -File $makeManifestScript -TargetVersion 1.20.1 | ForEach-Object { Write-Host $_ }
+& powershell.exe -ExecutionPolicy Bypass -File $makeManifestScript -TargetVersion 1.21.1 | ForEach-Object { Write-Host $_ }
 
 $manifestPath = Join-Path $packDir "manifest.json"
 if (-not (Test-Path $manifestPath)) {

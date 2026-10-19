@@ -1,0 +1,13 @@
+{
+  "peripheralUnease": {
+    "enabled": true,
+    "baselineIntensity": 0.13,
+    "maxIntensity": 0.35,
+    "edgeDarkness": 0.18,
+    "turnLagEnabled": true,
+    "turnLagStrength": 0.75,
+    "ashEnabled": true,
+    "shadowFlickerEnabled": true,
+    "phantomShapesEnabled": true
+  }
+}

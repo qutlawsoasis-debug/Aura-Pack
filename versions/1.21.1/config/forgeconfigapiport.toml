@@ -1,0 +1,6 @@
+correctConfigValuesFromDefaultConfig = true
+#Path to load default configs from, intended for setting global server configs for newly created worlds, but also works when recreating client and common configs.
+defaultConfigsPath = "defaultconfigs"
+recreateConfigsWhenParsingFails = true
+forceGlobalServerConfigs = true
+

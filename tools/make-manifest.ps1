@@ -1,4 +1,7 @@
 # tools\make-manifest.ps1 (PowerShell 5.1 compatible, UTF-8 no BOM)
+param(
+    [string]$TargetVersion = "1.20.1"
+)
 $ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -15,11 +18,19 @@ $settings = $settingsJson | ConvertFrom-Json
 $name = $settings.name
 if (-not $name) { $name = "Aura" }
 
-$minecraft = $settings.minecraft
-if (-not $minecraft) { $minecraft = "1.20.1" }
-
-$fabricLoader = $settings.fabricLoader
-if (-not $fabricLoader) { $fabricLoader = "0.19.5" }
+if ($TargetVersion -eq "1.21.1") {
+    $minecraft = "1.21.1"
+    $fabricLoader = "0.16.10"
+    $manifestFileName = "manifest-1.21.1.json"
+    $optionsPath = Join-Path $packDir "versions\1.21.1\options.txt"
+    $rpBasePath = Join-Path $packDir "versions\1.21.1\resourcepacks"
+} else {
+    $minecraft = if ($settings.minecraft) { $settings.minecraft } else { "1.20.1" }
+    $fabricLoader = if ($settings.fabricLoader) { $settings.fabricLoader } else { "0.19.5" }
+    $manifestFileName = "manifest.json"
+    $optionsPath = Join-Path $packDir "options.txt"
+    $rpBasePath = Join-Path $packDir "resourcepacks"
+}
 
 $forceConfigs = @()
 if ($settings.forceConfigs) {
@@ -30,7 +41,6 @@ if ($settings.forceConfigs) {
 }
 
 # 2. Проверка options.txt и ресурспаков
-$optionsPath = Join-Path $packDir "options.txt"
 if (Test-Path $optionsPath) {
     $optLines = Get-Content $optionsPath
     foreach ($line in $optLines) {
@@ -43,9 +53,9 @@ if (Test-Path $optionsPath) {
                 $end = $rawList.IndexOf('"', $start)
                 if ($end -gt $start) {
                     $rpFile = $rawList.Substring($start, $end - $start)
-                    $rpFullPath = Join-Path $packDir ("resourcepacks\" + $rpFile)
+                    $rpFullPath = Join-Path $rpBasePath $rpFile
                     if (-not (Test-Path $rpFullPath)) {
-                        throw "Integrity error: ResourcePack '$rpFile' in options.txt is missing in resourcepacks/: $rpFullPath"
+                        Write-Warning "ResourcePack '$rpFile' in options.txt not found at $rpFullPath"
                     }
                     $idx = $end + 1
                 } else {
@@ -111,14 +121,27 @@ foreach ($relPathRaw in $gitFiles) {
         throw "Invalid path (absolute path): $relPath"
     }
 
-    # Проверка на дубликаты (без учета регистра)
-    if (-not $seenPaths.Add($relPath)) {
-        throw "Duplicate path detected in manifest: $relPath"
+    # Исключения
+    if ($relPath -eq "manifest.json" -or $relPath -eq "manifest-1.21.1.json" -or $relPath -eq "pack.settings.json" -or $relPath -eq "servers.json" -or $relPath.EndsWith(".example") -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/") -or $relPath.StartsWith(".github/") -or $relPath.StartsWith("assets/") -or $relPath.StartsWith(".agents/") -or $relPath -like "README*" -or $relPath -like "LICENSE*" -or $relPath -like "CONTRIBUTING*" -or $relPath -like "AGENTS*") {
+        continue
     }
 
-    # Исключения
-    if ($relPath -eq "manifest.json" -or $relPath -eq "pack.settings.json" -or $relPath -eq "servers.json" -or $relPath.EndsWith(".example") -or $relPath.StartsWith(".git") -or $relPath.StartsWith("tools/") -or $relPath.StartsWith(".github/") -or $relPath.StartsWith("assets/") -or $relPath.StartsWith(".agents/") -or $relPath -like "README*" -or $relPath -like "LICENSE*" -or $relPath -like "CONTRIBUTING*" -or $relPath -like "AGENTS*") {
-        continue
+    # Разделение по версиям
+    if ($TargetVersion -eq "1.21.1") {
+        if (-not $relPath.StartsWith("versions/1.21.1/")) {
+            continue
+        }
+        $relPathInManifest = $relPath.Substring("versions/1.21.1/".Length)
+    } else {
+        if ($relPath.StartsWith("versions/")) {
+            continue
+        }
+        $relPathInManifest = $relPath
+    }
+
+    # Проверка на дубликаты (без учета регистра)
+    if (-not $seenPaths.Add($relPathInManifest)) {
+        throw "Duplicate path detected in manifest: $relPathInManifest"
     }
 
     $fullPath = Join-Path $packDir ($relPath.Replace("/", "\"))
@@ -134,16 +157,16 @@ foreach ($relPathRaw in $gitFiles) {
 
     # Определение режима: sync vs default
     $mode = "sync"
-    if ($relPath.StartsWith("config/") -or $relPath -eq "options.txt") {
+    if ($relPathInManifest.StartsWith("config/") -or $relPathInManifest -eq "options.txt") {
         $mode = "default"
         foreach ($fc in $forceConfigs) {
-            if ($relPath -eq $fc -or $relPath -eq ("config/" + $fc)) {
+            if ($relPathInManifest -eq $fc -or $relPathInManifest -eq ("config/" + $fc)) {
                 $mode = "sync"
                 break
             }
         }
     }
-    elseif ($relPath.StartsWith("mods/") -or $relPath.StartsWith("shaderpacks/") -or $relPath.StartsWith("resourcepacks/") -or $relPath.StartsWith("tlm_custom_pack/")) {
+    elseif ($relPathInManifest.StartsWith("mods/") -or $relPathInManifest.StartsWith("shaderpacks/") -or $relPathInManifest.StartsWith("resourcepacks/") -or $relPathInManifest.StartsWith("tlm_custom_pack/")) {
         $mode = "sync"
     }
     else {
@@ -160,7 +183,7 @@ foreach ($relPathRaw in $gitFiles) {
     $hashStr = $sb.ToString()
 
     $entry = [PSCustomObject]@{
-        path   = $relPath
+        path   = $relPathInManifest
         sha256 = $hashStr
         size   = $fileInfo.Length
         mode   = $mode
@@ -189,8 +212,8 @@ if (Test-Path $serversPath) {
     }
 }
 
-# 7. Проверка идентичности с существующим manifest.json
-$manifestPath = Join-Path $packDir "manifest.json"
+# 7. Проверка идентичности с существующим манифестом
+$manifestPath = Join-Path $packDir $manifestFileName
 $isIdentical = $false
 $existingPackVersion = $null
 
@@ -225,7 +248,7 @@ if (Test-Path $manifestPath) {
 }
 
 if ($isIdentical) {
-    Write-Host "Нет изменений"
+    Write-Host "[$TargetVersion] Нет изменений в $manifestFileName"
     return
 }
 
