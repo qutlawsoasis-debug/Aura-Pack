@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261019.1821",
+    "packVersion":  "20261019.1834",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1337,6 +1337,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/smoothswapping-0.9.3.2-1.20.1-fabric.jar",
+                      "sha256":  "01f402a3685bf8e756c3f50661d06924c67ee375099c19aee884f52187fc07f0",
+                      "size":  59984,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/snowyspirit-1.20-3.0.10-fabric.jar",
                       "sha256":  "1cc2bc08f5247bfe3ec2612cefbbcb0d2e5fdf2fe302150f00d62b33df7e7704",
                       "size":  5315563,
@@ -1470,8 +1476,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "e729ac28aa4a29659f868f192340d211d96bd30ce787359a745b303cb23d73a6",
-                      "size":  612,
+                      "sha256":  "17764aed62e4f9f9a883b2328c763ad12a9ca7be63dcf2190614e3210a905819",
+                      "size":  652,
                       "mode":  "default"
                   },
                   {
@@ -1526,6 +1532,12 @@
                       "path":  "resourcepacks/Sodium_Russian_Translation.zip",
                       "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
                       "size":  1269344,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Transparent-GUI-White-Border.zip",
+                      "sha256":  "c1249609d00e7de9b4e3b0bd256e1c1e173258a268e3a92934e59cb9224e000a",
+                      "size":  557683,
                       "mode":  "sync"
                   },
                   {
