@@ -1,6 +1,6 @@
 {
     "name": "Aura",
-    "packVersion": "20261019.1753",
+    "packVersion": "20261019.1805",
     "minecraft": "1.21.1",
     "fabricLoader": "0.19.5",
     "files": [
@@ -725,9 +725,9 @@
             "mode": "sync"
         },
         {
-            "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-fabric.jar",
-            "sha256": "b42bd00c7ab6e044d21f845dedc58a4524e45643f3685bf1c2343098e74d662e",
-            "size": 4296552,
+            "path": "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
+            "sha256": "f6be638d63462d765004d08f912a105db981dc6a24ba2dd6b5e22b5fab416589",
+            "size": 4602936,
             "mode": "sync"
         },
         {
@@ -1385,9 +1385,9 @@
             "mode": "sync"
         },
         {
-            "path": "mods/xaerominimap-fabric-1.21.1-26.4.2.jar",
-            "sha256": "85342f8f7c098e98f2f200fbba308a243af1204cb1afd7668360420e635aa2f8",
-            "size": 2233608,
+            "path": "mods/xaerominimap-fabric-1.21.1-26.6.0.jar",
+            "sha256": "86bdc4282a73ed55e6a4903a7ba65940a6aed20404f7ab7c96f8d94078accd1b",
+            "size": 2234556,
             "mode": "sync"
         },
         {
