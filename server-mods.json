@@ -1,0 +1,23 @@
+{
+  "_comment": "Какие моды сборки идут на сервер. Читают tools/build-server.ps1 и tools/sync-server-mods.py. Моды с environment=client отсеиваются автоматически.",
+  "clientOnly": [
+    "entityculling*",
+    "notenoughanimations*",
+    "short-grass*",
+    "skinlayers3d*",
+    "waveycapes*",
+    "lanserverproperties*",
+    "sound-physics-remastered*",
+    "aura-defaults*",
+    "litematica*",
+    "malilib*",
+    "BridgingMod*",
+    "mcef*"
+  ],
+  "serverOnly": [
+    "easyauth-*",
+    "Chunky-*",
+    "c2me-fabric-*",
+    "worldedit-mod-*"
+  ]
+}

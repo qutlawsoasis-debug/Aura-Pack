@@ -46,18 +46,9 @@ if (-not (Test-Path $modsDir)) {
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
-$nameExclusions = @(
-    'entityculling*',
-    'notenoughanimations*',
-    'short-grass*',
-    'skinlayers3d*',
-    'waveycapes*',
-    'lanserverproperties*',
-    'sound-physics-remastered*',
-    'aura-defaults*',
-    'litematica*',
-    'malilib*'
-)
+# Клиентские моды-исключения — общий список с tools/sync-server-mods.py
+$serverRules = Get-Content (Join-Path $packDir "server-mods.json") -Raw | ConvertFrom-Json
+$nameExclusions = @($serverRules.clientOnly)
 
 $allJars = Get-ChildItem -Path (Join-Path $packDir "mods\*.jar")
 $copiedCount = 0
