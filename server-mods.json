@@ -12,7 +12,8 @@
     "litematica*",
     "malilib*",
     "BridgingMod*",
-    "mcef*"
+    "mcef*",
+    "aura-ui*"
   ],
   "serverOnly": [
     "easyauth-*",
