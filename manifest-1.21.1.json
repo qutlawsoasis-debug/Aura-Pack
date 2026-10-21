@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261021.2207",
+    "packVersion":  "20261021.2357",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1046,6 +1046,12 @@
                       "path":  "mods/continuity-3.0.0+1.21.jar",
                       "sha256":  "99fd46b834874d167ea2349a9a72947cbfa7192f927aa99bbeb4b0637aa208d4",
                       "size":  1014044,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/ctov-3.6.3-fabric.jar",
+                      "sha256":  "e443925d8fe4d092f1f39262fa73182e49e34dcbf9ca51eaaa53064bb92ee652",
+                      "size":  8118869,
                       "mode":  "sync"
                   },
                   {
