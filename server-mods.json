@@ -19,6 +19,8 @@
     "easyauth-*",
     "Chunky-*",
     "c2me-fabric-*",
-    "worldedit-mod-*"
+    "worldedit-mod-*",
+    "ViaFabric-*",
+    "ViaVersion-*"
   ]
 }
