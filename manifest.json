@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261021.1909",
+    "packVersion":  "20261021.1922",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1476,8 +1476,8 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha256":  "1f893407502d97c53a4eb1b06eaf818e8cb2cd867e5d2ac3fac4687115fb9454",
-                      "size":  847,
+                      "sha256":  "bd87b1e1c41e27c7cdb33a685b9d53a25b500f50e39edfbff1de935e9820ac09",
+                      "size":  807,
                       "mode":  "default"
                   },
                   {
@@ -1532,12 +1532,6 @@
                       "path":  "resourcepacks/Sodium_Russian_Translation.zip",
                       "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
                       "size":  1269344,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Transparent-GUI-White-Border.zip",
-                      "sha256":  "c1249609d00e7de9b4e3b0bd256e1c1e173258a268e3a92934e59cb9224e000a",
-                      "size":  557683,
                       "mode":  "sync"
                   },
                   {
