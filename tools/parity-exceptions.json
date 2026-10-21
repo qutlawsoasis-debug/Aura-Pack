@@ -1,0 +1,26 @@
+{
+  "modIdReplacements": {
+    "player-animator": [
+      {
+        "target": "playeranimator",
+        "reason": "В 1.21.1 мод player-animator сменил mod ID на playeranimator"
+      },
+      {
+        "target": "playeranimatorapi",
+        "reason": "Новый API-модуль playeranimatorapi, выделенный в 1.21.1 как зависимость playeranimator"
+      }
+    ],
+    "mr_stellarity": [
+      {
+        "target": "stellarity",
+        "reason": "В 1.21.1 разработчик изменил mod ID с mr_stellarity на stellarity; версии v2 под 1.21.1 не существует (только линейка 3.x)"
+      }
+    ]
+  },
+  "droppedIn121": {
+    "indium": "Indium не требуется в 1.21.1, так как Sodium 0.6+ имеет встроенную полную поддержку Fabric Rendering API"
+  },
+  "extraIn121": {
+    "mr_animated_doors": "Fabric-мод Animated Doors 1.21, необходимый для работы ресурс-пака AnimatedDoors-RP на версии 1.21.1"
+  }
+}

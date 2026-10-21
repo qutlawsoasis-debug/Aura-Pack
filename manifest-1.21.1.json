@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261021.2323",
+    "packVersion":  "20261021.2207",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -51,6 +51,12 @@
                       "sha256":  "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
                       "size":  3458,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/bridgingmod.json",
+                      "sha256":  "0515505217053a418ff9891435f06d6ceb99ca2776bfdf82eaeab7f9d34b19ad",
+                      "size":  543,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/capes.json5",
@@ -122,6 +128,18 @@
                       "path":  "config/emi.css",
                       "sha256":  "1b149cd175b2bd85417ae3bf162c4f5169505129c4a811387c4c02ae90bec4cb",
                       "size":  10183,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/emotecraft.json",
+                      "sha256":  "3be0803b3bea401f3418b05b2cc009ba2bc58ab33088e95c0a5fd2bdcf123f18",
+                      "size":  885,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/emotes/salute.json",
+                      "sha256":  "605f56f35fec2d4e106f224e20223611ef69ccd7915f0e72f7fed21de002bb4f",
+                      "size":  1670,
                       "mode":  "default"
                   },
                   {
@@ -227,10 +245,16 @@
                       "mode":  "default"
                   },
                   {
-                      "path":  "config/jade/usernamecache.json",
-                      "sha256":  "478ab6672767ab273f46413e85b99f76bb29f1489c0ffe5e5444ccb88344b595",
-                      "size":  54,
-                      "mode":  "default"
+                      "path":  "config/litematica.json",
+                      "sha256":  "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
+                      "size":  454,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "config/litematica/litematica.json",
+                      "sha256":  "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
+                      "size":  454,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/lithium.properties",
@@ -242,6 +266,12 @@
                       "path":  "config/lithostitched.json",
                       "sha256":  "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df",
                       "size":  284,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/lsp.json",
+                      "sha256":  "96553303007f98a2e5dd25ccb87b2c4652286a56f35d254cc852d7437aa4f2df",
+                      "size":  214,
                       "mode":  "default"
                   },
                   {
@@ -323,6 +353,12 @@
                       "mode":  "default"
                   },
                   {
+                      "path":  "config/punchy/punchy_config.json",
+                      "sha256":  "efa4d59d9cffff7d9114df0ee11ee428c2b54bc13dce582aa339cf1c8fe6ba28",
+                      "size":  1358,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "config/sable-client.toml",
                       "sha256":  "4bb419852323dabfee202acd5f9ebc4caef8c3991abe5bc08d7833df589b58a3",
                       "size":  912,
@@ -339,6 +375,30 @@
                       "sha256":  "75d3a7740415e28fb5733f7d8a72fa835cb4325d90af2d99374da23aa575df5c",
                       "size":  313,
                       "mode":  "default"
+                  },
+                  {
+                      "path":  "config/scannable-common.toml",
+                      "sha256":  "be508b8c01407765e6cd7bb2dd03f925bd2c6e57fd99907e7f854f5367ca1493",
+                      "size":  3797,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/servercore/config.yml",
+                      "sha256":  "45fc690d9a5964d39e22194d4b4e54c412aefe8227002f0c14ad61d313d64cdc",
+                      "size":  385,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/servercore/optimizations.yml",
+                      "sha256":  "a699f828fd142094500fb0b4ba7dd97a88032280a58569149c6015955efc92ae",
+                      "size":  111,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/simplyswords/compatibility.toml",
+                      "sha256":  "909a2c74eb3583c9f116b2a63e868713da9fdccc43478550f4617485c42031d0",
+                      "size":  11976,
+                      "mode":  "sync"
                   },
                   {
                       "path":  "config/skinlayers.json",
@@ -512,6 +572,12 @@
                       "path":  "config/upgrader_economy.json",
                       "sha256":  "1d4b14e5a15b85abbe5b67e3d41cb460331ab2d9cf1e55302d7795661f4c5211",
                       "size":  1595,
+                      "mode":  "default"
+                  },
+                  {
+                      "path":  "config/villagernames/customnames.txt",
+                      "sha256":  "76da7321f9561fbd4e2e93c67cc877989fc65c46a4fed1b8083485969f1258a9",
+                      "size":  3570,
                       "mode":  "default"
                   },
                   {
@@ -878,6 +944,12 @@
                       "path":  "mods/amendments-1.21-2.1.11-fabric.jar",
                       "sha256":  "586f42bff2414381840cb15ca3208f277f355dc217ee2053a1faa7ef7665d683",
                       "size":  1170593,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/animated-doors-1.21.jar",
+                      "sha256":  "7a242eb51955e49f3b08fe8d2d42b51243d9d6ee64d914287fa04a0171984166",
+                      "size":  602316,
                       "mode":  "sync"
                   },
                   {
@@ -1367,12 +1439,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/voxelmind-local-0.4.6+1.21.1.jar",
-                      "sha256":  "8844daaf0a5a6f3b6eb56bc81e42905c39f55503e1ccd93d1db96a7ea3347bb5",
-                      "size":  703165,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/wakes-0.4.1+1.21.1.jar",
                       "sha256":  "2ba269063a5655eb8b32909c0ea6d486f61afcae202aa236fe3a6fefc57d43f9",
                       "size":  268435,
@@ -1465,6 +1531,12 @@
                   {
                       "path":  "resourcepacks/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip",
                       "sha256":  "b4a9b4846d70a121c1fe794b996c07f1d80f7c5ba655f12b082dc163c105ae83",
+                      "size":  235388,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "resourcepacks/Modded-Swords-x-Punchy-1.21.1-v1.3.2.zip",
+                      "sha256":  "06f56d9a2d75e2bdcdd8e891e2bf7da0aef513c0f324faad6ccbfafec065aa42",
                       "size":  235388,
                       "mode":  "sync"
                   },

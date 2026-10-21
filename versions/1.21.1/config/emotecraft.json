@@ -1,0 +1,37 @@
+{
+  "showDebug": false,
+  "validateEmote": false,
+  "validThreshold": 8.0,
+  "loadBuiltinEmotes": true,
+  "loadEmotesServerSide": false,
+  "enableQuark": false,
+  "emotesDir": "emotes",
+  "autoFixEmoteStop": false,
+  "dark": true,
+  "oldChooseWheel": false,
+  "enablePerspective": true,
+  "frontAsTPPerspective": false,
+  "showIcons": true,
+  "enableNSFW": false,
+  "alwaysOpenEmoteScreen": false,
+  "alwaysValidate": false,
+  "enablePlayerSafety": true,
+  "stopThreshold": 0.04,
+  "yRatio": 0.75,
+  "showHiddenConfig": false,
+  "neverRemoveBadIcon": false,
+  "exportBuiltin": false,
+  "fastMenuEmotes": [
+    [
+      "7b8e5c1a-6d3f-42e8-90b1-123456789abc",
+      "931b2bda-a25e-4e55-957a-88c46f5e9a7b",
+      "e1a812be-d1b7-4a0b-8d07-a5ec08b776ec",
+      "9368ca5e-1ec8-450f-a3ff-24df986be2e4",
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "hideWarningMessage": true
+}
