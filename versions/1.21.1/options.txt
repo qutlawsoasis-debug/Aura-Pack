@@ -6,3 +6,6 @@ renderDistance:12
 simulationDistance:8
 resourcePacks:["vanilla","fabric","punchy:punchy","moonlight:merged_pack","serilum_mod_translations","continuity:default","continuity:glass_pane_culling_fix","eatinganimation:supporteatinganimation","supplementaries:darker_ropes","file/Sodium_Russian_Translation.zip","file/AnimatedDoors-RP-2.0.0.zip","file/unobtrusive-grass-1.0.1.zip","file/Drigo-3D-Lanterns-x-Punchy.zip","file/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip","file/FreshAnimations_v1.10.4.zip","file/Universal Bushy Leaves.zip"]
 incompatibleResourcePacks:["file/Ancient City Panorama V2.zip","file/Dungeons Content UI.zip","file/Patrix_1.20_32x_addon.zip","file/Patrix_1.20_32x_basic.zip","file/Patrix_1.20_32x_bonus.zip","file/Patrix_1.20_models.zip"]
+tutorialStep:none
+onboardAccessibility:false
+
