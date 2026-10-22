@@ -54,7 +54,7 @@ if (Test-Path $optionsPath) {
                 if ($end -gt $start) {
                     $rpFile = $rawList.Substring($start, $end - $start)
                     $rpFullPath = Join-Path $rpBasePath $rpFile
-                    if (-not (Test-Path $rpFullPath)) {
+                    if (-not (Test-Path -LiteralPath $rpFullPath)) {
                         Write-Warning "ResourcePack '$rpFile' in options.txt not found at $rpFullPath"
                     }
                     $idx = $end + 1
@@ -147,7 +147,7 @@ foreach ($relPathRaw in $gitFiles) {
     }
 
     $fullPath = Join-Path $packDir ($relPath.Replace("/", "\"))
-    if (-not (Test-Path $fullPath -PathType Leaf)) {
+    if (-not (Test-Path -LiteralPath $fullPath -PathType Leaf)) {
         continue # Пропускаем директории
     }
 
