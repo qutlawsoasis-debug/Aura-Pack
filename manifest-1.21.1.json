@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261022.1955",
+    "packVersion":  "20261023.0053",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -1406,6 +1406,12 @@
                       "path":  "mods/thermoo-4.8.0.jar",
                       "sha256":  "b63c52285fecd97754fbd9c9dee9f642794df364e5791f4b40533e44e5629955",
                       "size":  275602,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/thermoo-patches-3.7.2.jar",
+                      "sha256":  "2cf355c656ef212b3f0b28270e494b55461669efcb46e37a2017551f384ee091",
+                      "size":  273766,
                       "mode":  "sync"
                   },
                   {
