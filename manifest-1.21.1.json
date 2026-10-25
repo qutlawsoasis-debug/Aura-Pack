@@ -1,13 +1,13 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261025.2258",
+    "packVersion":  "20261025.2304",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
                   {
                       "path":  "config/DistantHorizons.toml",
-                      "sha256":  "bd203bbda72a5a02bdeba5aa8ddb698205cee0212ed1b717edb3680fdc902c31",
-                      "size":  37025,
+                      "sha256":  "f70499e082c8dd3f43368e9e682c85e8715ffcb1c82732a4e7634769c532c07c",
+                      "size":  37026,
                       "mode":  "default"
                   },
                   {
@@ -210,8 +210,8 @@
                   },
                   {
                       "path":  "config/iris.properties",
-                      "sha256":  "2e6d769137cbeda6fbea3fe7015422165d5132675a8ac19364519912ddc866cd",
-                      "size":  280,
+                      "sha256":  "90045ba16591e06e733fe3e2d19047b1847e76bd2934683f50bf31484f710f84",
+                      "size":  279,
                       "mode":  "default"
                   },
                   {
@@ -978,8 +978,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "a649974b72ccc9c8ea9fb1ac678690dd574a786c4185db76eadf3cf22af25e70",
-                      "size":  43493,
+                      "sha256":  "8caac13352843993c66d06576fddcac95b323092758ccf0509b23db313e54c43",
+                      "size":  49302,
                       "mode":  "sync"
                   },
                   {
