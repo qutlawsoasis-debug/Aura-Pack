@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261024.2233",
+    "packVersion":  "20261025.1406",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -983,12 +983,6 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/aura-ui-1.0.0.jar",
-                      "sha256":  "f59b13de697d76cf8582c46a252657baa811d7f773629d599bb3d51636ba4b2a",
-                      "size":  26299327,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/balm-fabric-1.20.1-7.3.44.jar",
                       "sha256":  "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
                       "size":  576169,
@@ -1190,12 +1184,6 @@
                       "path":  "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
                       "sha256":  "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
                       "size":  487655,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/mcef-fabric-2.1.6-1.20.1.jar",
-                      "sha256":  "7a99ca890dbc23ee4848c98a78524960069277ee4e181e63b7a95f6d6fbbbaf1",
-                      "size":  226323,
                       "mode":  "sync"
                   },
                   {
