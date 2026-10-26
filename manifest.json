@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261025.2304",
+    "packVersion":  "20261026.0131",
     "minecraft":  "1.20.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -600,8 +600,8 @@
                   },
                   {
                       "path":  "config/xaero/minimap/client.cfg",
-                      "sha256":  "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f",
-                      "size":  235,
+                      "sha256":  "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263",
+                      "size":  236,
                       "mode":  "default"
                   },
                   {
@@ -642,8 +642,8 @@
                   },
                   {
                       "path":  "config/xaero/world-map/client.cfg",
-                      "sha256":  "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d",
-                      "size":  521,
+                      "sha256":  "33bcf15d5706daf090323b03c16e357c44bdb8e5f29a2f65ef839316b6e94c5f",
+                      "size":  522,
                       "mode":  "default"
                   },
                   {
@@ -978,8 +978,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "723dde74f9b65c1c35d3389222994c1d6d69c75c5ff135cec469cdfb02373ae3",
-                      "size":  55232,
+                      "sha256":  "cae417067f2e2c58ed57c8ee501fb762706f6f9bb750876753973d65349ec2d7",
+                      "size":  55215,
                       "mode":  "sync"
                   },
                   {
