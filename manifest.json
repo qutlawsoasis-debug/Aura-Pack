@@ -1,1544 +1,1544 @@
 {
-    "name":  "Aura",
-    "packVersion":  "20261027.0246",
-    "minecraft":  "1.20.1",
-    "fabricLoader":  "0.19.5",
-    "files":  [
-                  {
-                      "path":  "config/DistantHorizons.toml",
-                      "sha256":  "f70499e082c8dd3f43368e9e682c85e8715ffcb1c82732a4e7634769c532c07c",
-                      "size":  37026,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/MouseTweaks.cfg",
-                      "sha256":  "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
-                      "size":  135,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/advanced-xray-fabric/blocks.json",
-                      "sha256":  "fdc41a89669f169d8bea01739de544caa7b616f62e2bdbf3038a81d7e3631212",
-                      "size":  4659,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/advanced-xray-fabric/settings.json",
-                      "sha256":  "815f418635f19d7c8f90602ae8a48e2ee87a4e50f4d39f74edfb9d4c9a7b940c",
-                      "size":  59,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/appleskin.json5",
-                      "sha256":  "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9",
-                      "size":  1327,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/artifacts/client.json5",
-                      "sha256":  "0c7266a6d9718bac60930b94cf137e3ee72c18fe61749fc9d8dcee216eb87518",
-                      "size":  686,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/artifacts/common.json5",
-                      "sha256":  "736bec8c910558091bb749ac7adb013822a253a02f1f70637eb193952768d2b1",
-                      "size":  1584,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/badoptimizations.txt",
-                      "sha256":  "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
-                      "size":  3458,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/bridgingmod.json",
-                      "sha256":  "0515505217053a418ff9891435f06d6ceb99ca2776bfdf82eaeab7f9d34b19ad",
-                      "size":  543,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/capes.json5",
-                      "sha256":  "b9507c6698488cb8893d107023b06adcfefd68999eb6ba971cfbc2a7bea378cb",
-                      "size":  213,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/cardinal-components-api.properties",
-                      "sha256":  "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982",
-                      "size":  273,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/carryon-client.json",
-                      "sha256":  "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a",
-                      "size":  676,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/carryon-common.json",
-                      "sha256":  "da6fdce0a0b230f5ad04a17eba82e3d54651e9c540177e0169cdfe9e6ecba00e",
-                      "size":  8921,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/collective.json5",
-                      "sha256":  "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f",
-                      "size":  2471,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/comforts-server.toml",
-                      "sha256":  "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438",
-                      "size":  1854,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/continuity.json",
-                      "sha256":  "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4",
-                      "size":  122,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/creativecore-client.json",
-                      "sha256":  "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
-                      "size":  23,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/creativecore.json",
-                      "sha256":  "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef",
-                      "size":  274,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/doubledoors.json5",
-                      "sha256":  "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
-                      "size":  979,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/emi.css",
-                      "sha256":  "1b149cd175b2bd85417ae3bf162c4f5169505129c4a811387c4c02ae90bec4cb",
-                      "size":  10183,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/emotecraft.json",
-                      "sha256":  "3be0803b3bea401f3418b05b2cc009ba2bc58ab33088e95c0a5fd2bdcf123f18",
-                      "size":  885,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/emotes/salute.json",
-                      "sha256":  "605f56f35fec2d4e106f224e20223611ef69ccd7915f0e72f7fed21de002bb4f",
-                      "size":  1670,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/entityculling.json",
-                      "sha256":  "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
-                      "size":  2248,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/fabric/indigo-renderer.properties",
-                      "sha256":  "5a5498bffd98c4376a47f3141bc9b7178b4da2496f707c58c318d188456a2abc",
-                      "size":  291,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/fallingleaves.json",
-                      "sha256":  "5ecdb13465f88d18ab11d46f1f94dfea11c6418755fb9ca6dd63ab6676e083dd",
-                      "size":  601,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/farmersdelight-client.toml",
-                      "sha256":  "940f68676859e852c600974c4776e986453ce7d3b2cf27ac156535e26c160e11",
-                      "size":  478,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/farmersdelight-common.toml",
-                      "sha256":  "7d2385c29b076e3763b5dfed7e90ce647fc4c80d3669b6e8ea27878b6c78cc1b",
-                      "size":  3930,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/ferritecore.mixin.properties",
-                      "sha256":  "a2091a291309db8920c8a80e913ed31c24c29687d8cd25ac18076ad85a90ddb8",
-                      "size":  1525,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/forgeconfigapiport.toml",
-                      "sha256":  "f0f5c181b7273e518e932f34d53f3b70693bc4a14cac9d14ab54101eb9aded1b",
-                      "size":  323,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/immediatelyfast.json",
-                      "sha256":  "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa",
-                      "size":  1060,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/indium-renderer.properties",
-                      "sha256":  "b947d7928ef66b3a68e14388fd56ac37736ee1081d2478f62488495801ec81f4",
-                      "size":  116,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/iris-excluded.json",
-                      "sha256":  "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
-                      "size":  31,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/iris.properties",
-                      "sha256":  "90045ba16591e06e733fe3e2d19047b1847e76bd2934683f50bf31484f710f84",
-                      "size":  279,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/jade/hide-blocks.json",
-                      "sha256":  "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b",
-                      "size":  191,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/jade/hide-entities.json",
-                      "sha256":  "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3",
-                      "size":  325,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/jade/jade.json",
-                      "sha256":  "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4",
-                      "size":  974,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/jade/plugins.json",
-                      "sha256":  "1efeefd35faae6d8dabb17f377d87d981baec9f658f6c52cd28046df05fa0c20",
-                      "size":  1871,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/jade/sort-order.json",
-                      "sha256":  "bc474ad52e4589a8024b71eb81fce7dc6cd417183f44b664aea1d22f2f865ad7",
-                      "size":  1595,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/litematica.json",
-                      "sha256":  "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
-                      "size":  454,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/litematica/litematica.json",
-                      "sha256":  "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
-                      "size":  454,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/lithium.properties",
-                      "sha256":  "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
-                      "size":  267,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/lithostitched.json",
-                      "sha256":  "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df",
-                      "size":  284,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/lsp.json",
-                      "sha256":  "96553303007f98a2e5dd25ccb87b2c4652286a56f35d254cc852d7437aa4f2df",
-                      "size":  214,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/map_atlases-client.json",
-                      "sha256":  "393d9deba0c73ecc6f2bc220321856429ca66738e1afa4101ae59aee19f37dc1",
-                      "size":  1756,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/map_atlases-common.json",
-                      "sha256":  "e437feb0c4a80f89b44890f45f4feeaf729c8927c853c330dbf9ebeea25a89ad",
-                      "size":  758,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/midnightlib.json",
-                      "sha256":  "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444",
-                      "size":  37,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/modernfix-mixins.properties",
-                      "sha256":  "94eaec2a459f27b9e5726bd83c70584476b26705a1c0479dcd6eddaa46f1962e",
-                      "size":  4418,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/modmenu.json",
-                      "sha256":  "748cb550ed31f0d7f2a8faf26cd0c659826ae10cfabc4a89eee7d32eed98f157",
-                      "size":  814,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/moonlight-client.json",
-                      "sha256":  "c40386376fc147c5ac73a3f8a125c2561f410bd7c6e13b8a61d99dc0e69d6176",
-                      "size":  286,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/moonlight-common.json",
-                      "sha256":  "2a747181a8b9a1a1201bbd85611e76e0794b178351c5bb711b7f1e3856cff05e",
-                      "size":  340,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/notenoughanimations.json",
-                      "sha256":  "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4",
-                      "size":  3357,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/nyfsspiders-common.toml",
-                      "sha256":  "18481c9759ace8d9e44198e745c4af105ef66588c9b8115f70c76ede27cf4942",
-                      "size":  189,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/pointblank-common.toml",
-                      "sha256":  "04a90c9fa236f8f0c5bebb4f9f3b6420437feece0782640afbff36f869760e6f",
-                      "size":  3074,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/pointblank-items.toml",
-                      "sha256":  "87f198d1d61589d3bb322823e659d012f3406b40b543c43fa7952db6403da9ee",
-                      "size":  11829,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/presencefootsteps/updater.json",
-                      "sha256":  "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e",
-                      "size":  68,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/presencefootsteps/userconfig.json",
-                      "sha256":  "2d75ca7461d7bc35dd6b33a5ced91bf0a121ffb20518b01f9f97349d3c62a8eb",
-                      "size":  467,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/punchy/punchy_config.json",
-                      "sha256":  "efa4d59d9cffff7d9114df0ee11ee428c2b54bc13dce582aa339cf1c8fe6ba28",
-                      "size":  1358,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/sable-client.toml",
-                      "sha256":  "4bb419852323dabfee202acd5f9ebc4caef8c3991abe5bc08d7833df589b58a3",
-                      "size":  912,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sable-common.toml",
-                      "sha256":  "b9bb5b568f8d961dc976bbcf55825faa7b62dafd52876a1ec58f7a0a7f7c9401",
-                      "size":  2095,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sable-server.toml",
-                      "sha256":  "75d3a7740415e28fb5733f7d8a72fa835cb4325d90af2d99374da23aa575df5c",
-                      "size":  313,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/scannable-common.toml",
-                      "sha256":  "be508b8c01407765e6cd7bb2dd03f925bd2c6e57fd99907e7f854f5367ca1493",
-                      "size":  3797,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/servercore/config.yml",
-                      "sha256":  "45fc690d9a5964d39e22194d4b4e54c412aefe8227002f0c14ad61d313d64cdc",
-                      "size":  385,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/servercore/optimizations.yml",
-                      "sha256":  "a699f828fd142094500fb0b4ba7dd97a88032280a58569149c6015955efc92ae",
-                      "size":  111,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/simplyswords/compatibility.toml",
-                      "sha256":  "909a2c74eb3583c9f116b2a63e868713da9fdccc43478550f4617485c42031d0",
-                      "size":  11976,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "config/skinlayers.json",
-                      "sha256":  "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166",
-                      "size":  497,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/skinshuffle/config.json",
-                      "sha256":  "662c8542ea661fc5321a22e99df6dafd0d6055ed0416a3fc767df130a9953a52",
-                      "size":  542,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/skinshuffle/skin-caches.json",
-                      "sha256":  "c8f502af2e35c0dcc6740ae1318322e2706658cce59fbf6610d4eb4071088d1e",
-                      "size":  40,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/skinshuffle/skins/1078232318.png",
-                      "sha256":  "58cae4b7748454503e61f1fa2f1b25e2d8ff163e5fe75ee6ae8a8cabc24b950e",
-                      "size":  2294,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/skinshuffle/skins/1590170277.png",
-                      "sha256":  "0d8697303ca1b0a6749b73f85421aeff6ad0bfa6c0bf7c8b05bee1551c28793c",
-                      "size":  2511,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sodium-extra-options.json",
-                      "sha256":  "397c8144c4440ecde7899c8d0bda480354bee15bd8f4b1d238a673fab9a7b034",
-                      "size":  1473,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sodium-extra.properties",
-                      "sha256":  "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
-                      "size":  360,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sodium-fingerprint.json",
-                      "sha256":  "86f6b39b249d1a9d17109154064bb5a7018bb865103dc055e97f3ee5cb92fb04",
-                      "size":  427,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sodium-mixins.properties",
-                      "sha256":  "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
-                      "size":  258,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sodium-options.json",
-                      "sha256":  "e170cafd722ce62aa061d6770af08274391dd17064f58e82e2ff84af2b1f95ac",
-                      "size":  632,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sound_physics_remastered/occlusion.properties",
-                      "sha256":  "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
-                      "size":  4831,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sound_physics_remastered/reflectivity.properties",
-                      "sha256":  "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
-                      "size":  4713,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sound_physics_remastered/sound_rates.properties",
-                      "sha256":  "66387c40fcf0e93602cd53e72fc81bf55002cf920603ea323cbde4b37478e375",
-                      "size":  71177,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/sound_physics_remastered/soundphysics.properties",
-                      "sha256":  "71222cdd551505f8c30264a541e1d343f5f6d292efe7a70980dd52cb43476644",
-                      "size":  5106,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/splitself.json5",
-                      "sha256":  "6a97927a76fff990d617e5a92ba1af33aefb9e63b3a98f96c83919cd8e84f62f",
-                      "size":  2968,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/tectonic.json",
-                      "sha256":  "9edbc0a7900f8446e515e3a603eb6dde591b471fed228d69e38417d772eb93c3",
-                      "size":  1267,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/thewatching.json",
-                      "sha256":  "e4481fab6b8d009199ef2412c82f780548e0d03f196dc2372cc74fde5c66a906",
-                      "size":  2420,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/thewatching/watcher_notes.txt",
-                      "sha256":  "0cb24c0f3063c311dc0ec146632a203188cca985084d48ea215fff67ff401fbe",
-                      "size":  46,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/thewatching_audio.json",
-                      "sha256":  "aac905bc0f08cba27e9a3c571f54f642db17438b00e53918be4f5056cd98486f",
-                      "size":  162,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/thewatching_peripheral.json",
-                      "sha256":  "308729211de44b4e3c2c196f4fbc9d1c1e9201025b0a95e49edf39567a7bc935",
-                      "size":  283,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/transition.json",
-                      "sha256":  "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
-                      "size":  97,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/travelersbackpack.json5",
-                      "sha256":  "f817029d5fa2f31e5676e08c9657eec504a51cc1c746b661e5f901152dd3d743",
-                      "size":  11955,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/treechop-client.toml",
-                      "sha256":  "141942994baf6c8b347791ec7a144ef447f162657cddc62f3e9fdbc3db626f82",
-                      "size":  1625,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/treechop-common.toml",
-                      "sha256":  "9f19fe5bd092ec95981a00463d73469f62a8766b1218deac8b584b4a76b4323a",
-                      "size":  7070,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/treephysics-client.toml",
-                      "sha256":  "ccf9af15a918879be016a9de9603268d5deab2cf1f21353b466a385f92b414e3",
-                      "size":  80,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/treephysics-common.toml",
-                      "sha256":  "41303cae2c52834168e3c5cfb84e52c910573344bb7d4f6140c431e1f4fcda36",
-                      "size":  2043,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/trender.json",
-                      "sha256":  "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
-                      "size":  47,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/upgrader_economy.json",
-                      "sha256":  "1d4b14e5a15b85abbe5b67e3d41cb460331ab2d9cf1e55302d7795661f4c5211",
-                      "size":  1595,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/villagernames/customnames.txt",
-                      "sha256":  "76da7321f9561fbd4e2e93c67cc877989fc65c46a4fed1b8083485969f1258a9",
-                      "size":  3570,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/visuality.json",
-                      "sha256":  "88d657f8162309d18cd50a9d38b6e166b00e36c8ed9f69f5637067e0b1523427",
-                      "size":  1142,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/waystones-common.toml",
-                      "sha256":  "3c3a2fca564353cf5639b1448490e8179167efff7241c8da808e58b8df7aca8e",
-                      "size":  6669,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/lib/client.cfg",
-                      "sha256":  "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336",
-                      "size":  26,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/lib/common.cfg",
-                      "sha256":  "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2",
-                      "size":  236,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/lib/profiles/default.cfg",
-                      "sha256":  "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907",
-                      "size":  121,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/lib/server_profiles/default.cfg",
-                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
-                      "size":  75,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/client.cfg",
-                      "sha256":  "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263",
-                      "size":  236,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/common.cfg",
-                      "sha256":  "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0",
-                      "size":  147,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/default_radar_categories_client.json",
-                      "sha256":  "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696",
-                      "size":  5531,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/default_radar_categories_server.json",
-                      "sha256":  "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd",
-                      "size":  4597,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/profiles/default.cfg",
-                      "sha256":  "f1ff62b22cfc97486d00e8bd3367a3207f0a8da235e7b365c5aa2a54e3f8dc25",
-                      "size":  3825,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
-                      "sha256":  "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6",
-                      "size":  684,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/minimap/server_profiles/default.cfg",
-                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
-                      "size":  75,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/world-map/client.cfg",
-                      "sha256":  "33bcf15d5706daf090323b03c16e357c44bdb8e5f29a2f65ef839316b6e94c5f",
-                      "size":  522,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/world-map/common.cfg",
-                      "sha256":  "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d",
-                      "size":  141,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/world-map/profiles/default.cfg",
-                      "sha256":  "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf",
-                      "size":  1619,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaero/world-map/server_profiles/default.cfg",
-                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
-                      "size":  75,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaerohud.txt",
-                      "sha256":  "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c",
-                      "size":  123,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/xaeropatreon.txt",
-                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                      "size":  0,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/yacl.json5",
-                      "sha256":  "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820",
-                      "size":  35,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "config/zoomify.json",
-                      "sha256":  "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36",
-                      "size":  708,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "mods/AdvancementPlaques-1.20.1-fabric-1.6.7.jar",
-                      "sha256":  "a162aa8d872f5327405ba1ce1d601a825eb36f530e61d5fcae6c8d83d7107d94",
-                      "size":  194905,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/AmbientSounds_FABRIC_v6.3.9_mc1.20.1.jar",
-                      "sha256":  "9472355d44c08e3c24ec39dd8a82a76024fb23dc0421e726dd35e0e029840063",
-                      "size":  53435062,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/BOMD-1.7.5-1.20.1.jar",
-                      "sha256":  "85bec458ba79760be82085657865631afbbcd82e7b55b4948e63451c0dc685f2",
-                      "size":  2746075,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/BadOptimizations-2.4.1-1.20.1.jar",
-                      "sha256":  "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8",
-                      "size":  460234,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/BetterF3-7.0.2-Fabric-1.20.1.jar",
-                      "sha256":  "c9282b371c61fa04f329cc57719b1e221d65c057a70dcb93d1d2b430168fda46",
-                      "size":  1782676,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
-                      "sha256":  "e0511e543ebcd6e7241ef7bbc28e6f40ad886b4b1e06972c23c5cbde3b8101ac",
-                      "size":  55504,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Bountiful-6.0.4+1.20.1-fabric.jar",
-                      "sha256":  "e1fc030ed37cd23ff4d83da90061217a44e4d1011cd523204592c2332d55d74c",
-                      "size":  503384,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/BridgingMod-2.5.1+1.20.1.fabric-release.jar",
-                      "sha256":  "72a5caa3c5289e759259d0fca66c6ec132f8b64365432df184e46e30bbcffdab",
-                      "size":  3577394,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
-                      "sha256":  "2eb70931dee86cef68c8538b8284c684225964632cd10e636ea938af6f66e6f7",
-                      "size":  21987,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Controlling-fabric-1.20.1-12.0.2.jar",
-                      "sha256":  "f7bbb7e37f2118af29450ec468d3ce4ec2606fead2861f4092a43509c6803ed6",
-                      "size":  122778,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
-                      "sha256":  "b33f58a8f3176eb55150b7957ccb624fa7e56eee618ed2dd88e34d26fa1a2104",
-                      "size":  1207852,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/CustomSkinLoader_Universal-15.0.1.jar",
-                      "sha256":  "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc",
-                      "size":  218215,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/DistantHorizons-2.2.1-a-1.20.1.jar.disabled",
-                      "sha256":  "f282957cb0112f4cf2ce0feb0ecac73d388fab2896b8d11c53d724f4d728d863",
-                      "size":  16521385,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
-                      "sha256":  "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a",
-                      "size":  396628,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Iceberg-1.20.1-fabric-1.1.25.jar",
-                      "sha256":  "f142f15b72e36225b9828e5f44e8453e54a26a57048b12fe49ab8fb6476793f8",
-                      "size":  119018,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/IllagerInvasion-v8.0.7-1.20.1-Fabric.jar",
-                      "sha256":  "ab2e659d47d2a77882fdafb56f9cc9fa8b7670da5305c796084e1702f3b34b90",
-                      "size":  2312857,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
-                      "sha256":  "5eea426af467564618e017e8f3a62f1c5c4224ab32a0a1726313de130a2d783d",
-                      "size":  348818,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/InventoryParticles-3.2.0+1.20.1+fabric.jar",
-                      "sha256":  "fada1b88725f7444b485c109dbb090145ff6824d9732d227e9b2f95ff15d7aa5",
-                      "size":  1735148,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Jade-1.20-Fabric-11.13.3.jar",
-                      "sha256":  "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375",
-                      "size":  553868,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Kambrik-6.1.1+1.20.1-fabric.jar",
-                      "sha256":  "c4f27750dab2a58124a94b58d4271819db05d6b2f5863391e4f0b6897fd047e1",
-                      "size":  327998,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/MossyLib-1.6.0+1.20.1+fabric.jar",
-                      "sha256":  "23834bd6cfbd9e0869861ed1d8e5036c29cff7f5565d79e22d27eebe9546f573",
-                      "size":  189952,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/MouseTweaks-fabric-mc1.20-2.26.jar",
-                      "sha256":  "1eb9f0c7878598a3a7dfb52cd0e8159ebf8b33b04e6df232534fed2fbb6616e4",
-                      "size":  77943,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Ping-Wheel-1.12.1-fabric-1.20.1.jar",
-                      "sha256":  "b1d83ddd9a89c5580a9d07b35b0b5d32594ef2cd8223984005081a0abc844b1b",
-                      "size":  154131,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/PresenceFootsteps-1.10.1+1.20.1.jar",
-                      "sha256":  "70f354e5ecd8993908601fcdfcb4e98f7b81f42192287282a5b86712e9a6be95",
-                      "size":  5664952,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/PuzzlesLib-v8.1.36-1.20.1-Fabric.jar",
-                      "sha256":  "ed24c24a1453edd183806e074527e8c85cc8397e6ccfcbec8e227fa32b24f92c",
-                      "size":  1084883,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Searchables-fabric-1.20.1-1.0.3.jar",
-                      "sha256":  "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a",
-                      "size":  80283,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/SimplyTooltips-fabric-0.1.5-1.20.1.jar",
-                      "sha256":  "c7573a331ef9cfdb5da3ab3f63431ea8e3c870d2efa84ed4012127173d416d96",
-                      "size":  5518319,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Stellarity-v2-0e.jar",
-                      "sha256":  "7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2",
-                      "size":  12562436,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Terralith_1.20.x_v2.5.4.jar",
-                      "sha256":  "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
-                      "size":  3156901,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/TreeChop-1.20.1-fabric-0.19.0.jar",
-                      "sha256":  "66ad56c20fc07fddbfc5144d98c70fa85b5fce43dd0d68474a4aa5d2d748705f",
-                      "size":  490611,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsApi-1.20-Fabric-4.0.6.jar",
-                      "sha256":  "26b6dc81f876aabf3d53ead59e5908a8b0f5434d46c150cfd376c027ac54053e",
-                      "size":  1396331,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
-                      "sha256":  "790e31c2a19194b81ca0dc134694a5b9f935c5c19c50aadcfb4f90a613c19bff",
-                      "size":  1063786,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
-                      "sha256":  "6c69fd0316c448cf9c70b72dbea424a85be881f9adc3e7a56e8f0b08e3611fff",
-                      "size":  944170,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
-                      "sha256":  "44bee20e7f512d84686ec536ac8dd6bd07811b8e64d00ea48c470c93dd5e29e8",
-                      "size":  947293,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
-                      "sha256":  "0a4657689217339a1f6079a2d9dda03f6d01beacac59c14e093ded3357db2b86",
-                      "size":  621495,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
-                      "sha256":  "93e0e537fcf20b18c0ea340e6d4f2c20225a29c45252b9cf78e205107ab4f03a",
-                      "size":  760974,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
-                      "sha256":  "3013484bceee72540a1eb76d403a0c36db0fd6d99a1e1b5a398b37ca50f27fb2",
-                      "size":  1165832,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
-                      "sha256":  "122b74d59629bf755663263a4ce43e58a5d13b74e67bea332d44a9bedb51b74a",
-                      "size":  611598,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/accurate-block-placement-1.2.1.jar",
-                      "sha256":  "fbbf02454bb4262949bbc06ed987b3ba54c0518060cf3557b18d9cce7a3b9b9e",
-                      "size":  35838,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/adventurez-1.4.20.jar",
-                      "sha256":  "59663cb3d9d6dd16605ef5d18179889af730e9175871843c6b48a66168e8c11a",
-                      "size":  4952938,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/alexsmobs-2.2.2-fabric+1.20.1.jar",
-                      "sha256":  "a7a7ef9df469abc36405d5fe020830672229b64c27f09d9cf1f336805cfff6ee",
-                      "size":  27442841,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/alternate-current-mc1.20-1.9.0.jar",
-                      "sha256":  "cbecb4abf4aa734a7617fa7ad771af118cd06cfac7ea7f26f43e9ff6ef6eb515",
-                      "size":  51875,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/amendments-1.20-2.2.6-fabric.jar",
-                      "sha256":  "d935f9e0b8243571e38043d964ee88a44ff555ba6fb9fb8fc73d0df90b34727e",
-                      "size":  1281333,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
-                      "sha256":  "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
-                      "size":  1097240,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/architectury-9.2.14-fabric.jar",
-                      "sha256":  "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321",
-                      "size":  585207,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/armor_model_api-fabric-1.0.0+1.20.1.jar",
-                      "sha256":  "036fa120f2761b705ee9732997c1a6ddacd1e512bac67e4fa9090210a700c103",
-                      "size":  85754,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/artifacts-fabric-9.5.17.jar",
-                      "sha256":  "7a2ce37ac5a0a762546df8c0f974d3466056457d85c7af22cbef669640a71d66",
-                      "size":  960096,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/async-locator-fabric-1.20-1.3.0.jar",
-                      "sha256":  "2a602aff039cd60ef43b6b367e8dbc49cc4581ee81ffdf86b3d55298eb64b829",
-                      "size":  279100,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "b5d1c17f7a8bcd8bd59c83c58b12df9be7bbdb09935d969b3de72a50f7d99729",
-                      "size":  984783,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/balm-fabric-1.20.1-7.3.44.jar",
-                      "sha256":  "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
-                      "size":  576169,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/cardinal-components-api-5.2.3.jar",
-                      "sha256":  "ff1e33adde43c3e01f7e9a673cbb7f3a75453e769f80a38b057653475e296aa2",
-                      "size":  228709,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/carryon-fabric-1.20.1-2.1.2.7.jar",
-                      "sha256":  "8d25fb164fc4cc15cd9123a915c880c55527efe3fec26b2c7febf09e65c6ebdd",
-                      "size":  443033,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/cloth-config-11.1.136-fabric.jar",
-                      "sha256":  "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa",
-                      "size":  1172214,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/codxlib-1.6.1-fabric+1.20.1.jar",
-                      "sha256":  "e57e3f7ddccaf43f866a018fe5b8e937ce6002ad7be708426049e4eede3679bc",
-                      "size":  185824,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/collective-1.20.1-8.41.jar",
-                      "sha256":  "78fe02a77be1d0d615392f70d40559849dab7884603db5dd5ea5fc08fa8cae31",
-                      "size":  745905,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/comforts-fabric-6.4.0+1.20.1.jar",
-                      "sha256":  "f9852a749b5154cbb0e97651cd0a1718382fcdfebdea86813bb118b16ee1096b",
-                      "size":  693624,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/continuity-3.0.0+1.20.1.jar",
-                      "sha256":  "fdb646bd51667c57e576d1412c740ac48e3bf6953294dde11a62101a09395fe3",
-                      "size":  1016063,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/ctov-3.4.14-fabric.jar",
-                      "sha256":  "0d40c400db89eb5bdd8e4173707525e2e0301fd15d59073bd9b9712ffa7c37e4",
-                      "size":  6734661,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/doubledoors-1.20.1-7.3.jar",
-                      "sha256":  "2ee73612dae3afea33083d09173ea8c6136822f989a7f86905c3b859c9997207",
-                      "size":  54162,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/dungeons-and-taverns-3.0.3.f.jar",
-                      "sha256":  "1da45baa734df73b1aa46f0b3f319b051c26507a911ec52bfcb1ccae6930e4f0",
-                      "size":  13161726,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/eating-animation-1.20+1.9.61.jar",
-                      "sha256":  "ff8fe184b3104b94c9e10e751f5730d3b1fec19894179743a2447367cb752463",
-                      "size":  1218710,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/elytraslot-fabric-6.4.4+1.20.1.jar",
-                      "sha256":  "ba49a677be30a9b003c2889c5f1bec1db95f875802adb8ae659bd64d7cc3b24d",
-                      "size":  85106,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/emi-1.1.24+1.20.1+fabric.jar",
-                      "sha256":  "537b062e0dc6f028cf84cf66a473ed1b8842219a708d17cdb292401441b0f367",
-                      "size":  1124008,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/entity_model_features-3.3.11-1.20.1-fabric.jar",
-                      "sha256":  "74019cee3143716221a4c674ed32d2f5c9a5b0eb5acbf7eb2a3a32357fe37b73",
-                      "size":  651739,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/entity_texture_features-7.2.5-1.20.1-fabric.jar",
-                      "sha256":  "a6a0da61e32e6b1506162a3fa5adb8c30e5da129f09275f49cb018bea212ebba",
-                      "size":  807756,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/entityculling-fabric-1.11.2-mc1.20.1.jar",
-                      "sha256":  "637b6f30d8c7d51f107eddce095ab205f5768751aa3f9bd9ad11577da04dbbd0",
-                      "size":  1516669,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/fabric-api-0.92.12+1.20.1.jar",
-                      "sha256":  "4197ff4fbdac13cffccd267c1bc59e9fbabb2b5683a9d5f8023f4b5ea16a1c1e",
-                      "size":  2137232,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
-                      "sha256":  "620c2709be2a262b837cf976f6f85f6eda80a56af2ba4242e0bdc83a60fee7a5",
-                      "size":  8142858,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/fallingleaves-1.15.6+1.20.1.jar",
-                      "sha256":  "27b2c5a2a9cebe09afd4adccc3989c43a6cceb92ece60a6daea735ba178114f0",
-                      "size":  156773,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/ferritecore-6.0.1-fabric.jar",
-                      "sha256":  "c7ba1118a05b2da900d1c369fbe1017a3e3ec3cafe5e51398b851279b9becf24",
-                      "size":  125197,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/friendsandfoes-fabric-5.0.1+mc1.20.1.jar",
-                      "sha256":  "ef343c383ddddd70acfa24f5ee51e2476f550e0afd6ede11e85ed763f6c52663",
-                      "size":  5274822,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/frostiful-1.0.11.jar",
-                      "sha256":  "64b6329e642cf05d4f7bba6788e4a9e5dea0354e622a3d0c7c5f60d067706b64",
-                      "size":  1979147,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/fzzy_config-0.7.7+1.20.1.jar",
-                      "sha256":  "719e2b5faa36104551f8f49e1c5f9189f8dcac65fcb648d61e1bae4d41aea1fa",
-                      "size":  2395040,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/geckolib-fabric-1.20.1-4.8.4.jar",
-                      "sha256":  "ee8495a8db7a83aa63e8ef248d4eadda665ff57c5911b8e59fd608806137baa6",
-                      "size":  969016,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/grand-teleport-1.20.1-build252.jar",
-                      "sha256":  "d02ae63ce942a235515b2f804d9f4183cfef25e784ed6e31fcda35fc16c0da30",
-                      "size":  1118555,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/guardvillagers-2.0.9-1.20.1.jar",
-                      "sha256":  "a18f60127cfc8f0f75867738255a98026ae53a3f4a02b5ce4901baaecfcab502",
-                      "size":  298755,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/indium-1.0.36+mc1.20.1.jar",
-                      "sha256":  "8434d0abc8826e2540c26741fea45a1ab9d48f650746de282b36850fa1d01999",
-                      "size":  105382,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/iris-1.7.6+mc1.20.1.jar",
-                      "sha256":  "9eb15e563e0c9ae6eff15b7863f8432dd290cf9f724c7373e9b15b14aa829ed5",
-                      "size":  2726899,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/jamlib-fabric-1.3.6+1.20.1-patch.1.jar",
-                      "sha256":  "1f450f1d2ec041014f7892515a010842b700d17ca8bf92674b014a1cce5244f2",
-                      "size":  240638,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/krypton-0.2.3.jar",
-                      "sha256":  "69ad1810206ce12181b1b083640f044e7e250781c36c96c655eac36209057698",
-                      "size":  185895,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/lambdynamiclights-4.4.0+1.20.1.jar",
-                      "sha256":  "074d6c79e002790b696ebcfdd4ff2a2d57ec55228f93b47e952eeebd5baf5301",
-                      "size":  1114373,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
-                      "sha256":  "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782",
-                      "size":  691483,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
-                      "sha256":  "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
-                      "size":  487655,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/mcw-doors-1.1.5-mc1.20.1fabric.jar",
-                      "sha256":  "cb7d88f7fbf2172207aff0ec9af11684ea7b7062723af1b71b2c59ba09e7ca75",
-                      "size":  1226772,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
-                      "sha256":  "5c1f852046e62a17056bb6b571164e61644076c5eb9029c92b31e337cc62c0d9",
-                      "size":  545175,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/modmenu-7.2.2.jar",
-                      "sha256":  "a041b0f0305ffa5eb90120aa23768e1cfbb27583904b1751e3783c0f69382f1a",
-                      "size":  721366,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/moonlight-1.20-2.16.35-fabric.jar",
-                      "sha256":  "04386df4c66333f293ecd88e18aa3e20a41af54c6a226d79059f7708616fb597",
-                      "size":  1396709,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/moreculling-1.20.1-0.24.6.jar",
-                      "sha256":  "6ba025225149a19ff152a83198c1c10cc321e9e8a7706f7c77f25523ece89854",
-                      "size":  274523,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/no_xp_anvils-1.2.0-fabric-1.20.1.jar",
-                      "sha256":  "ee20bf396bf76bfdf601fcb703972fc449642548e1675448bf80fcf6d48a8256",
-                      "size":  143759,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/noisium-fabric-2.3.0+mc1.20-1.20.1.jar",
-                      "sha256":  "266ef6f28ee69f91acce6ca991121c21f2944e76f366475778347d90d33b491d",
-                      "size":  214902,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/notenoughanimations-fabric-1.12.6-mc1.20.1.jar",
-                      "sha256":  "cecd3f42d99420574224132a7956f1468611e3364965bbbe0cfe3dacf562ac86",
-                      "size":  1870496,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
-                      "sha256":  "0b10021fa638997398110777747726b1cb7a27bc3f8ff1b12e2b93ac01784018",
-                      "size":  181008,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/player-locator-plus-2.2.0.jar",
-                      "sha256":  "109c72eb7f63b154e767b65fb2adde03d14fc6ef08fb7044462e2e23e47fa76c",
-                      "size":  4428772,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/punchy-2.8e-fabric-1.20.1.jar",
-                      "sha256":  "81e3454ed95f64a8abb83501f137ebff938a0258a3cbd7e7cfbc00c74b3d8778",
-                      "size":  1902044,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
-                      "sha256":  "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec",
-                      "size":  77304,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
-                      "sha256":  "f8fbad0b2ab07ccaffce53a9d835601b41ab013af8a501af4de56b3958d1182a",
-                      "size":  135078,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/resourcefullib-fabric-1.20.1-2.1.29.jar",
-                      "sha256":  "2543d76f4f440d4401dccf7675f836381260919f0ac884e2696ae67e600adeeb",
-                      "size":  431646,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/rightclickharvest-fabric-4.6.1+1.20.1.jar",
-                      "sha256":  "d4496d4df98083e64af435d8d0f8d5bf03bf94d5c2a2112029282a6c795f6d6e",
-                      "size":  287561,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/rustbeds-1.0.0.jar",
-                      "sha256":  "ffd15b61f662b16f1c35c5657a97b44908a98f5536a5014c72c9a9c0bb61c7f4",
-                      "size":  9207,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/scannable-MC1.20.1-fabric-1.7.12.jar",
-                      "sha256":  "89124df2612e4434e11d342af37a9cce1220868fa2ba780dbdb6df6c00aeb73a",
-                      "size":  418358,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/servercore-fabric-1.5.2+1.20.1.jar",
-                      "sha256":  "d02253ab7566f2a6632cc78c9708dd768cf77ac8123351ed63be25e4f8cb317f",
-                      "size":  815594,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/shield_api-fabric-2.2.0+1.20.1.jar",
-                      "sha256":  "097caabdeb60fd21cfd4657752df6de1c1c4d8944fde50542c8230490e428b2a",
-                      "size":  41234,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/simple_villager_follow-fabric-1.20.1-1.0.0.jar",
-                      "sha256":  "8b4dcf141f98de394c723791003287fdf2005574a986240aaae455ba1e2bfe28",
-                      "size":  10936,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/simplyswords-fabric-1.70.2-1.20.1.jar",
-                      "sha256":  "b374382303e5ecdfa2b0e1156dd3b9a03af189279d2bf7ccd3c7017374757ad9",
-                      "size":  15700827,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/skinlayers3d-fabric-1.11.3-mc1.20.1.jar",
-                      "sha256":  "97361a4ea97d016a6814c70ad49174498ba617899930c1e3e17a27f7ad56c963",
-                      "size":  1912385,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/smoothswapping-0.9.3.2-1.20.1-fabric.jar",
-                      "sha256":  "01f402a3685bf8e756c3f50661d06924c67ee375099c19aee884f52187fc07f0",
-                      "size":  59984,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/snowyspirit-1.20-3.0.10-fabric.jar",
-                      "sha256":  "1cc2bc08f5247bfe3ec2612cefbbcb0d2e5fdf2fe302150f00d62b33df7e7704",
-                      "size":  5315563,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/sodium-extra-0.5.9+mc1.20.1.jar",
-                      "sha256":  "5cae656838b595e27d5133264374e5d90f5f35a39e343bfc5a76b908fec97c9f",
-                      "size":  370701,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/sodium-fabric-0.5.13+mc1.20.1.jar",
-                      "sha256":  "688c26029ce69f0b1f7cf936866656ca6723228ac46c4aef5b5f793b1e6abd22",
-                      "size":  971552,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
-                      "sha256":  "275467bef6e56aab50b0c66ed42b2984160d36c65edb1b986e3c7c81d37e9253",
-                      "size":  205569,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/spark-1.10.53-fabric.jar",
-                      "sha256":  "00c034e684fa4471b41539dc29a8d39cc6f22eb29b2fa423895efc978a391d2d",
-                      "size":  3082974,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/structure_pool_api-fabric-1.2.1+1.20.1.jar",
-                      "sha256":  "7ee2ffa8def57f1206a6e51836bd7393b75f2ce9ce9c53b1fbf1b242d7ef7c2b",
-                      "size":  128086,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/supplementaries-1.20-3.1.43-fabric.jar",
-                      "sha256":  "93b865c213f64ce7fdc74888b79048ff3002434db5adb0af3b6d5bcad58f7b5d",
-                      "size":  13493444,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/tectonic-3.0.17-fabric-1.20.1.jar",
-                      "sha256":  "ff333d025314842ef5b9a7528be9f21b418a8f11d90a3bc50000544432c2830c",
-                      "size":  319868,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/thermoo-2.3.3.jar",
-                      "sha256":  "f08f4dfa30a97f8120b5865997c9036e71af2810c559cd7374401c8f572107ab",
-                      "size":  225886,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/trade-cycling-fabric-1.20.1-1.0.18.jar",
-                      "sha256":  "d249a9217f7d478f60dfcf3340e4dd83c090992cf4984b744513057f3616570a",
-                      "size":  430650,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/travelersbackpack-fabric-1.20.1-9.1.55.jar",
-                      "sha256":  "314f996a19bb8a8285f06a96ed9a7cb752fc926cd37861fbc7f8525a1588c4e3",
-                      "size":  1512753,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/trinkets-3.7.2.jar",
-                      "sha256":  "a6f11a4206c1285cd260a60d9bfe9cefa9914d2190d08b3c52050f42044b53b3",
-                      "size":  238532,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/villagernames-1.20.1-8.7.jar",
-                      "sha256":  "13623d291855ac01d9ec64b6a8977596fafe66b8e2ad5de60249c192664de2b2",
-                      "size":  56124,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/visuality-0.7.1+1.20.jar",
-                      "sha256":  "f95afc78d944a06f807c683f5959878d8214d775cd81ecbbbc076fc43763202a",
-                      "size":  67302,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/wakes-0.4.0+1.20.1.jar",
-                      "sha256":  "af3a93bf5993c2a8e4e608e559af3160eb4c0fd669585f79e22853aa811d4411",
-                      "size":  355290,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/waveycapes-fabric-1.11.2-mc1.20.1.jar",
-                      "sha256":  "53e54d39d1dda6bd2e7e8b696c70da8d6b4e57a76043db7d0d63a62779a24bca",
-                      "size":  1787074,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/waystones-fabric-1.20.1-14.1.21.jar",
-                      "sha256":  "6625d013cc1a13fcd2eb73acebbd21603441618f77087ebb5e96df4793f1ae2a",
-                      "size":  538364,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/xaerominimap-fabric-1.20.1-26.5.0.jar",
-                      "sha256":  "8da1c2c44b833d4cf418bda5ef3a61aeff2f28af737b94d3997177537f409b41",
-                      "size":  2228200,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/xaeroworldmap-fabric-1.20.1-1.46.0.jar",
-                      "sha256":  "9f7961c371f0b4fea3d704cb2532761ee760cc1f7ad548ff08773e569cbdc853",
-                      "size":  1447372,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
-                      "sha256":  "7a2389ca436ea8f7abee787d6373f9526deece5d06785f3623b7fe89bd9b31ac",
-                      "size":  1294234,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/zRemove_SDL_Intro_v1.2.2.jar",
-                      "sha256":  "7a20d74dc05270616eeb5f53f51ebf5d67b43c3a3fed7d745377ab70107641fe",
-                      "size":  12238,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/zoomify-2.15.2+1.20.1.jar",
-                      "sha256":  "1ced9d57ac8fe273f541c7f3bb0226b3d7eb26b37cc719a3c80d1a6f26dfe095",
-                      "size":  871089,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "options.txt",
-                      "sha256":  "7ff560ff9a64f912bdf72c51aad10950b624d1c49cbdf8a08fd45fb46ce06b98",
-                      "size":  826,
-                      "mode":  "default"
-                  },
-                  {
-                      "path":  "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
-                      "sha256":  "f53ed67beb6d7b878eb95099b24e1dd38c4f438ba8af73e60a8ecea971a31397",
-                      "size":  72756,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Classic-3D.zip",
-                      "sha256":  "814e399a910f26147e9ebb404ab2d33298e84289e9c15601766002d78abe501d",
-                      "size":  7528863,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
-                      "sha256":  "4841d8466d874b2909fcb394252498e2da92976b61dd59e310a845ff4815ab0a",
-                      "size":  63784,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Even-Better-Enchants.zip",
-                      "sha256":  "387eec14980c9c4ceab211e4876df3adae02beb554c08c739ada6865d83e786c",
-                      "size":  175363,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/FreshAnimations_v1.10.4.zip",
-                      "sha256":  "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2",
-                      "size":  850941,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Mels-3D-Items.zip",
-                      "sha256":  "a7c597734da51e74e8b6bf6a2bdb9ef97dfac9885ebc880eecc627df15d2f12c",
-                      "size":  222394,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip",
-                      "sha256":  "b4a9b4846d70a121c1fe794b996c07f1d80f7c5ba655f12b082dc163c105ae83",
-                      "size":  235388,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/SPBR.zip",
-                      "sha256":  "8e90adc01e7edd4db57e7c3ce00cc88e4d86e5b281d57f9110cb258af08ab566",
-                      "size":  25662227,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Sodium_Russian_Translation.zip",
-                      "sha256":  "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
-                      "size":  1269344,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/Universal Bushy Leaves.zip",
-                      "sha256":  "5e754c421a9bdc6bd57e2a70b726eaee8b73b0762027727b4df13c9b40fa32e8",
-                      "size":  63078,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/unobtrusive-grass-1.0.1.zip",
-                      "sha256":  "b58e0c99132ec3cd5a04cf3b77f1d14b5d64bfd8bb48ffc5b9acf1b8904716d5",
-                      "size":  10344,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/Builders-QOL.zip",
-                      "sha256":  "9b19802448fad01953ff517cc38f2d20d768c00be35d1547f43b3012705834ad",
-                      "size":  2359837,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "shaderpacks/Sildurs-Enhanced-Default-Fancy.zip",
-                      "sha256":  "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
-                      "size":  54991,
-                      "mode":  "sync"
-                  }
-              ]
+  "name": "Aura",
+  "packVersion": "20261027.1317",
+  "minecraft": "1.20.1",
+  "fabricLoader": "0.19.5",
+  "files": [
+    {
+      "path": "config/DistantHorizons.toml",
+      "sha256": "f70499e082c8dd3f43368e9e682c85e8715ffcb1c82732a4e7634769c532c07c",
+      "size": 37026,
+      "mode": "default"
+    },
+    {
+      "path": "config/MouseTweaks.cfg",
+      "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+      "size": 135,
+      "mode": "default"
+    },
+    {
+      "path": "config/advanced-xray-fabric/blocks.json",
+      "sha256": "fdc41a89669f169d8bea01739de544caa7b616f62e2bdbf3038a81d7e3631212",
+      "size": 4659,
+      "mode": "default"
+    },
+    {
+      "path": "config/advanced-xray-fabric/settings.json",
+      "sha256": "815f418635f19d7c8f90602ae8a48e2ee87a4e50f4d39f74edfb9d4c9a7b940c",
+      "size": 59,
+      "mode": "default"
+    },
+    {
+      "path": "config/appleskin.json5",
+      "sha256": "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9",
+      "size": 1327,
+      "mode": "default"
+    },
+    {
+      "path": "config/artifacts/client.json5",
+      "sha256": "0c7266a6d9718bac60930b94cf137e3ee72c18fe61749fc9d8dcee216eb87518",
+      "size": 686,
+      "mode": "default"
+    },
+    {
+      "path": "config/artifacts/common.json5",
+      "sha256": "736bec8c910558091bb749ac7adb013822a253a02f1f70637eb193952768d2b1",
+      "size": 1584,
+      "mode": "default"
+    },
+    {
+      "path": "config/badoptimizations.txt",
+      "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+      "size": 3458,
+      "mode": "default"
+    },
+    {
+      "path": "config/bridgingmod.json",
+      "sha256": "0515505217053a418ff9891435f06d6ceb99ca2776bfdf82eaeab7f9d34b19ad",
+      "size": 543,
+      "mode": "sync"
+    },
+    {
+      "path": "config/capes.json5",
+      "sha256": "b9507c6698488cb8893d107023b06adcfefd68999eb6ba971cfbc2a7bea378cb",
+      "size": 213,
+      "mode": "default"
+    },
+    {
+      "path": "config/cardinal-components-api.properties",
+      "sha256": "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982",
+      "size": 273,
+      "mode": "default"
+    },
+    {
+      "path": "config/carryon-client.json",
+      "sha256": "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a",
+      "size": 676,
+      "mode": "default"
+    },
+    {
+      "path": "config/carryon-common.json",
+      "sha256": "da6fdce0a0b230f5ad04a17eba82e3d54651e9c540177e0169cdfe9e6ecba00e",
+      "size": 8921,
+      "mode": "default"
+    },
+    {
+      "path": "config/collective.json5",
+      "sha256": "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f",
+      "size": 2471,
+      "mode": "default"
+    },
+    {
+      "path": "config/comforts-server.toml",
+      "sha256": "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438",
+      "size": 1854,
+      "mode": "default"
+    },
+    {
+      "path": "config/continuity.json",
+      "sha256": "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4",
+      "size": 122,
+      "mode": "default"
+    },
+    {
+      "path": "config/creativecore-client.json",
+      "sha256": "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
+      "size": 23,
+      "mode": "default"
+    },
+    {
+      "path": "config/creativecore.json",
+      "sha256": "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef",
+      "size": 274,
+      "mode": "default"
+    },
+    {
+      "path": "config/doubledoors.json5",
+      "sha256": "7f0cdf0a4aadbc00d7a651e511a2b55a759a13a69419017ce3233c857bf2700c",
+      "size": 979,
+      "mode": "sync"
+    },
+    {
+      "path": "config/emi.css",
+      "sha256": "1b149cd175b2bd85417ae3bf162c4f5169505129c4a811387c4c02ae90bec4cb",
+      "size": 10183,
+      "mode": "default"
+    },
+    {
+      "path": "config/emotecraft.json",
+      "sha256": "3be0803b3bea401f3418b05b2cc009ba2bc58ab33088e95c0a5fd2bdcf123f18",
+      "size": 885,
+      "mode": "default"
+    },
+    {
+      "path": "config/emotes/salute.json",
+      "sha256": "605f56f35fec2d4e106f224e20223611ef69ccd7915f0e72f7fed21de002bb4f",
+      "size": 1670,
+      "mode": "default"
+    },
+    {
+      "path": "config/entityculling.json",
+      "sha256": "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
+      "size": 2248,
+      "mode": "default"
+    },
+    {
+      "path": "config/fabric/indigo-renderer.properties",
+      "sha256": "5a5498bffd98c4376a47f3141bc9b7178b4da2496f707c58c318d188456a2abc",
+      "size": 291,
+      "mode": "default"
+    },
+    {
+      "path": "config/fallingleaves.json",
+      "sha256": "5ecdb13465f88d18ab11d46f1f94dfea11c6418755fb9ca6dd63ab6676e083dd",
+      "size": 601,
+      "mode": "default"
+    },
+    {
+      "path": "config/farmersdelight-client.toml",
+      "sha256": "940f68676859e852c600974c4776e986453ce7d3b2cf27ac156535e26c160e11",
+      "size": 478,
+      "mode": "default"
+    },
+    {
+      "path": "config/farmersdelight-common.toml",
+      "sha256": "7d2385c29b076e3763b5dfed7e90ce647fc4c80d3669b6e8ea27878b6c78cc1b",
+      "size": 3930,
+      "mode": "default"
+    },
+    {
+      "path": "config/ferritecore.mixin.properties",
+      "sha256": "a2091a291309db8920c8a80e913ed31c24c29687d8cd25ac18076ad85a90ddb8",
+      "size": 1525,
+      "mode": "default"
+    },
+    {
+      "path": "config/forgeconfigapiport.toml",
+      "sha256": "f0f5c181b7273e518e932f34d53f3b70693bc4a14cac9d14ab54101eb9aded1b",
+      "size": 323,
+      "mode": "default"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "sha256": "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa",
+      "size": 1060,
+      "mode": "default"
+    },
+    {
+      "path": "config/indium-renderer.properties",
+      "sha256": "b947d7928ef66b3a68e14388fd56ac37736ee1081d2478f62488495801ec81f4",
+      "size": 116,
+      "mode": "default"
+    },
+    {
+      "path": "config/iris-excluded.json",
+      "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+      "size": 31,
+      "mode": "default"
+    },
+    {
+      "path": "config/iris.properties",
+      "sha256": "90045ba16591e06e733fe3e2d19047b1847e76bd2934683f50bf31484f710f84",
+      "size": 279,
+      "mode": "default"
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "sha256": "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b",
+      "size": 191,
+      "mode": "default"
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "sha256": "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3",
+      "size": 325,
+      "mode": "default"
+    },
+    {
+      "path": "config/jade/jade.json",
+      "sha256": "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4",
+      "size": 974,
+      "mode": "default"
+    },
+    {
+      "path": "config/jade/plugins.json",
+      "sha256": "1efeefd35faae6d8dabb17f377d87d981baec9f658f6c52cd28046df05fa0c20",
+      "size": 1871,
+      "mode": "default"
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "sha256": "bc474ad52e4589a8024b71eb81fce7dc6cd417183f44b664aea1d22f2f865ad7",
+      "size": 1595,
+      "mode": "default"
+    },
+    {
+      "path": "config/litematica.json",
+      "sha256": "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
+      "size": 454,
+      "mode": "sync"
+    },
+    {
+      "path": "config/litematica/litematica.json",
+      "sha256": "bf189c7949c0666fb23114115cb9c964246f449fb947ab86e388f18678b509c9",
+      "size": 454,
+      "mode": "sync"
+    },
+    {
+      "path": "config/lithium.properties",
+      "sha256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+      "size": 267,
+      "mode": "default"
+    },
+    {
+      "path": "config/lithostitched.json",
+      "sha256": "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df",
+      "size": 284,
+      "mode": "default"
+    },
+    {
+      "path": "config/lsp.json",
+      "sha256": "96553303007f98a2e5dd25ccb87b2c4652286a56f35d254cc852d7437aa4f2df",
+      "size": 214,
+      "mode": "default"
+    },
+    {
+      "path": "config/map_atlases-client.json",
+      "sha256": "393d9deba0c73ecc6f2bc220321856429ca66738e1afa4101ae59aee19f37dc1",
+      "size": 1756,
+      "mode": "default"
+    },
+    {
+      "path": "config/map_atlases-common.json",
+      "sha256": "e437feb0c4a80f89b44890f45f4feeaf729c8927c853c330dbf9ebeea25a89ad",
+      "size": 758,
+      "mode": "default"
+    },
+    {
+      "path": "config/midnightlib.json",
+      "sha256": "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444",
+      "size": 37,
+      "mode": "default"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "sha256": "94eaec2a459f27b9e5726bd83c70584476b26705a1c0479dcd6eddaa46f1962e",
+      "size": 4418,
+      "mode": "default"
+    },
+    {
+      "path": "config/modmenu.json",
+      "sha256": "748cb550ed31f0d7f2a8faf26cd0c659826ae10cfabc4a89eee7d32eed98f157",
+      "size": 814,
+      "mode": "default"
+    },
+    {
+      "path": "config/moonlight-client.json",
+      "sha256": "c40386376fc147c5ac73a3f8a125c2561f410bd7c6e13b8a61d99dc0e69d6176",
+      "size": 286,
+      "mode": "default"
+    },
+    {
+      "path": "config/moonlight-common.json",
+      "sha256": "2a747181a8b9a1a1201bbd85611e76e0794b178351c5bb711b7f1e3856cff05e",
+      "size": 340,
+      "mode": "default"
+    },
+    {
+      "path": "config/notenoughanimations.json",
+      "sha256": "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4",
+      "size": 3357,
+      "mode": "default"
+    },
+    {
+      "path": "config/nyfsspiders-common.toml",
+      "sha256": "18481c9759ace8d9e44198e745c4af105ef66588c9b8115f70c76ede27cf4942",
+      "size": 189,
+      "mode": "default"
+    },
+    {
+      "path": "config/pointblank-common.toml",
+      "sha256": "04a90c9fa236f8f0c5bebb4f9f3b6420437feece0782640afbff36f869760e6f",
+      "size": 3074,
+      "mode": "default"
+    },
+    {
+      "path": "config/pointblank-items.toml",
+      "sha256": "87f198d1d61589d3bb322823e659d012f3406b40b543c43fa7952db6403da9ee",
+      "size": 11829,
+      "mode": "default"
+    },
+    {
+      "path": "config/presencefootsteps/updater.json",
+      "sha256": "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e",
+      "size": 68,
+      "mode": "default"
+    },
+    {
+      "path": "config/presencefootsteps/userconfig.json",
+      "sha256": "2d75ca7461d7bc35dd6b33a5ced91bf0a121ffb20518b01f9f97349d3c62a8eb",
+      "size": 467,
+      "mode": "default"
+    },
+    {
+      "path": "config/punchy/punchy_config.json",
+      "sha256": "efa4d59d9cffff7d9114df0ee11ee428c2b54bc13dce582aa339cf1c8fe6ba28",
+      "size": 1358,
+      "mode": "sync"
+    },
+    {
+      "path": "config/sable-client.toml",
+      "sha256": "4bb419852323dabfee202acd5f9ebc4caef8c3991abe5bc08d7833df589b58a3",
+      "size": 912,
+      "mode": "default"
+    },
+    {
+      "path": "config/sable-common.toml",
+      "sha256": "b9bb5b568f8d961dc976bbcf55825faa7b62dafd52876a1ec58f7a0a7f7c9401",
+      "size": 2095,
+      "mode": "default"
+    },
+    {
+      "path": "config/sable-server.toml",
+      "sha256": "75d3a7740415e28fb5733f7d8a72fa835cb4325d90af2d99374da23aa575df5c",
+      "size": 313,
+      "mode": "default"
+    },
+    {
+      "path": "config/scannable-common.toml",
+      "sha256": "be508b8c01407765e6cd7bb2dd03f925bd2c6e57fd99907e7f854f5367ca1493",
+      "size": 3797,
+      "mode": "default"
+    },
+    {
+      "path": "config/servercore/config.yml",
+      "sha256": "45fc690d9a5964d39e22194d4b4e54c412aefe8227002f0c14ad61d313d64cdc",
+      "size": 385,
+      "mode": "default"
+    },
+    {
+      "path": "config/servercore/optimizations.yml",
+      "sha256": "a699f828fd142094500fb0b4ba7dd97a88032280a58569149c6015955efc92ae",
+      "size": 111,
+      "mode": "default"
+    },
+    {
+      "path": "config/simplyswords/compatibility.toml",
+      "sha256": "909a2c74eb3583c9f116b2a63e868713da9fdccc43478550f4617485c42031d0",
+      "size": 11976,
+      "mode": "sync"
+    },
+    {
+      "path": "config/skinlayers.json",
+      "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166",
+      "size": 497,
+      "mode": "default"
+    },
+    {
+      "path": "config/skinshuffle/config.json",
+      "sha256": "662c8542ea661fc5321a22e99df6dafd0d6055ed0416a3fc767df130a9953a52",
+      "size": 542,
+      "mode": "default"
+    },
+    {
+      "path": "config/skinshuffle/skin-caches.json",
+      "sha256": "c8f502af2e35c0dcc6740ae1318322e2706658cce59fbf6610d4eb4071088d1e",
+      "size": 40,
+      "mode": "default"
+    },
+    {
+      "path": "config/skinshuffle/skins/1078232318.png",
+      "sha256": "58cae4b7748454503e61f1fa2f1b25e2d8ff163e5fe75ee6ae8a8cabc24b950e",
+      "size": 2294,
+      "mode": "default"
+    },
+    {
+      "path": "config/skinshuffle/skins/1590170277.png",
+      "sha256": "0d8697303ca1b0a6749b73f85421aeff6ad0bfa6c0bf7c8b05bee1551c28793c",
+      "size": 2511,
+      "mode": "default"
+    },
+    {
+      "path": "config/sodium-extra-options.json",
+      "sha256": "397c8144c4440ecde7899c8d0bda480354bee15bd8f4b1d238a673fab9a7b034",
+      "size": 1473,
+      "mode": "default"
+    },
+    {
+      "path": "config/sodium-extra.properties",
+      "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+      "size": 360,
+      "mode": "default"
+    },
+    {
+      "path": "config/sodium-fingerprint.json",
+      "sha256": "86f6b39b249d1a9d17109154064bb5a7018bb865103dc055e97f3ee5cb92fb04",
+      "size": 427,
+      "mode": "default"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "sha256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
+      "size": 258,
+      "mode": "default"
+    },
+    {
+      "path": "config/sodium-options.json",
+      "sha256": "e170cafd722ce62aa061d6770af08274391dd17064f58e82e2ff84af2b1f95ac",
+      "size": 632,
+      "mode": "default"
+    },
+    {
+      "path": "config/sound_physics_remastered/occlusion.properties",
+      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "size": 4831,
+      "mode": "default"
+    },
+    {
+      "path": "config/sound_physics_remastered/reflectivity.properties",
+      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "size": 4713,
+      "mode": "default"
+    },
+    {
+      "path": "config/sound_physics_remastered/sound_rates.properties",
+      "sha256": "66387c40fcf0e93602cd53e72fc81bf55002cf920603ea323cbde4b37478e375",
+      "size": 71177,
+      "mode": "default"
+    },
+    {
+      "path": "config/sound_physics_remastered/soundphysics.properties",
+      "sha256": "71222cdd551505f8c30264a541e1d343f5f6d292efe7a70980dd52cb43476644",
+      "size": 5106,
+      "mode": "default"
+    },
+    {
+      "path": "config/splitself.json5",
+      "sha256": "6a97927a76fff990d617e5a92ba1af33aefb9e63b3a98f96c83919cd8e84f62f",
+      "size": 2968,
+      "mode": "default"
+    },
+    {
+      "path": "config/tectonic.json",
+      "sha256": "9edbc0a7900f8446e515e3a603eb6dde591b471fed228d69e38417d772eb93c3",
+      "size": 1267,
+      "mode": "default"
+    },
+    {
+      "path": "config/thewatching.json",
+      "sha256": "e4481fab6b8d009199ef2412c82f780548e0d03f196dc2372cc74fde5c66a906",
+      "size": 2420,
+      "mode": "default"
+    },
+    {
+      "path": "config/thewatching/watcher_notes.txt",
+      "sha256": "0cb24c0f3063c311dc0ec146632a203188cca985084d48ea215fff67ff401fbe",
+      "size": 46,
+      "mode": "default"
+    },
+    {
+      "path": "config/thewatching_audio.json",
+      "sha256": "aac905bc0f08cba27e9a3c571f54f642db17438b00e53918be4f5056cd98486f",
+      "size": 162,
+      "mode": "default"
+    },
+    {
+      "path": "config/thewatching_peripheral.json",
+      "sha256": "308729211de44b4e3c2c196f4fbc9d1c1e9201025b0a95e49edf39567a7bc935",
+      "size": 283,
+      "mode": "default"
+    },
+    {
+      "path": "config/transition.json",
+      "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+      "size": 97,
+      "mode": "default"
+    },
+    {
+      "path": "config/travelersbackpack.json5",
+      "sha256": "f817029d5fa2f31e5676e08c9657eec504a51cc1c746b661e5f901152dd3d743",
+      "size": 11955,
+      "mode": "default"
+    },
+    {
+      "path": "config/treechop-client.toml",
+      "sha256": "141942994baf6c8b347791ec7a144ef447f162657cddc62f3e9fdbc3db626f82",
+      "size": 1625,
+      "mode": "default"
+    },
+    {
+      "path": "config/treechop-common.toml",
+      "sha256": "9f19fe5bd092ec95981a00463d73469f62a8766b1218deac8b584b4a76b4323a",
+      "size": 7070,
+      "mode": "default"
+    },
+    {
+      "path": "config/treephysics-client.toml",
+      "sha256": "ccf9af15a918879be016a9de9603268d5deab2cf1f21353b466a385f92b414e3",
+      "size": 80,
+      "mode": "default"
+    },
+    {
+      "path": "config/treephysics-common.toml",
+      "sha256": "41303cae2c52834168e3c5cfb84e52c910573344bb7d4f6140c431e1f4fcda36",
+      "size": 2043,
+      "mode": "default"
+    },
+    {
+      "path": "config/trender.json",
+      "sha256": "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+      "size": 47,
+      "mode": "default"
+    },
+    {
+      "path": "config/upgrader_economy.json",
+      "sha256": "1d4b14e5a15b85abbe5b67e3d41cb460331ab2d9cf1e55302d7795661f4c5211",
+      "size": 1595,
+      "mode": "default"
+    },
+    {
+      "path": "config/villagernames/customnames.txt",
+      "sha256": "76da7321f9561fbd4e2e93c67cc877989fc65c46a4fed1b8083485969f1258a9",
+      "size": 3570,
+      "mode": "default"
+    },
+    {
+      "path": "config/visuality.json",
+      "sha256": "88d657f8162309d18cd50a9d38b6e166b00e36c8ed9f69f5637067e0b1523427",
+      "size": 1142,
+      "mode": "default"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "sha256": "3c3a2fca564353cf5639b1448490e8179167efff7241c8da808e58b8df7aca8e",
+      "size": 6669,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/lib/client.cfg",
+      "sha256": "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336",
+      "size": 26,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/lib/common.cfg",
+      "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2",
+      "size": 236,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "sha256": "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907",
+      "size": 121,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+      "size": 75,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/client.cfg",
+      "sha256": "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263",
+      "size": 236,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/common.cfg",
+      "sha256": "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0",
+      "size": 147,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/default_radar_categories_client.json",
+      "sha256": "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696",
+      "size": 5531,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/default_radar_categories_server.json",
+      "sha256": "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd",
+      "size": 4597,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/profiles/default.cfg",
+      "sha256": "f1ff62b22cfc97486d00e8bd3367a3207f0a8da235e7b365c5aa2a54e3f8dc25",
+      "size": 3825,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "sha256": "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6",
+      "size": 684,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/minimap/server_profiles/default.cfg",
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+      "size": 75,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/world-map/client.cfg",
+      "sha256": "33bcf15d5706daf090323b03c16e357c44bdb8e5f29a2f65ef839316b6e94c5f",
+      "size": 522,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/world-map/common.cfg",
+      "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d",
+      "size": 141,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "sha256": "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf",
+      "size": 1619,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+      "size": 75,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaerohud.txt",
+      "sha256": "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c",
+      "size": 123,
+      "mode": "default"
+    },
+    {
+      "path": "config/xaeropatreon.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mode": "default"
+    },
+    {
+      "path": "config/yacl.json5",
+      "sha256": "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820",
+      "size": 35,
+      "mode": "default"
+    },
+    {
+      "path": "config/zoomify.json",
+      "sha256": "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36",
+      "size": 708,
+      "mode": "default"
+    },
+    {
+      "path": "mods/AdvancementPlaques-1.20.1-fabric-1.6.7.jar",
+      "sha256": "a162aa8d872f5327405ba1ce1d601a825eb36f530e61d5fcae6c8d83d7107d94",
+      "size": 194905,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/AmbientSounds_FABRIC_v6.3.9_mc1.20.1.jar",
+      "sha256": "9472355d44c08e3c24ec39dd8a82a76024fb23dc0421e726dd35e0e029840063",
+      "size": 53435062,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/BOMD-1.7.5-1.20.1.jar",
+      "sha256": "85bec458ba79760be82085657865631afbbcd82e7b55b4948e63451c0dc685f2",
+      "size": 2746075,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/BadOptimizations-2.4.1-1.20.1.jar",
+      "sha256": "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8",
+      "size": 460234,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/BetterF3-7.0.2-Fabric-1.20.1.jar",
+      "sha256": "c9282b371c61fa04f329cc57719b1e221d65c057a70dcb93d1d2b430168fda46",
+      "size": 1782676,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+      "sha256": "e0511e543ebcd6e7241ef7bbc28e6f40ad886b4b1e06972c23c5cbde3b8101ac",
+      "size": 55504,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Bountiful-6.0.4+1.20.1-fabric.jar",
+      "sha256": "e1fc030ed37cd23ff4d83da90061217a44e4d1011cd523204592c2332d55d74c",
+      "size": 503384,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/BridgingMod-2.5.1+1.20.1.fabric-release.jar",
+      "sha256": "72a5caa3c5289e759259d0fca66c6ec132f8b64365432df184e46e30bbcffdab",
+      "size": 3577394,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
+      "sha256": "2eb70931dee86cef68c8538b8284c684225964632cd10e636ea938af6f66e6f7",
+      "size": 21987,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Controlling-fabric-1.20.1-12.0.2.jar",
+      "sha256": "f7bbb7e37f2118af29450ec468d3ce4ec2606fead2861f4092a43509c6803ed6",
+      "size": 122778,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
+      "sha256": "b33f58a8f3176eb55150b7957ccb624fa7e56eee618ed2dd88e34d26fa1a2104",
+      "size": 1207852,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/CustomSkinLoader_Universal-15.0.1.jar",
+      "sha256": "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc",
+      "size": 218215,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/DistantHorizons-2.2.1-a-1.20.1.jar.disabled",
+      "sha256": "f282957cb0112f4cf2ce0feb0ecac73d388fab2896b8d11c53d724f4d728d863",
+      "size": 16521385,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+      "sha256": "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a",
+      "size": 396628,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Iceberg-1.20.1-fabric-1.1.25.jar",
+      "sha256": "f142f15b72e36225b9828e5f44e8453e54a26a57048b12fe49ab8fb6476793f8",
+      "size": 119018,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/IllagerInvasion-v8.0.7-1.20.1-Fabric.jar",
+      "sha256": "ab2e659d47d2a77882fdafb56f9cc9fa8b7670da5305c796084e1702f3b34b90",
+      "size": 2312857,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+      "sha256": "5eea426af467564618e017e8f3a62f1c5c4224ab32a0a1726313de130a2d783d",
+      "size": 348818,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/InventoryParticles-3.2.0+1.20.1+fabric.jar",
+      "sha256": "fada1b88725f7444b485c109dbb090145ff6824d9732d227e9b2f95ff15d7aa5",
+      "size": 1735148,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Jade-1.20-Fabric-11.13.3.jar",
+      "sha256": "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375",
+      "size": 553868,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Kambrik-6.1.1+1.20.1-fabric.jar",
+      "sha256": "c4f27750dab2a58124a94b58d4271819db05d6b2f5863391e4f0b6897fd047e1",
+      "size": 327998,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/MossyLib-1.6.0+1.20.1+fabric.jar",
+      "sha256": "23834bd6cfbd9e0869861ed1d8e5036c29cff7f5565d79e22d27eebe9546f573",
+      "size": 189952,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc1.20-2.26.jar",
+      "sha256": "1eb9f0c7878598a3a7dfb52cd0e8159ebf8b33b04e6df232534fed2fbb6616e4",
+      "size": 77943,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Ping-Wheel-1.12.1-fabric-1.20.1.jar",
+      "sha256": "b1d83ddd9a89c5580a9d07b35b0b5d32594ef2cd8223984005081a0abc844b1b",
+      "size": 154131,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/PresenceFootsteps-1.10.1+1.20.1.jar",
+      "sha256": "70f354e5ecd8993908601fcdfcb4e98f7b81f42192287282a5b86712e9a6be95",
+      "size": 5664952,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/PuzzlesLib-v8.1.36-1.20.1-Fabric.jar",
+      "sha256": "ed24c24a1453edd183806e074527e8c85cc8397e6ccfcbec8e227fa32b24f92c",
+      "size": 1084883,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Searchables-fabric-1.20.1-1.0.3.jar",
+      "sha256": "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a",
+      "size": 80283,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/SimplyTooltips-fabric-0.1.5-1.20.1.jar",
+      "sha256": "c7573a331ef9cfdb5da3ab3f63431ea8e3c870d2efa84ed4012127173d416d96",
+      "size": 5518319,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Stellarity-v2-0e.jar",
+      "sha256": "7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2",
+      "size": 12562436,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/Terralith_1.20.x_v2.5.4.jar",
+      "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+      "size": 3156901,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/TreeChop-1.20.1-fabric-0.19.0.jar",
+      "sha256": "66ad56c20fc07fddbfc5144d98c70fa85b5fce43dd0d68474a4aa5d2d748705f",
+      "size": 490611,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsApi-1.20-Fabric-4.0.6.jar",
+      "sha256": "26b6dc81f876aabf3d53ead59e5908a8b0f5434d46c150cfd376c027ac54053e",
+      "size": 1396331,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
+      "sha256": "790e31c2a19194b81ca0dc134694a5b9f935c5c19c50aadcfb4f90a613c19bff",
+      "size": 1063786,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+      "sha256": "6c69fd0316c448cf9c70b72dbea424a85be881f9adc3e7a56e8f0b08e3611fff",
+      "size": 944170,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
+      "sha256": "44bee20e7f512d84686ec536ac8dd6bd07811b8e64d00ea48c470c93dd5e29e8",
+      "size": 947293,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+      "sha256": "0a4657689217339a1f6079a2d9dda03f6d01beacac59c14e093ded3357db2b86",
+      "size": 621495,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+      "sha256": "93e0e537fcf20b18c0ea340e6d4f2c20225a29c45252b9cf78e205107ab4f03a",
+      "size": 760974,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+      "sha256": "3013484bceee72540a1eb76d403a0c36db0fd6d99a1e1b5a398b37ca50f27fb2",
+      "size": 1165832,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+      "sha256": "122b74d59629bf755663263a4ce43e58a5d13b74e67bea332d44a9bedb51b74a",
+      "size": 611598,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/accurate-block-placement-1.2.1.jar",
+      "sha256": "fbbf02454bb4262949bbc06ed987b3ba54c0518060cf3557b18d9cce7a3b9b9e",
+      "size": 35838,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/adventurez-1.4.20.jar",
+      "sha256": "59663cb3d9d6dd16605ef5d18179889af730e9175871843c6b48a66168e8c11a",
+      "size": 4952938,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/alexsmobs-2.2.2-fabric+1.20.1.jar",
+      "sha256": "a7a7ef9df469abc36405d5fe020830672229b64c27f09d9cf1f336805cfff6ee",
+      "size": 27442841,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/alternate-current-mc1.20-1.9.0.jar",
+      "sha256": "cbecb4abf4aa734a7617fa7ad771af118cd06cfac7ea7f26f43e9ff6ef6eb515",
+      "size": 51875,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/amendments-1.20-2.2.6-fabric.jar",
+      "sha256": "d935f9e0b8243571e38043d964ee88a44ff555ba6fb9fb8fc73d0df90b34727e",
+      "size": 1281333,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/appleskin-fabric-mc1.20.1-2.5.2.jar",
+      "sha256": "821241285f534fd04aa15a91f3d1a6059135bce2d4b6e409fa1ae8825b4c9702",
+      "size": 1097240,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/architectury-9.2.14-fabric.jar",
+      "sha256": "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321",
+      "size": 585207,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/armor_model_api-fabric-1.0.0+1.20.1.jar",
+      "sha256": "036fa120f2761b705ee9732997c1a6ddacd1e512bac67e4fa9090210a700c103",
+      "size": 85754,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/artifacts-fabric-9.5.17.jar",
+      "sha256": "7a2ce37ac5a0a762546df8c0f974d3466056457d85c7af22cbef669640a71d66",
+      "size": 960096,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/async-locator-fabric-1.20-1.3.0.jar",
+      "sha256": "2a602aff039cd60ef43b6b367e8dbc49cc4581ee81ffdf86b3d55298eb64b829",
+      "size": 279100,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/aura-defaults-1.0.0.jar",
+      "sha256": "9cb6580afe795e3d79e45d034cc5d4412528276f26605b08438e5f07709ac652",
+      "size": 988204,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/balm-fabric-1.20.1-7.3.44.jar",
+      "sha256": "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
+      "size": 576169,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/cardinal-components-api-5.2.3.jar",
+      "sha256": "ff1e33adde43c3e01f7e9a673cbb7f3a75453e769f80a38b057653475e296aa2",
+      "size": 228709,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/carryon-fabric-1.20.1-2.1.2.7.jar",
+      "sha256": "8d25fb164fc4cc15cd9123a915c880c55527efe3fec26b2c7febf09e65c6ebdd",
+      "size": 443033,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-fabric.jar",
+      "sha256": "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa",
+      "size": 1172214,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/codxlib-1.6.1-fabric+1.20.1.jar",
+      "sha256": "e57e3f7ddccaf43f866a018fe5b8e937ce6002ad7be708426049e4eede3679bc",
+      "size": 185824,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/collective-1.20.1-8.41.jar",
+      "sha256": "78fe02a77be1d0d615392f70d40559849dab7884603db5dd5ea5fc08fa8cae31",
+      "size": 745905,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/comforts-fabric-6.4.0+1.20.1.jar",
+      "sha256": "f9852a749b5154cbb0e97651cd0a1718382fcdfebdea86813bb118b16ee1096b",
+      "size": 693624,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/continuity-3.0.0+1.20.1.jar",
+      "sha256": "fdb646bd51667c57e576d1412c740ac48e3bf6953294dde11a62101a09395fe3",
+      "size": 1016063,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/ctov-3.4.14-fabric.jar",
+      "sha256": "0d40c400db89eb5bdd8e4173707525e2e0301fd15d59073bd9b9712ffa7c37e4",
+      "size": 6734661,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/doubledoors-1.20.1-7.3.jar",
+      "sha256": "2ee73612dae3afea33083d09173ea8c6136822f989a7f86905c3b859c9997207",
+      "size": 54162,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/dungeons-and-taverns-3.0.3.f.jar",
+      "sha256": "1da45baa734df73b1aa46f0b3f319b051c26507a911ec52bfcb1ccae6930e4f0",
+      "size": 13161726,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/eating-animation-1.20+1.9.61.jar",
+      "sha256": "ff8fe184b3104b94c9e10e751f5730d3b1fec19894179743a2447367cb752463",
+      "size": 1218710,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/elytraslot-fabric-6.4.4+1.20.1.jar",
+      "sha256": "ba49a677be30a9b003c2889c5f1bec1db95f875802adb8ae659bd64d7cc3b24d",
+      "size": 85106,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/emi-1.1.24+1.20.1+fabric.jar",
+      "sha256": "537b062e0dc6f028cf84cf66a473ed1b8842219a708d17cdb292401441b0f367",
+      "size": 1124008,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/entity_model_features-3.3.11-1.20.1-fabric.jar",
+      "sha256": "74019cee3143716221a4c674ed32d2f5c9a5b0eb5acbf7eb2a3a32357fe37b73",
+      "size": 651739,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/entity_texture_features-7.2.5-1.20.1-fabric.jar",
+      "sha256": "a6a0da61e32e6b1506162a3fa5adb8c30e5da129f09275f49cb018bea212ebba",
+      "size": 807756,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/entityculling-fabric-1.11.2-mc1.20.1.jar",
+      "sha256": "637b6f30d8c7d51f107eddce095ab205f5768751aa3f9bd9ad11577da04dbbd0",
+      "size": 1516669,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/fabric-api-0.92.12+1.20.1.jar",
+      "sha256": "4197ff4fbdac13cffccd267c1bc59e9fbabb2b5683a9d5f8023f4b5ea16a1c1e",
+      "size": 2137232,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+      "sha256": "620c2709be2a262b837cf976f6f85f6eda80a56af2ba4242e0bdc83a60fee7a5",
+      "size": 8142858,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/fallingleaves-1.15.6+1.20.1.jar",
+      "sha256": "27b2c5a2a9cebe09afd4adccc3989c43a6cceb92ece60a6daea735ba178114f0",
+      "size": 156773,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-fabric.jar",
+      "sha256": "c7ba1118a05b2da900d1c369fbe1017a3e3ec3cafe5e51398b851279b9becf24",
+      "size": 125197,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/friendsandfoes-fabric-5.0.1+mc1.20.1.jar",
+      "sha256": "ef343c383ddddd70acfa24f5ee51e2476f550e0afd6ede11e85ed763f6c52663",
+      "size": 5274822,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/frostiful-1.0.11.jar",
+      "sha256": "64b6329e642cf05d4f7bba6788e4a9e5dea0354e622a3d0c7c5f60d067706b64",
+      "size": 1979147,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.7+1.20.1.jar",
+      "sha256": "719e2b5faa36104551f8f49e1c5f9189f8dcac65fcb648d61e1bae4d41aea1fa",
+      "size": 2395040,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/geckolib-fabric-1.20.1-4.8.4.jar",
+      "sha256": "ee8495a8db7a83aa63e8ef248d4eadda665ff57c5911b8e59fd608806137baa6",
+      "size": 969016,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/grand-teleport-1.20.1-build252.jar",
+      "sha256": "d02ae63ce942a235515b2f804d9f4183cfef25e784ed6e31fcda35fc16c0da30",
+      "size": 1118555,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/guardvillagers-2.0.9-1.20.1.jar",
+      "sha256": "a18f60127cfc8f0f75867738255a98026ae53a3f4a02b5ce4901baaecfcab502",
+      "size": 298755,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/indium-1.0.36+mc1.20.1.jar",
+      "sha256": "8434d0abc8826e2540c26741fea45a1ab9d48f650746de282b36850fa1d01999",
+      "size": 105382,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/iris-1.7.6+mc1.20.1.jar",
+      "sha256": "9eb15e563e0c9ae6eff15b7863f8432dd290cf9f724c7373e9b15b14aa829ed5",
+      "size": 2726899,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/jamlib-fabric-1.3.6+1.20.1-patch.1.jar",
+      "sha256": "1f450f1d2ec041014f7892515a010842b700d17ca8bf92674b014a1cce5244f2",
+      "size": 240638,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/krypton-0.2.3.jar",
+      "sha256": "69ad1810206ce12181b1b083640f044e7e250781c36c96c655eac36209057698",
+      "size": 185895,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/lambdynamiclights-4.4.0+1.20.1.jar",
+      "sha256": "074d6c79e002790b696ebcfdd4ff2a2d57ec55228f93b47e952eeebd5baf5301",
+      "size": 1114373,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/lithium-fabric-mc1.20.1-0.11.4.jar",
+      "sha256": "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782",
+      "size": 691483,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/lithostitched-fabric-1.20.1-1.4.11.jar",
+      "sha256": "78c13369bd34be50faee673a0618871bb9314443fcd506d8bf5457c3f95d02c4",
+      "size": 487655,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/mcw-doors-1.1.5-mc1.20.1fabric.jar",
+      "sha256": "cb7d88f7fbf2172207aff0ec9af11684ea7b7062723af1b71b2c59ba09e7ca75",
+      "size": 1226772,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
+      "sha256": "5c1f852046e62a17056bb6b571164e61644076c5eb9029c92b31e337cc62c0d9",
+      "size": 545175,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/modmenu-7.2.2.jar",
+      "sha256": "a041b0f0305ffa5eb90120aa23768e1cfbb27583904b1751e3783c0f69382f1a",
+      "size": 721366,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/moonlight-1.20-2.16.35-fabric.jar",
+      "sha256": "04386df4c66333f293ecd88e18aa3e20a41af54c6a226d79059f7708616fb597",
+      "size": 1396709,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/moreculling-1.20.1-0.24.6.jar",
+      "sha256": "6ba025225149a19ff152a83198c1c10cc321e9e8a7706f7c77f25523ece89854",
+      "size": 274523,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/no_xp_anvils-1.2.0-fabric-1.20.1.jar",
+      "sha256": "ee20bf396bf76bfdf601fcb703972fc449642548e1675448bf80fcf6d48a8256",
+      "size": 143759,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/noisium-fabric-2.3.0+mc1.20-1.20.1.jar",
+      "sha256": "266ef6f28ee69f91acce6ca991121c21f2944e76f366475778347d90d33b491d",
+      "size": 214902,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/notenoughanimations-fabric-1.12.6-mc1.20.1.jar",
+      "sha256": "cecd3f42d99420574224132a7956f1468611e3364965bbbe0cfe3dacf562ac86",
+      "size": 1870496,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+      "sha256": "0b10021fa638997398110777747726b1cb7a27bc3f8ff1b12e2b93ac01784018",
+      "size": 181008,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/player-locator-plus-2.2.0.jar",
+      "sha256": "109c72eb7f63b154e767b65fb2adde03d14fc6ef08fb7044462e2e23e47fa76c",
+      "size": 4428772,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/punchy-2.8e-fabric-1.20.1.jar",
+      "sha256": "81e3454ed95f64a8abb83501f137ebff938a0258a3cbd7e7cfbc00c74b3d8778",
+      "size": 1902044,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+      "sha256": "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec",
+      "size": 77304,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+      "sha256": "f8fbad0b2ab07ccaffce53a9d835601b41ab013af8a501af4de56b3958d1182a",
+      "size": 135078,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/resourcefullib-fabric-1.20.1-2.1.29.jar",
+      "sha256": "2543d76f4f440d4401dccf7675f836381260919f0ac884e2696ae67e600adeeb",
+      "size": 431646,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/rightclickharvest-fabric-4.6.1+1.20.1.jar",
+      "sha256": "d4496d4df98083e64af435d8d0f8d5bf03bf94d5c2a2112029282a6c795f6d6e",
+      "size": 287561,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/rustbeds-1.0.0.jar",
+      "sha256": "ffd15b61f662b16f1c35c5657a97b44908a98f5536a5014c72c9a9c0bb61c7f4",
+      "size": 9207,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/scannable-MC1.20.1-fabric-1.7.12.jar",
+      "sha256": "89124df2612e4434e11d342af37a9cce1220868fa2ba780dbdb6df6c00aeb73a",
+      "size": 418358,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/servercore-fabric-1.5.2+1.20.1.jar",
+      "sha256": "d02253ab7566f2a6632cc78c9708dd768cf77ac8123351ed63be25e4f8cb317f",
+      "size": 815594,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/shield_api-fabric-2.2.0+1.20.1.jar",
+      "sha256": "097caabdeb60fd21cfd4657752df6de1c1c4d8944fde50542c8230490e428b2a",
+      "size": 41234,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/simple_villager_follow-fabric-1.20.1-1.0.0.jar",
+      "sha256": "8b4dcf141f98de394c723791003287fdf2005574a986240aaae455ba1e2bfe28",
+      "size": 10936,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/simplyswords-fabric-1.70.2-1.20.1.jar",
+      "sha256": "b374382303e5ecdfa2b0e1156dd3b9a03af189279d2bf7ccd3c7017374757ad9",
+      "size": 15700827,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/skinlayers3d-fabric-1.11.3-mc1.20.1.jar",
+      "sha256": "97361a4ea97d016a6814c70ad49174498ba617899930c1e3e17a27f7ad56c963",
+      "size": 1912385,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/smoothswapping-0.9.3.2-1.20.1-fabric.jar",
+      "sha256": "01f402a3685bf8e756c3f50661d06924c67ee375099c19aee884f52187fc07f0",
+      "size": 59984,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/snowyspirit-1.20-3.0.10-fabric.jar",
+      "sha256": "1cc2bc08f5247bfe3ec2612cefbbcb0d2e5fdf2fe302150f00d62b33df7e7704",
+      "size": 5315563,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/sodium-extra-0.5.9+mc1.20.1.jar",
+      "sha256": "5cae656838b595e27d5133264374e5d90f5f35a39e343bfc5a76b908fec97c9f",
+      "size": 370701,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/sodium-fabric-0.5.13+mc1.20.1.jar",
+      "sha256": "688c26029ce69f0b1f7cf936866656ca6723228ac46c4aef5b5f793b1e6abd22",
+      "size": 971552,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
+      "sha256": "275467bef6e56aab50b0c66ed42b2984160d36c65edb1b986e3c7c81d37e9253",
+      "size": 205569,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/spark-1.10.53-fabric.jar",
+      "sha256": "00c034e684fa4471b41539dc29a8d39cc6f22eb29b2fa423895efc978a391d2d",
+      "size": 3082974,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/structure_pool_api-fabric-1.2.1+1.20.1.jar",
+      "sha256": "7ee2ffa8def57f1206a6e51836bd7393b75f2ce9ce9c53b1fbf1b242d7ef7c2b",
+      "size": 128086,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/supplementaries-1.20-3.1.43-fabric.jar",
+      "sha256": "93b865c213f64ce7fdc74888b79048ff3002434db5adb0af3b6d5bcad58f7b5d",
+      "size": 13493444,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/tectonic-3.0.17-fabric-1.20.1.jar",
+      "sha256": "ff333d025314842ef5b9a7528be9f21b418a8f11d90a3bc50000544432c2830c",
+      "size": 319868,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/thermoo-2.3.3.jar",
+      "sha256": "f08f4dfa30a97f8120b5865997c9036e71af2810c559cd7374401c8f572107ab",
+      "size": 225886,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/trade-cycling-fabric-1.20.1-1.0.18.jar",
+      "sha256": "d249a9217f7d478f60dfcf3340e4dd83c090992cf4984b744513057f3616570a",
+      "size": 430650,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/travelersbackpack-fabric-1.20.1-9.1.55.jar",
+      "sha256": "314f996a19bb8a8285f06a96ed9a7cb752fc926cd37861fbc7f8525a1588c4e3",
+      "size": 1512753,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/trinkets-3.7.2.jar",
+      "sha256": "a6f11a4206c1285cd260a60d9bfe9cefa9914d2190d08b3c52050f42044b53b3",
+      "size": 238532,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/villagernames-1.20.1-8.7.jar",
+      "sha256": "13623d291855ac01d9ec64b6a8977596fafe66b8e2ad5de60249c192664de2b2",
+      "size": 56124,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/visuality-0.7.1+1.20.jar",
+      "sha256": "f95afc78d944a06f807c683f5959878d8214d775cd81ecbbbc076fc43763202a",
+      "size": 67302,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/wakes-0.4.0+1.20.1.jar",
+      "sha256": "af3a93bf5993c2a8e4e608e559af3160eb4c0fd669585f79e22853aa811d4411",
+      "size": 355290,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/waveycapes-fabric-1.11.2-mc1.20.1.jar",
+      "sha256": "53e54d39d1dda6bd2e7e8b696c70da8d6b4e57a76043db7d0d63a62779a24bca",
+      "size": 1787074,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/waystones-fabric-1.20.1-14.1.21.jar",
+      "sha256": "6625d013cc1a13fcd2eb73acebbd21603441618f77087ebb5e96df4793f1ae2a",
+      "size": 538364,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/xaerominimap-fabric-1.20.1-26.5.0.jar",
+      "sha256": "8da1c2c44b833d4cf418bda5ef3a61aeff2f28af737b94d3997177537f409b41",
+      "size": 2228200,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/xaeroworldmap-fabric-1.20.1-1.46.0.jar",
+      "sha256": "9f7961c371f0b4fea3d704cb2532761ee760cc1f7ad548ff08773e569cbdc853",
+      "size": 1447372,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+      "sha256": "7a2389ca436ea8f7abee787d6373f9526deece5d06785f3623b7fe89bd9b31ac",
+      "size": 1294234,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/zRemove_SDL_Intro_v1.2.2.jar",
+      "sha256": "7a20d74dc05270616eeb5f53f51ebf5d67b43c3a3fed7d745377ab70107641fe",
+      "size": 12238,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/zoomify-2.15.2+1.20.1.jar",
+      "sha256": "1ced9d57ac8fe273f541c7f3bb0226b3d7eb26b37cc719a3c80d1a6f26dfe095",
+      "size": 871089,
+      "mode": "sync"
+    },
+    {
+      "path": "options.txt",
+      "sha256": "7ff560ff9a64f912bdf72c51aad10950b624d1c49cbdf8a08fd45fb46ce06b98",
+      "size": 826,
+      "mode": "default"
+    },
+    {
+      "path": "resourcepacks/AnimatedDoors-RP-2.0.0.zip",
+      "sha256": "f53ed67beb6d7b878eb95099b24e1dd38c4f438ba8af73e60a8ecea971a31397",
+      "size": 72756,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Classic-3D.zip",
+      "sha256": "814e399a910f26147e9ebb404ab2d33298e84289e9c15601766002d78abe501d",
+      "size": 7528863,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Drigo-3D-Lanterns-x-Punchy.zip",
+      "sha256": "4841d8466d874b2909fcb394252498e2da92976b61dd59e310a845ff4815ab0a",
+      "size": 63784,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Even-Better-Enchants.zip",
+      "sha256": "387eec14980c9c4ceab211e4876df3adae02beb554c08c739ada6865d83e786c",
+      "size": 175363,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
+      "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2",
+      "size": 850941,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Mels-3D-Items.zip",
+      "sha256": "a7c597734da51e74e8b6bf6a2bdb9ef97dfac9885ebc880eecc627df15d2f12c",
+      "size": 222394,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Modded-Swords-x-Punchy-1.20.1-v1.3.2.zip",
+      "sha256": "b4a9b4846d70a121c1fe794b996c07f1d80f7c5ba655f12b082dc163c105ae83",
+      "size": 235388,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/SPBR.zip",
+      "sha256": "8e90adc01e7edd4db57e7c3ce00cc88e4d86e5b281d57f9110cb258af08ab566",
+      "size": 25662227,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Sodium_Russian_Translation.zip",
+      "sha256": "db0adb2234966c60b941b47d9157a36019676f1f0248c722d8ce9bb3527667b2",
+      "size": 1269344,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/Universal Bushy Leaves.zip",
+      "sha256": "5e754c421a9bdc6bd57e2a70b726eaee8b73b0762027727b4df13c9b40fa32e8",
+      "size": 63078,
+      "mode": "sync"
+    },
+    {
+      "path": "resourcepacks/unobtrusive-grass-1.0.1.zip",
+      "sha256": "b58e0c99132ec3cd5a04cf3b77f1d14b5d64bfd8bb48ffc5b9acf1b8904716d5",
+      "size": 10344,
+      "mode": "sync"
+    },
+    {
+      "path": "shaderpacks/Builders-QOL.zip",
+      "sha256": "9b19802448fad01953ff517cc38f2d20d768c00be35d1547f43b3012705834ad",
+      "size": 2359837,
+      "mode": "sync"
+    },
+    {
+      "path": "shaderpacks/Sildurs-Enhanced-Default-Fancy.zip",
+      "sha256": "b30353b5dd831cb5ab060ee96e1ac762c571bb4de5d729d329463dff0f2f1235",
+      "size": 54991,
+      "mode": "sync"
+    }
+  ]
 }
