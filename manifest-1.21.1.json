@@ -1,6 +1,6 @@
 {
     "name":  "Aura",
-    "packVersion":  "20261026.2306",
+    "packVersion":  "20261027.0002",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "files":  [
@@ -978,8 +978,8 @@
                   },
                   {
                       "path":  "mods/aura-defaults-1.0.0.jar",
-                      "sha256":  "e448466ea54fefedb56a3a136a1ad39fbe7bf8abc6447ab1595ddb66c2dcea62",
-                      "size":  975811,
+                      "sha256":  "1e0368d8dc41b8f80d2ab3bfde92f94b93dba442713fee82e7e3871c985254f8",
+                      "size":  976177,
                       "mode":  "sync"
                   },
                   {
