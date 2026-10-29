@@ -21,6 +21,7 @@
     "indium": "Indium не требуется в 1.21.1, так как Sodium 0.6+ имеет встроенную полную поддержку Fabric Rendering API"
   },
   "extraIn121": {
-    "mr_animated_doors": "Fabric-мод Animated Doors 1.21, необходимый для работы ресурс-пака AnimatedDoors-RP на версии 1.21.1"
+    "mr_animated_doors": "Fabric-мод Animated Doors 1.21, необходимый для работы ресурс-пака AnimatedDoors-RP на версии 1.21.1",
+    "thermoo-patches": "Патч совместимости Friends&Foes и других модов с Thermoo 4.x в 1.21.1 (коммит 1e6abaa, PR #33); в 1.20.1 Thermoo 2.3.3 не требует отдельного модуля патчей"
   }
 }

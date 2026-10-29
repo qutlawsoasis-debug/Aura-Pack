@@ -1,10 +1,16 @@
 param(
-    [string]$Root120 = "C:\Users\magne\Documents\GitHub\Aura-Pack",
-    [string]$Root121 = "C:\Users\magne\Documents\GitHub\Aura-Pack\versions\1.21.1",
-    [string]$ExceptionsFile = "C:\Users\magne\Documents\GitHub\Aura-Pack\tools\parity-exceptions.json"
+    [string]$Root120 = (Resolve-Path "$PSScriptRoot\..").Path,
+    [string]$Root121 = (Resolve-Path "$PSScriptRoot\..\versions\1.21.1").Path,
+    [string]$ExceptionsFile = (Join-Path $PSScriptRoot "parity-exceptions.json")
 )
 
 $ErrorActionPreference = "Stop"
+
+$Root120 = (Resolve-Path $Root120).Path
+$Root121 = (Resolve-Path $Root121).Path
+if (Test-Path $ExceptionsFile) {
+    $ExceptionsFile = (Resolve-Path $ExceptionsFile).Path
+}
 
 Write-Host "=== Aura Pack Parity Check (1.20.1 vs 1.21.1) ===" -ForegroundColor Cyan
 
