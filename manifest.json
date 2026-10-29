@@ -1,6 +1,6 @@
 {
   "name": "Aura",
-  "packVersion": "20261029.0203",
+  "packVersion": "20261029.1359",
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -984,8 +984,8 @@
     },
     {
       "path": "mods/aura-glass-1.0.0.jar",
-      "sha256": "c04919bc89f321347b0644c3244ad1b1a7d87afd38d194f055bb9dcb81d52608",
-      "size": 2479785,
+      "sha256": "c312c3027fe53d74ef46dbe281dd9277e1bacde529197ad7591021f20f0e6787",
+      "size": 2591202,
       "mode": "sync"
     },
     {
