@@ -1,6 +1,6 @@
 {
   "name": "Aura",
-  "packVersion": "20261030.1613",
+  "packVersion": "20261031.2151",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -1163,6 +1163,12 @@
       "mode": "sync"
     },
     {
+      "path": "mods/jrftl-1.21-fabric-1.8.0.jar",
+      "sha256": "4e77eaf5d71c30dac81821b4ca33ef0f57e83bbf7a27fcfc463aae949cd4fad8",
+      "size": 10889,
+      "mode": "sync"
+    },
+    {
       "path": "mods/kambrik-fabric-8.0.0-beta.2.jar",
       "sha256": "2a9acf610fed31b4a766ea746d7a5c0bf579632bedde3846108e00bc3bcc8c5b",
       "size": 457787,
@@ -1220,6 +1226,12 @@
       "path": "mods/moreculling-fabric-1.21.1-1.0.10.jar",
       "sha256": "5f67531f1dc2259ac5f4dc49997d0e3623e8b3b8330f52eac4a6cc99949f9a9b",
       "size": 332266,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/no-creeper-grief-v.1.1.0.jar",
+      "sha256": "06fcb0c835a81e7841f595cf29ceaccfd0073d593d65e6e4c5d20de37ba81cf2",
+      "size": 229574,
       "mode": "sync"
     },
     {

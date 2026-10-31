@@ -1,6 +1,6 @@
 {
   "name": "Aura",
-  "packVersion": "20261030.1613",
+  "packVersion": "20261031.2151",
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -1274,6 +1274,12 @@
       "path": "mods/rightclickharvest-fabric-4.6.1+1.20.1.jar",
       "sha256": "d4496d4df98083e64af435d8d0f8d5bf03bf94d5c2a2112029282a6c795f6d6e",
       "size": 287561,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/rottenflesh-to-leather_1-20-x.jar",
+      "sha256": "9f6403987e09dd24b9449b90105ae0106d09dd7c512ba13a12d915e409c48285",
+      "size": 19700,
       "mode": "sync"
     },
     {

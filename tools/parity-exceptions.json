@@ -15,6 +15,12 @@
         "target": "stellarity",
         "reason": "В 1.21.1 разработчик изменил mod ID с mr_stellarity на stellarity; версии v2 под 1.21.1 не существует (только линейка 3.x)"
       }
+    ],
+    "rotten_flesh_to_leather": [
+      {
+        "target": "jrftl",
+        "reason": "JRFTL в 1.21.1 заменяет Rotten Flesh to Leather из 1.20.1 (тот же рецепт выплавки гнилой плоти в кожу)"
+      }
     ]
   },
   "droppedIn121": {
@@ -22,6 +28,7 @@
   },
   "extraIn121": {
     "mr_animated_doors": "Fabric-мод Animated Doors 1.21, необходимый для работы ресурс-пака AnimatedDoors-RP на версии 1.21.1",
-    "thermoo-patches": "Патч совместимости Friends&Foes и других модов с Thermoo 4.x в 1.21.1 (коммит 1e6abaa, PR #33); в 1.20.1 Thermoo 2.3.3 не требует отдельного модуля патчей"
+    "thermoo-patches": "Патч совместимости Friends&Foes и других модов с Thermoo 4.x в 1.21.1 (коммит 1e6abaa, PR #33); в 1.20.1 Thermoo 2.3.3 не требует отдельного модуля патчей",
+    "mr_no_creepergrief": "No Creeper Grief для 1.21.1: отключает разрушение блоков криперами на сервере"
   }
 }
