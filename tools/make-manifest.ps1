@@ -1,18 +1,37 @@
 # tools\make-manifest.ps1 (PowerShell 5.1 compatible, UTF-8 no BOM)
 param(
-    [string]$TargetVersion = "1.20.1"
+    [ValidateSet("1.20.1", "1.21.1")]
+    [string]$TargetVersion = "1.20.1",
+    [string]$ClientReleaseDir = ""
 )
 $ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $packDir = (Resolve-Path (Join-Path $scriptDir "..")).Path
+. (Join-Path $scriptDir "aura-client.ps1")
+$clientMetadata = Join-Path $scriptDir "aura-client-release.json"
+if ($ClientReleaseDir) {
+    $clientRelease = Get-AuraClientRelease -MetadataPath (Join-Path $ClientReleaseDir "release-manifest.json") -ReleaseDir $ClientReleaseDir
+    foreach ($artifact in $clientRelease.artifacts) {
+        $targetRoot = if ($artifact.minecraft -eq '1.21.1') { Join-Path $packDir 'versions/1.21.1' } else { $packDir }
+        $targetJar = Join-Path $targetRoot $artifact.path
+        $otherJars = @(Get-ChildItem -LiteralPath (Join-Path $targetRoot 'mods') -Filter 'aura-client-*.jar' | Where-Object Name -ne $artifact.fileName)
+        if ($otherJars.Count) { throw "Remove obsolete Aura Client versions explicitly before importing: $($otherJars.Name -join ', ')" }
+        Copy-Item -LiteralPath (Join-Path $ClientReleaseDir $artifact.fileName) -Destination $targetJar -Force
+    }
+    $clientJson = Format-AuraJson ($clientRelease | ConvertTo-Json -Depth 10)
+    [IO.File]::WriteAllText($clientMetadata, $clientJson, [Text.UTF8Encoding]::new($false))
+} else {
+    $clientRelease = Get-AuraClientRelease -MetadataPath $clientMetadata
+}
+
 
 # 1. Чтение pack.settings.json
 $settingsPath = Join-Path $packDir "pack.settings.json"
 if (-not (Test-Path $settingsPath)) {
     throw "pack.settings.json not found in pack root: $settingsPath"
 }
-$settingsJson = Get-Content $settingsPath -Raw
+$settingsJson = Get-Content $settingsPath -Raw -Encoding UTF8
 $settings = $settingsJson | ConvertFrom-Json
 
 $name = $settings.name
@@ -195,6 +214,16 @@ foreach ($relPathRaw in $gitFiles) {
 
 $sha256.Dispose()
 
+# Keep a raw-GitHub copy for the existing launcher, which uses path and ignores url.
+# Importing a release installs both versions together; ordinary generation verifies them.
+$client = @($clientRelease.artifacts | Where-Object minecraft -eq $TargetVersion)[0]
+$entries = @($fileEntries | Where-Object path -Like 'mods/aura-client-*.jar')
+if ($entries.Count -ne 1) { throw "Expected exactly one local Aura Client jar for $TargetVersion" }
+foreach ($key in @('path', 'sha256', 'size', 'mode')) {
+    if ($entries[0].$key -cne $client.$key) { throw "Local Aura Client $key mismatch for $TargetVersion" }
+}
+$entries[0] | Add-Member -NotePropertyName url -NotePropertyValue $client.url
+
 # 5. Ординальная сортировка ([System.StringComparer]::Ordinal)
 $fileEntries.Sort([System.Comparison[PSObject]]{ param($x, $y) [System.StringComparer]::Ordinal.Compare($x.path, $y.path) })
 $finalFilesList = @($fileEntries)
@@ -221,13 +250,13 @@ $existingPackVersion = $null
 
 if (Test-Path $manifestPath) {
     try {
-        $oldManifest = (Get-Content $manifestPath -Raw) | ConvertFrom-Json
+        $oldManifest = (Get-Content $manifestPath -Raw -Encoding UTF8) | ConvertFrom-Json
         if ($oldManifest.files -and $oldManifest.files.Count -eq $finalFilesList.Count) {
             $isIdentical = $true
             for ($k = 0; $k -lt $finalFilesList.Count; $k++) {
                 $n = $finalFilesList[$k]
                 $o = $oldManifest.files[$k]
-                if ($n.path -ne $o.path -or $n.sha256 -ne $o.sha256 -or $n.size -ne $o.size -or $n.mode -ne $o.mode) {
+                if ($n.path -ne $o.path -or $n.sha256 -ne $o.sha256 -or $n.size -ne $o.size -or $n.mode -ne $o.mode -or $n.url -ne $o.url) {
                     $isIdentical = $false
                     break
                 }
@@ -251,11 +280,10 @@ if (Test-Path $manifestPath) {
 
 if ($isIdentical) {
     Write-Host "[$TargetVersion] Нет изменений в $manifestFileName"
-    return
 }
 
 # 8. Формирование packVersion (UTC yyyyMMdd.HHmm)
-$packVersion = (Get-Date).ToUniversalTime().ToString("yyyyMMdd.HHmm")
+$packVersion = if ($isIdentical) { $existingPackVersion } else { (Get-Date).ToUniversalTime().ToString("yyyyMMdd.HHmm") }
 
 $manifest = [ordered]@{
     name         = $name
@@ -269,7 +297,7 @@ if ($serversList -ne $null) {
 $manifest["files"] = $finalFilesList
 
 # Сериализация JSON
-$json = $manifest | ConvertTo-Json -Depth 10
+$json = Format-AuraJson ($manifest | ConvertTo-Json -Depth 10)
 
 # LF line endings
 $json = $json.Replace("`r`n", "`n").TrimEnd("`n") + "`n"

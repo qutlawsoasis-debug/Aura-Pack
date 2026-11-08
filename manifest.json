@@ -1,6 +1,6 @@
 {
   "name": "Aura",
-  "packVersion": "20261031.2151",
+  "packVersion": "20261107.2209",
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -975,6 +975,13 @@
       "sha256": "2a602aff039cd60ef43b6b367e8dbc49cc4581ee81ffdf86b3d55298eb64b829",
       "size": 279100,
       "mode": "sync"
+    },
+    {
+      "path": "mods/aura-client-1.0.0+mc1.20.1.jar",
+      "sha256": "a2958a96c11b909f49f47409f5978599eaadfb16bfcda4e1fede7a180aff724a",
+      "size": 4998988,
+      "mode": "sync",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/aura-client-1.0.0+mc1.20.1.jar"
     },
     {
       "path": "mods/aura-defaults-1.0.0.jar",
