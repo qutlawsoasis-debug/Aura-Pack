@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "artifacts": [
+    {
+      "minecraft": "1.20.1",
+      "fileName": "wex-client-1.0.0+mc1.20.1.jar",
+      "path": "mods/wex-client-1.0.0+mc1.20.1.jar",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/wex-client-1.0.0+mc1.20.1.jar",
+      "sha256": "fb19f65dbf2665c7f3b9a2ab110e2e33dbf5a9eb91eaa82bdfba653ebb7397ad",
+      "size": 4999967,
+      "mode": "sync"
+    },
+    {
+      "minecraft": "1.21.1",
+      "fileName": "wex-client-1.0.0+mc1.21.1.jar",
+      "path": "mods/wex-client-1.0.0+mc1.21.1.jar",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/wex-client-1.0.0+mc1.21.1.jar",
+      "sha256": "1d589457f18cdce1b29df04b3229243bc0f68e39cb8a5dbceb4525f174b81a64",
+      "size": 4995494,
+      "mode": "sync"
+    }
+  ]
+}

@@ -8,21 +8,21 @@ $ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $packDir = (Resolve-Path (Join-Path $scriptDir "..")).Path
-. (Join-Path $scriptDir "aura-client.ps1")
-$clientMetadata = Join-Path $scriptDir "aura-client-release.json"
+. (Join-Path $scriptDir "wex-client.ps1")
+$clientMetadata = Join-Path $scriptDir "wex-client-release.json"
 if ($ClientReleaseDir) {
-    $clientRelease = Get-AuraClientRelease -MetadataPath (Join-Path $ClientReleaseDir "release-manifest.json") -ReleaseDir $ClientReleaseDir
+    $clientRelease = Get-WexClientRelease -MetadataPath (Join-Path $ClientReleaseDir "release-manifest.json") -ReleaseDir $ClientReleaseDir
     foreach ($artifact in $clientRelease.artifacts) {
         $targetRoot = if ($artifact.minecraft -eq '1.21.1') { Join-Path $packDir 'versions/1.21.1' } else { $packDir }
         $targetJar = Join-Path $targetRoot $artifact.path
-        $otherJars = @(Get-ChildItem -LiteralPath (Join-Path $targetRoot 'mods') -Filter 'aura-client-*.jar' | Where-Object Name -ne $artifact.fileName)
-        if ($otherJars.Count) { throw "Remove obsolete Aura Client versions explicitly before importing: $($otherJars.Name -join ', ')" }
+        $otherJars = @(Get-ChildItem -LiteralPath (Join-Path $targetRoot 'mods') -Filter '*.jar' | Where-Object { $_.Name -match '^(?:aura|wex)-client-' -and $_.Name -cne $artifact.fileName })
+        if ($otherJars.Count) { throw "Remove obsolete Wex Client versions explicitly before importing: $($otherJars.Name -join ', ')" }
         Copy-Item -LiteralPath (Join-Path $ClientReleaseDir $artifact.fileName) -Destination $targetJar -Force
     }
-    $clientJson = Format-AuraJson ($clientRelease | ConvertTo-Json -Depth 10)
+    $clientJson = Format-WexJson ($clientRelease | ConvertTo-Json -Depth 10)
     [IO.File]::WriteAllText($clientMetadata, $clientJson, [Text.UTF8Encoding]::new($false))
 } else {
-    $clientRelease = Get-AuraClientRelease -MetadataPath $clientMetadata
+    $clientRelease = Get-WexClientRelease -MetadataPath $clientMetadata
 }
 
 
@@ -217,10 +217,10 @@ $sha256.Dispose()
 # Keep a raw-GitHub copy for the existing launcher, which uses path and ignores url.
 # Importing a release installs both versions together; ordinary generation verifies them.
 $client = @($clientRelease.artifacts | Where-Object minecraft -eq $TargetVersion)[0]
-$entries = @($fileEntries | Where-Object path -Like 'mods/aura-client-*.jar')
-if ($entries.Count -ne 1) { throw "Expected exactly one local Aura Client jar for $TargetVersion" }
+$entries = @($fileEntries | Where-Object path -Like 'mods/wex-client-*.jar')
+if ($entries.Count -ne 1) { throw "Expected exactly one local Wex Client jar for $TargetVersion" }
 foreach ($key in @('path', 'sha256', 'size', 'mode')) {
-    if ($entries[0].$key -cne $client.$key) { throw "Local Aura Client $key mismatch for $TargetVersion" }
+    if ($entries[0].$key -cne $client.$key) { throw "Local Wex Client $key mismatch for $TargetVersion" }
 }
 $entries[0] | Add-Member -NotePropertyName url -NotePropertyValue $client.url
 
@@ -297,7 +297,7 @@ if ($serversList -ne $null) {
 $manifest["files"] = $finalFilesList
 
 # Сериализация JSON
-$json = Format-AuraJson ($manifest | ConvertTo-Json -Depth 10)
+$json = Format-WexJson ($manifest | ConvertTo-Json -Depth 10)
 
 # LF line endings
 $json = $json.Replace("`r`n", "`n").TrimEnd("`n") + "`n"

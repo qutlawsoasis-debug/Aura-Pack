@@ -1,6 +1,6 @@
 {
   "name": "Wex",
-  "packVersion": "20261108.1049",
+  "packVersion": "20261108.1106",
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -977,13 +977,6 @@
       "mode": "sync"
     },
     {
-      "path": "mods/aura-client-1.0.0+mc1.20.1.jar",
-      "sha256": "a2958a96c11b909f49f47409f5978599eaadfb16bfcda4e1fede7a180aff724a",
-      "size": 4998988,
-      "mode": "sync",
-      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/aura-client-1.0.0+mc1.20.1.jar"
-    },
-    {
       "path": "mods/balm-fabric-1.20.1-7.3.44.jar",
       "sha256": "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
       "size": 576169,
@@ -1432,6 +1425,13 @@
       "sha256": "6625d013cc1a13fcd2eb73acebbd21603441618f77087ebb5e96df4793f1ae2a",
       "size": 538364,
       "mode": "sync"
+    },
+    {
+      "path": "mods/wex-client-1.0.0+mc1.20.1.jar",
+      "sha256": "fb19f65dbf2665c7f3b9a2ab110e2e33dbf5a9eb91eaa82bdfba653ebb7397ad",
+      "size": 4999967,
+      "mode": "sync",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/wex-client-1.0.0+mc1.20.1.jar"
     },
     {
       "path": "mods/wex-defaults-1.0.1.jar",
