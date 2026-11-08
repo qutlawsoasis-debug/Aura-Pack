@@ -1,7 +1,8 @@
 param(
     [string]$Root120 = (Resolve-Path "$PSScriptRoot\..").Path,
     [string]$Root121 = (Resolve-Path "$PSScriptRoot\..\versions\1.21.1").Path,
-    [string]$ExceptionsFile = (Join-Path $PSScriptRoot "parity-exceptions.json")
+    [string]$ExceptionsFile = (Join-Path $PSScriptRoot "parity-exceptions.json"),
+    [string]$ClientReleaseDir = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -58,6 +59,31 @@ $m120 = Get-ModMap (Join-Path $Root120 "mods")
 $m121 = Get-ModMap (Join-Path $Root121 "mods")
 
 $hasErrors = $false
+
+# Verify the raw-GitHub jars as well as future release metadata.
+. (Join-Path $PSScriptRoot "aura-client.ps1")
+$clientRelease = Get-AuraClientRelease -MetadataPath (Join-Path $PSScriptRoot "aura-client-release.json") -ReleaseDir $ClientReleaseDir
+foreach ($mc in @('1.20.1', '1.21.1')) {
+    $root = if ($mc -eq '1.20.1') { $Root120 } else { $Root121 }
+    $manifestPath = if ($mc -eq '1.20.1') { Join-Path $Root120 'manifest.json' } else { Join-Path $Root120 'manifest-1.21.1.json' }
+    $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    $expected = @($clientRelease.artifacts | Where-Object minecraft -eq $mc)[0]
+    $entries = @($manifest.files | Where-Object path -Like 'mods/aura-client-*.jar')
+    if ($entries.Count -ne 1) { throw "Expected one Aura Client entry in $manifestPath" }
+    foreach ($key in @('path', 'url', 'sha256', 'size', 'mode')) {
+        if ($entries[0].$key -cne $expected.$key) { throw "Aura Client $key mismatch for $mc" }
+    }
+    $jars = @(Get-ChildItem -LiteralPath (Join-Path $root 'mods') -Filter 'aura-client-*.jar')
+    if ($jars.Count -ne 1 -or $jars[0].Name -cne $expected.fileName) {
+        throw "Expected one matching local Aura Client jar for $mc"
+    }
+    if ($jars[0].Length -ne $expected.size -or
+            (Get-FileHash -LiteralPath $jars[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant() -cne $expected.sha256) {
+        throw "Local Aura Client jar hash/size mismatch for $mc"
+    }
+}
+Write-Host "[OK] Aura Client release metadata and both manifest entries verified"
+
 
 # 1. Compare Mods
 Write-Host "`n1. Checking Mods..." -ForegroundColor Yellow

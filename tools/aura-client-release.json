@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "artifacts": [
+    {
+      "minecraft": "1.20.1",
+      "fileName": "aura-client-1.0.0+mc1.20.1.jar",
+      "path": "mods/aura-client-1.0.0+mc1.20.1.jar",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/aura-client-1.0.0+mc1.20.1.jar",
+      "sha256": "a2958a96c11b909f49f47409f5978599eaadfb16bfcda4e1fede7a180aff724a",
+      "size": 4998988,
+      "mode": "sync"
+    },
+    {
+      "minecraft": "1.21.1",
+      "fileName": "aura-client-1.0.0+mc1.21.1.jar",
+      "path": "mods/aura-client-1.0.0+mc1.21.1.jar",
+      "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/aura-client-1.0.0+mc1.21.1.jar",
+      "sha256": "6790eca2428f81c0fd88be663eacb7be4fa3293ad254b3a58aac01426d143b57",
+      "size": 4994511,
+      "mode": "sync"
+    }
+  ]
+}
