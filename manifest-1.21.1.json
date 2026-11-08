@@ -1,6 +1,6 @@
 {
   "name": "Wex",
-  "packVersion": "20261108.0237",
+  "packVersion": "20261108.1049",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -1465,8 +1465,8 @@
     },
     {
       "path": "mods/wex-defaults-1.0.1.jar",
-      "sha256": "527048fd679562d393bea53f3ae05f0054ad77f8a8523bf49e65f1f02d08e644",
-      "size": 42008,
+      "sha256": "0246c45404928b8d930a654605d500e566feb1fd083bcea9b730fb1b40f30767",
+      "size": 40974,
       "mode": "sync"
     },
     {

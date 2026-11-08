@@ -55,7 +55,8 @@ subprojects {
             def banned = zipTree(jar).matching {
                 include '**/BackupPromptScreenMixin*', '**/IntegratedServerLoaderMixin*',
                         '**/AccessibilityOnboardingScreenMixin*', '**/MinecraftClientMixin*',
-                        '**/Realms*Mixin*', '**/ConfirmScreenMixin*', '**/MultiplayerWarningScreenMixin*'
+                        '**/Realms*Mixin*', '**/ConfirmScreenMixin*', '**/MultiplayerWarningScreenMixin*',
+                        'assets/minecraft/font/**'
             }.files
             if (!banned.empty) throw new GradleException("Duplicate menu mixins in ${jar}: ${banned}")
         }
