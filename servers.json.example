@@ -1,7 +1,7 @@
 [
   {
-    "id": "aura-main",
-    "name": "Aura",
+    "id": "wex-main",
+    "name": "Wex",
     "address": "host:port"
   }
 ]

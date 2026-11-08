@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "wex-defaults",
+  "version": "${version}",
+  "name": "Wex Defaults",
+  "description": "Sets default game rules and locks cheats in Wex",
+  "authors": [
+    "Wex Team"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.wexmc.defaults.WexDefaultsMod"
+    ],
+    "client": [
+      "net.wexmc.defaults.client.WexDefaultsClientMod",
+      "net.wexmc.defaults.client.quiet.WexQuietMod"
+    ]
+  },
+  "mixins": [
+    "wex-defaults.mixins.json",
+    {
+      "config": "wex-defaults.client.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "wex-quiet.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

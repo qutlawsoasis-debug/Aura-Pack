@@ -1,0 +1,13 @@
+package net.wexmc.defaults.client;
+
+import net.fabricmc.api.ClientModInitializer;
+
+public final class WexDefaultsClientMod implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+        WexUpdateNoticeHandler.init();
+        try {
+            Class.forName("xaero.lib.patreon.Patreon").getField("notificationDisplayed").setBoolean(null, true);
+        } catch (ReflectiveOperationException | LinkageError ignored) {}
+    }
+}

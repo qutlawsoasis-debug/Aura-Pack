@@ -1,6 +1,6 @@
-# Aura-Pack — Правила репозитория сборки модов (AGENTS.md)
+# Wex Pack (repository Aura-Pack) — Правила репозитория сборки модов (AGENTS.md)
 
-Официальная сборка модов, шейдеров, ресурспаков и конфигов для **Aura Launcher**.
+Официальная сборка модов, шейдеров, ресурспаков и конфигов для **Wex** (compatible with the legacy launcher).
 Целевая платформа: **Minecraft 1.20.1**, **Fabric Loader 0.19.5**.
 
 ---

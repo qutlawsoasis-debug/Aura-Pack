@@ -1,11 +1,11 @@
 name: 💡 Mod Suggestion
-description: Suggest a new mod to be included in Aura Modpack
+description: Suggest a new mod to be included in Wex Pack
 labels: ["mod suggestion"]
 body:
   - type: markdown
     attributes:
       value: |
-        Suggesting a mod for Aura Modpack? Please make sure it supports Fabric 1.20.1!
+        Suggesting a mod for Wex Pack? Please make sure it supports Fabric 1.20.1!
   - type: input
     id: mod_name
     attributes:

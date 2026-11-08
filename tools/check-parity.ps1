@@ -13,7 +13,7 @@ if (Test-Path $ExceptionsFile) {
     $ExceptionsFile = (Resolve-Path $ExceptionsFile).Path
 }
 
-Write-Host "=== Aura Pack Parity Check (1.20.1 vs 1.21.1) ===" -ForegroundColor Cyan
+Write-Host "=== Wex Pack Parity Check (1.20.1 vs 1.21.1) ===" -ForegroundColor Cyan
 
 $exceptions = $null
 if (Test-Path $ExceptionsFile) {

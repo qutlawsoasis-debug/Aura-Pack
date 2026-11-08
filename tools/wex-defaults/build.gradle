@@ -1,0 +1,65 @@
+import org.gradle.api.tasks.bundling.AbstractArchiveTask
+
+plugins {
+    id 'base'
+    id 'fabric-loom' version '1.6-SNAPSHOT' apply false
+}
+
+def externalBuild = providers.gradleProperty('defaultsBuildDir')
+if (!externalBuild.present) {
+    throw new GradleException('Use -PdefaultsBuildDir=<absolute directory outside the repository>')
+}
+def targetBuild = file(externalBuild.get()).canonicalFile
+def packRoot = rootDir.parentFile.parentFile.canonicalFile
+if (!new File(externalBuild.get()).absolute || targetBuild.toPath().startsWith(packRoot.toPath())) {
+    throw new GradleException('defaultsBuildDir must be absolute and outside the repository')
+}
+layout.buildDirectory = targetBuild
+
+subprojects {
+    apply plugin: 'fabric-loom'
+    group = 'net.wexmc'
+    version = '1.0.1'
+    layout.buildDirectory = rootProject.layout.buildDirectory.dir(project.name)
+    base.archivesName = 'wex-defaults'
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.fabricmc.net/' }
+    }
+    def mc = project.name
+    dependencies {
+        minecraft "com.mojang:minecraft:${mc}"
+        mappings "net.fabricmc:yarn:${mc == '1.20.1' ? '1.20.1+build.10' : '1.21.1+build.3'}:v2"
+        modImplementation 'net.fabricmc:fabric-loader:0.19.5'
+        modImplementation "net.fabricmc.fabric-api:fabric-api:${mc == '1.20.1' ? '0.92.2+1.20.1' : '0.102.0+1.21.1'}"
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    }
+    tasks.withType(JavaCompile).configureEach {
+        options.release = mc == '1.20.1' ? 17 : 21
+        options.encoding = 'UTF-8'
+    }
+    tasks.withType(AbstractArchiveTask).configureEach {
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+    }
+    tasks.named('processResources') {
+        inputs.property 'version', project.version
+        filesMatching('fabric.mod.json') { expand version: project.version }
+    }
+    tasks.named('test') { useJUnitPlatform() }
+    tasks.register('verifyDefaultsJar') {
+        dependsOn tasks.named('remapJar')
+        doLast {
+            def jar = tasks.named('remapJar').get().archiveFile.get().asFile
+            def banned = zipTree(jar).matching {
+                include '**/BackupPromptScreenMixin*', '**/IntegratedServerLoaderMixin*',
+                        '**/AccessibilityOnboardingScreenMixin*', '**/MinecraftClientMixin*',
+                        '**/Realms*Mixin*', '**/ConfirmScreenMixin*', '**/MultiplayerWarningScreenMixin*'
+            }.files
+            if (!banned.empty) throw new GradleException("Duplicate menu mixins in ${jar}: ${banned}")
+        }
+    }
+    tasks.named('check') { dependsOn tasks.named('verifyDefaultsJar') }
+}
+tasks.named('build') { dependsOn subprojects.collect { it.tasks.named('build') } }

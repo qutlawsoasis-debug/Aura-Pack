@@ -1,6 +1,6 @@
-# 🤝 Contributing to Aura Modpack
+# 🤝 Contributing to Wex Pack
 
-Thank you for contributing to the **Aura Modpack**! We are committed to maintaining a high-performance, immersive, and stable gaming experience for our community.
+Thank you for contributing to the **Wex Pack**! We are committed to maintaining a high-performance, immersive, and stable gaming experience for our community.
 
 ---
 
@@ -37,4 +37,4 @@ If you are proposing changes to mods or configs:
    ```
 7. Open a Pull Request on GitHub.
 
-Thank you for helping keep Aura Modpack top-tier!
+Thank you for helping keep Wex Pack top-tier!

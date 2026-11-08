@@ -35,7 +35,7 @@ $settingsJson = Get-Content $settingsPath -Raw -Encoding UTF8
 $settings = $settingsJson | ConvertFrom-Json
 
 $name = $settings.name
-if (-not $name) { $name = "Aura" }
+if (-not $name) { $name = "Wex" }
 
 if ($TargetVersion -eq "1.21.1") {
     $minecraft = "1.21.1"
@@ -251,7 +251,7 @@ $existingPackVersion = $null
 if (Test-Path $manifestPath) {
     try {
         $oldManifest = (Get-Content $manifestPath -Raw -Encoding UTF8) | ConvertFrom-Json
-        if ($oldManifest.files -and $oldManifest.files.Count -eq $finalFilesList.Count) {
+        if ($oldManifest.name -ceq $name -and $oldManifest.minecraft -ceq $minecraft -and $oldManifest.fabricLoader -ceq $fabricLoader -and $oldManifest.files -and $oldManifest.files.Count -eq $finalFilesList.Count) {
             $isIdentical = $true
             for ($k = 0; $k -lt $finalFilesList.Count; $k++) {
                 $n = $finalFilesList[$k]

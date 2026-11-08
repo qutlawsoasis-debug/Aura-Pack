@@ -1,6 +1,6 @@
 ## 📝 Description
 
-Please describe the changes proposed for Aura Modpack (mods added/removed, config updates, resourcepack changes).
+Please describe the changes proposed for Wex Pack (mods added/removed, config updates, resourcepack changes).
 
 ---
 

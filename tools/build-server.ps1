@@ -1,7 +1,7 @@
 # tools\build-server.ps1
 [CmdletBinding()]
 param(
-    [string]$OutputDir = (Join-Path $env:TEMP "aura-server-test"),
+    [string]$OutputDir = (Join-Path $env:TEMP "wex-server-test"),
     [switch]$Zip,
     [string]$ZipPath = ""
 )
@@ -13,7 +13,7 @@ $OutputDir = $OutputDir.TrimEnd('\', '/')
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $packDir = (Resolve-Path (Join-Path $scriptDir "..")).Path
 
-Write-Host "=== Aura Dedicated Server Builder ==="
+Write-Host "=== Wex Dedicated Server Builder ==="
 Write-Host "Source pack: $packDir"
 Write-Host "Target dir:  $OutputDir"
 
@@ -107,7 +107,7 @@ $eulaPath = Join-Path $OutputDir "eula.txt"
 $serverPropsPath = Join-Path $OutputDir "server.properties"
 $serverPropsContent = @"
 online-mode=false
-motd=Aura Server
+motd=Wex Server
 max-players=10
 view-distance=10
 simulation-distance=8
@@ -123,7 +123,7 @@ $startShContent = "#!/bin/sh`njava -Xms8G -Xmx16G -XX:+UseG1GC -Djava.net.prefer
 if ($Zip) {
     if (-not $ZipPath) {
         $parentDir = Split-Path -Parent (Resolve-Path $OutputDir).Path
-        $ZipPath = Join-Path $parentDir "aura-server.zip"
+        $ZipPath = Join-Path $parentDir "wex-server.zip"
     }
 
     if (Test-Path $ZipPath) {

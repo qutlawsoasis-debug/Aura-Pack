@@ -1,5 +1,5 @@
 name: 🐛 Modpack Bug Report
-description: Report a crash, texture glitch, or incompatibility in Aura Modpack
+description: Report a crash, texture glitch, or incompatibility in Wex Pack
 labels: ["bug"]
 body:
   - type: markdown

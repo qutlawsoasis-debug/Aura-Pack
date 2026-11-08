@@ -1,6 +1,6 @@
 {
-  "name": "Aura",
-  "packVersion": "20261107.2209",
+  "name": "Wex",
+  "packVersion": "20261108.0237",
   "minecraft": "1.20.1",
   "fabricLoader": "0.19.5",
   "files": [
@@ -132,8 +132,8 @@
     },
     {
       "path": "config/emotes/salute.json",
-      "sha256": "605f56f35fec2d4e106f224e20223611ef69ccd7915f0e72f7fed21de002bb4f",
-      "size": 1670,
+      "sha256": "2617dc986d0bf06a560ac15f463dd28a1816ca1f210fdc59ed55ff71f5bbedf3",
+      "size": 1669,
       "mode": "default"
     },
     {
@@ -984,12 +984,6 @@
       "url": "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v1.0.0/aura-client-1.0.0+mc1.20.1.jar"
     },
     {
-      "path": "mods/aura-defaults-1.0.0.jar",
-      "sha256": "f6bedf2b2272d881eb5e8cf3df3a18bb0476e4538dea91f9696d705b6d0ec344",
-      "size": 52624,
-      "mode": "sync"
-    },
-    {
       "path": "mods/balm-fabric-1.20.1-7.3.44.jar",
       "sha256": "b84e2a370908fd636cdea69f589c6dfcbd33057d8fc26c79708a87d98251df5d",
       "size": 576169,
@@ -1437,6 +1431,12 @@
       "path": "mods/waystones-fabric-1.20.1-14.1.21.jar",
       "sha256": "6625d013cc1a13fcd2eb73acebbd21603441618f77087ebb5e96df4793f1ae2a",
       "size": 538364,
+      "mode": "sync"
+    },
+    {
+      "path": "mods/wex-defaults-1.0.1.jar",
+      "sha256": "74fc8eabdd261b8bcd991b8df8ff70c5e76df84c1c34a727a0b48c5ebe09191b",
+      "size": 43564,
       "mode": "sync"
     },
     {

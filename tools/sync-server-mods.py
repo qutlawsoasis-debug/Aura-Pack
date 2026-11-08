@@ -9,8 +9,8 @@
 Всё остальное переносится в бэкап (не удаляется). Недостающие и изменённые
 моды скачиваются с GitHub и проверяются по SHA-256.
 
-  python3 sync-server-mods.py --mods ~/aura-template/mods            # применить
-  python3 sync-server-mods.py --mods ~/aura-template/mods --dry-run  # только показать
+  python3 sync-server-mods.py --mods ~/wex-template/mods            # применить
+  python3 sync-server-mods.py --mods ~/wex-template/mods --dry-run  # только показать
 """
 import argparse
 import fnmatch
@@ -31,7 +31,7 @@ RAW = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
 
 def fetch(path, timeout=60):
     url = f"{RAW}/{'/'.join(urllib.parse.quote(s, safe='') for s in path.split('/'))}?t={int(time.time())}"
-    req = urllib.request.Request(url, headers={"User-Agent": "AuraServerSync", "Cache-Control": "no-cache"})
+    req = urllib.request.Request(url, headers={"User-Agent": "WexServerSync", "Cache-Control": "no-cache"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
@@ -59,8 +59,8 @@ def matches(name, patterns):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mods", default=os.path.expanduser("~/aura-template/mods"))
-    ap.add_argument("--cache", default=os.path.expanduser("~/aura-template/.pack-cache"))
+    ap.add_argument("--mods", default=os.path.expanduser("~/wex-template/mods"))
+    ap.add_argument("--cache", default=os.path.expanduser("~/wex-template/.pack-cache"))
     ap.add_argument("--backup-root", default=os.path.expanduser("~/backups"))
     ap.add_argument("--rules", help="локальный server-mods.json вместо версии с GitHub")
     ap.add_argument("--dry-run", action="store_true")
