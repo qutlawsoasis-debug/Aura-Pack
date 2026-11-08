@@ -119,7 +119,7 @@ function Download-And-Hash {
     )
     $req = [System.Net.HttpWebRequest]::Create($url)
     $req.Method = "GET"
-    $req.UserAgent = "AuraPackPublisher"
+    $req.UserAgent = "WexPackPublisher"
     $req.Headers.Add("Cache-Control", "no-cache")
     $req.Timeout = 25000
 
@@ -162,7 +162,7 @@ for ($attempt = 1; $attempt -le 12; $attempt++) {
     if ($mStatus -ne 200) {
         throw "Failed to download manifest.json from GitHub (HTTP $mStatus)"
     }
-    $remoteManifest = (Invoke-RestMethod -Uri $manifestUrl -Headers @{"User-Agent"="AuraPackPublisher"; "Cache-Control"="no-cache"})
+    $remoteManifest = (Invoke-RestMethod -Uri $manifestUrl -Headers @{"User-Agent"="WexPackPublisher"; "Cache-Control"="no-cache"})
     if ($remoteManifest.packVersion -eq $packVersion) {
         Write-Host "manifest.json verified: HTTP 200, SHA-256: $mHash"
         Write-Host "packVersion on GitHub matches: $packVersion"
