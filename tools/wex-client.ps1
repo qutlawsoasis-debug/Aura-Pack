@@ -12,8 +12,7 @@ function Get-WexClientRelease {
         if ($items.Count -ne 1) { throw "Missing or duplicate Wex Client artifact for $mc" }
         $a = $items[0]
         $fileName = "wex-client-$($release.version)+mc$mc.jar"
-        $url = "https://github.com/qutlawsoasis-debug/aura-client/releases/download/v$($release.version)/$fileName"
-        if ($a.fileName -cne $fileName -or $a.path -cne "mods/$fileName" -or $a.url -cne $url -or
+        if ($a.fileName -cne $fileName -or $a.path -cne "mods/$fileName" -or
                 $a.mode -cne 'sync' -or $a.sha256 -cnotmatch '^[0-9a-f]{64}$' -or
                 $a.size -isnot [ValueType] -or $a.size -le 0 -or $a.size -ne [long]$a.size) {
             throw "Invalid Wex Client release asset for $mc"

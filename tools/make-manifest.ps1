@@ -214,7 +214,7 @@ foreach ($relPathRaw in $gitFiles) {
 
 $sha256.Dispose()
 
-# Keep a raw-GitHub copy for the existing launcher, which uses path and ignores url.
+# Both launchers download the client from this repository using path.
 # Importing a release installs both versions together; ordinary generation verifies them.
 $client = @($clientRelease.artifacts | Where-Object minecraft -eq $TargetVersion)[0]
 $entries = @($fileEntries | Where-Object path -Like 'mods/wex-client-*.jar')
@@ -222,7 +222,6 @@ if ($entries.Count -ne 1) { throw "Expected exactly one local Wex Client jar for
 foreach ($key in @('path', 'sha256', 'size', 'mode')) {
     if ($entries[0].$key -cne $client.$key) { throw "Local Wex Client $key mismatch for $TargetVersion" }
 }
-$entries[0] | Add-Member -NotePropertyName url -NotePropertyValue $client.url
 
 # 5. Ординальная сортировка ([System.StringComparer]::Ordinal)
 $fileEntries.Sort([System.Comparison[PSObject]]{ param($x, $y) [System.StringComparer]::Ordinal.Compare($x.path, $y.path) })
